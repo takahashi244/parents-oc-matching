@@ -1,0 +1,8 @@
+dept_id,school_id,dept_name,tags
+DEP001,SCH001,工学部 情報工学科,"programming;math_data"
+DEP002,SCH001,文学部 英語文化学科,english_global
+DEP003,SCH002,メディア学部 映像デザイン学科,"media;design_art"
+DEP004,SCH003,ゲームCG学科,"game_cg;programming"
+DEP005,SCH003,サウンドクリエイト学科,"music;media"
+DEP006,SCH004,国際学部,"english_global;history_social"
+DEP007,SCH005,看護学科,"medical;science"

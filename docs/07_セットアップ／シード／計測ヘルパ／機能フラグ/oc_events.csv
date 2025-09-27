@@ -1,0 +1,8 @@
+ocev_id,dept_id,date,start_time,end_time,place,reservation_url
+EV001,DEP003,2025-10-12,13:00,15:00,大阪府大阪市,https://example.com/reserve/EV001
+EV002,DEP004,2025-10-19,10:00,12:00,東京都渋谷区,https://example.com/reserve/EV002
+EV003,DEP005,2025-11-03,10:00,12:00,東京都新宿区,https://example.com/reserve/EV003
+EV004,DEP001,2025-10-26,14:00,16:00,東京都文京区,https://example.com/reserve/EV004
+EV005,DEP002,2025-10-05,13:30,15:00,東京都世田谷区,https://example.com/reserve/EV005
+EV006,DEP006,2025-11-09,11:00,13:00,北海道札幌市,https://example.com/reserve/EV006
+EV007,DEP007,2025-10-13,10:00,12:00,神奈川県横浜市,https://example.com/reserve/EV007
