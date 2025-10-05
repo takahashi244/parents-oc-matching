@@ -11,4 +11,7 @@ return [
     'history_social'   => '歴史・社会',
     'medical'          => '医療・看護',
     'science'          => '理学・サイエンス',
+    'business'         => 'ビジネス・経営',
+    'sports'           => 'スポーツ',
+    'edu_psych'        => '教育・心理',
 ];

@@ -98,13 +98,21 @@
                 <span class="text-gray-500">｜ {{ $school->review_count }} 件</span>
               </div>
 
-              @if(!empty($school->tag_list))
-                <div class="flex flex-wrap gap-2 text-xs">
-                  @foreach(array_slice($school->tag_list, 0, 6) as $tag)
-                    <span class="px-2 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-700">{{ $tag }}</span>
-                  @endforeach
-                </div>
-              @endif
+              @php
+                $latest = $school->latest_review ?? ['pros' => [], 'cons' => [], 'notes' => ''];
+              @endphp
+
+              <div class="space-y-2 text-xs text-gray-600">
+                @if(!empty($latest['pros']))
+                  <p><span class="font-semibold text-gray-700">良かった点:</span> {{ $latest['pros'][0] }}</p>
+                @endif
+                @if(!empty($latest['cons']))
+                  <p><span class="font-semibold text-gray-700">気になった点:</span> {{ $latest['cons'][0] }}</p>
+                @endif
+                @if(empty($latest['pros']) && empty($latest['cons']) && !empty($latest['notes']))
+                  <p class="text-gray-600">{{ \Illuminate\Support\Str::limit($latest['notes'], 80) }}</p>
+                @endif
+              </div>
 
               <div>
                 <a href="{{ route('schools.show', ['id' => $school->school_id]) }}" class="inline-flex items-center text-sm text-blue-600">学校のレビューを見る →</a>

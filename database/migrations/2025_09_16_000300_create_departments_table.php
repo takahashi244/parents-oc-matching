@@ -9,7 +9,7 @@ return new class extends Migration {
       $table->string('dept_id', 16)->primary();
       $table->string('school_id', 16);
       $table->string('dept_name');
-      $table->json('tags')->nullable();
+      $table->string('tags', 255)->nullable();
       $table->text('summary')->nullable();
       $table->foreign('school_id')->references('school_id')->on('schools')->cascadeOnDelete();
       $table->index('school_id');

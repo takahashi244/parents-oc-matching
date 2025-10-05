@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    background-color: theme('colors.background');
+    color: theme('colors.text');
+    font-family: theme('fontFamily.sans');
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-surface border border-border rounded-2xl shadow-surface;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold text-sm text-white bg-primary transition-colors;
+  }
+  .btn-primary:hover {
+    background-color: #1F388F;
+  }
+  .btn-primary:focus {
+    @apply outline-none ring-2 ring-offset-2;
+    --tw-ring-color: rgba(38, 66, 164, 0.3);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full text-sm border border-border text-text bg-surface transition-colors;
+  }
+  .btn-secondary:hover {
+    @apply bg-surfaceMuted;
+  }
+
+  .field-label {
+    @apply text-xs font-semibold text-muted;
+  }
+
+  .section-title {
+    @apply text-lg font-semibold text-text;
+  }
+
+  .highlight-box {
+    @apply border border-accent/40 rounded-2xl px-4 py-3 text-sm text-text bg-accent/10;
+  }
+
+  .list-muted {
+    @apply list-disc list-inside text-sm text-muted space-y-1;
+  }
+}

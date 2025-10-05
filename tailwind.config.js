@@ -11,8 +11,25 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                background: '#E7ECF5',
+                surface: '#FFFFFF',
+                surfaceMuted: '#F7F7F7',
+                text: '#1A1A1A',
+                muted: '#6B7280',
+                primary: '#2642A4',
+                border: '#D1D5DB',
+                accent: '#F3C726',
+                icon: '#9CA3AF',
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['"Noto Sans JP"', ...defaultTheme.fontFamily.sans],
+            },
+            boxShadow: {
+                surface: '0 2px 8px rgba(17, 24, 39, 0.08)',
+            },
+            borderRadius: {
+                pill: '9999px',
             },
         },
     },

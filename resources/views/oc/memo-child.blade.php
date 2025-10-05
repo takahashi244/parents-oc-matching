@@ -58,7 +58,7 @@
       <label for="agree_terms" class="text-sm text-gray-700">個人が特定される情報や誹謗中傷を含めないことに同意します</label>
     </div>
 
-    <button class="w-full px-4 py-3 rounded-lg bg-black text-white text-sm font-semibold">メモを保存</button>
+    <button class="btn-primary w-full">メモを保存</button>
   </form>
 </main>
 </body>

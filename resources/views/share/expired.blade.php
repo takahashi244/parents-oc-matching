@@ -13,7 +13,7 @@
     <p class="text-sm text-gray-700">{{ $message ?? 'この共有リンクは有効期限切れか、存在しません。' }}</p>
     <p class="text-sm text-gray-500">再度候補を共有してもらうか、診断をやり直してください。</p>
     <div class="pt-2">
-      <a href="{{ url('/') }}" class="px-4 py-2 rounded bg-black text-white text-sm">診断を試す</a>
+      <a href="{{ url('/') }}" class="btn-primary">診断を試す</a>
     </div>
   </section>
 </main>

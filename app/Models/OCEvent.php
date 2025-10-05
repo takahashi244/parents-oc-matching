@@ -12,6 +12,6 @@ class OCEvent extends Model
     protected $keyType = 'string';
     public $timestamps = false;
 
-    protected $fillable = ['ocev_id','dept_id','date','start_time','end_time','place','reservation_url'];
+    protected $fillable = ['ocev_id','dept_id','date','start_time','end_time','place','format','reservation_url'];
     protected $casts = ['date' => 'date'];
 }

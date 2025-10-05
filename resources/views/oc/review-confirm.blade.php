@@ -75,7 +75,7 @@
       <a href="{{ route('oc.memo.parent', ['id' => $ev->ocev_id]) }}" class="inline-flex justify-center items-center px-4 py-2 rounded-lg border border-gray-300 text-sm text-gray-700">内容を修正する</a>
       <form method="POST" action="{{ route('oc.review.publish', ['id' => $ev->ocev_id]) }}" class="flex-1">
         @csrf
-        <button class="w-full px-4 py-3 rounded-lg bg-black text-white text-sm font-semibold">この内容で公開する</button>
+        <button class="btn-primary w-full">この内容で公開する</button>
       </form>
     </div>
   </section>

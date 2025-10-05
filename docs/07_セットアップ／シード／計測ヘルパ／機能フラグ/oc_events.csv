@@ -1,8 +1,550 @@
-ocev_id,dept_id,date,start_time,end_time,place,reservation_url
-EV001,DEP003,2025-10-12,13:00,15:00,大阪府大阪市,https://example.com/reserve/EV001
-EV002,DEP004,2025-10-19,10:00,12:00,東京都渋谷区,https://example.com/reserve/EV002
-EV003,DEP005,2025-11-03,10:00,12:00,東京都新宿区,https://example.com/reserve/EV003
-EV004,DEP001,2025-10-26,14:00,16:00,東京都文京区,https://example.com/reserve/EV004
-EV005,DEP002,2025-10-05,13:30,15:00,東京都世田谷区,https://example.com/reserve/EV005
-EV006,DEP006,2025-11-09,11:00,13:00,北海道札幌市,https://example.com/reserve/EV006
-EV007,DEP007,2025-10-13,10:00,12:00,神奈川県横浜市,https://example.com/reserve/EV007
+ocev_id,dept_id,date,start_time,end_time,place,format,reservation_url
+EV0001,DEP0126,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0002,DEP0127,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0003,DEP0128,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0004,DEP0129,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0005,DEP0130,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0006,DEP0131,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0007,DEP0132,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0008,DEP0133,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0009,DEP0134,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0010,DEP0135,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0011,DEP0136,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0012,DEP0137,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0013,DEP0138,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0014,DEP0139,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0015,DEP0140,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0016,DEP0141,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0017,DEP0142,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0018,DEP0143,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0019,DEP0144,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0020,DEP0145,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0021,DEP0146,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0022,DEP0147,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0023,DEP0148,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0024,DEP0149,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0025,DEP0150,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0026,DEP0151,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0027,DEP0152,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0028,DEP0153,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0029,DEP0154,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0030,DEP0155,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0031,DEP0156,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0032,DEP0157,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0033,DEP0158,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0034,DEP0159,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0035,DEP0160,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0036,DEP0161,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0037,DEP0162,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0038,DEP0163,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0039,DEP0164,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0040,DEP0165,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0041,DEP0166,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0042,DEP0167,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0043,DEP0168,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0044,DEP0169,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0045,DEP0170,2025-08-05,10:00,13:00,undefined,online,https://www.u-tokyo.ac.jp/ja/admissions/undergraduate/d04_02.html
+EV0046,DEP2192,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0047,DEP2193,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0048,DEP2194,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0049,DEP2195,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0050,DEP2196,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0051,DEP2197,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0052,DEP2198,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0053,DEP2199,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0054,DEP2200,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0055,DEP2201,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0056,DEP2202,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0057,DEP2203,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0058,DEP2204,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0059,DEP2205,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0060,DEP2206,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0061,DEP2207,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0062,DEP2208,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0063,DEP2209,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0064,DEP2210,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0065,DEP2211,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0066,DEP2212,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0067,DEP2213,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0068,DEP2214,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0069,DEP2215,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0070,DEP2216,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0071,DEP2217,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0072,DEP2218,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0073,DEP2219,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0074,DEP2220,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0075,DEP2221,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0076,DEP2222,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0077,DEP2223,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0078,DEP2224,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0079,DEP2225,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0080,DEP2226,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0081,DEP2227,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0082,DEP2228,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0083,DEP2229,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0084,DEP2230,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0085,DEP2231,2025-08-02,10:00,13:00,undefined,onsite,https://www.waseda.jp/top/news/112088
+EV0086,DEP1134,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0087,DEP1135,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0088,DEP1136,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0089,DEP1137,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0090,DEP1138,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0091,DEP1139,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0092,DEP1140,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0093,DEP1141,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0094,DEP1142,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0095,DEP1143,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0096,DEP1144,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0097,DEP1145,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0098,DEP1146,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0099,DEP1147,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0100,DEP1148,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0101,DEP1149,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0102,DEP1150,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0103,DEP1151,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0104,DEP1152,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0105,DEP1153,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0106,DEP1154,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0107,DEP1155,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0108,DEP1156,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0109,DEP1157,2025-06-22,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-1/
+EV0110,DEP1134,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0111,DEP1135,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0112,DEP1136,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0113,DEP1137,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0114,DEP1138,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0115,DEP1139,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0116,DEP1140,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0117,DEP1141,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0118,DEP1142,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0119,DEP1143,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0120,DEP1144,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0121,DEP1145,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0122,DEP1146,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0123,DEP1147,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0124,DEP1148,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0125,DEP1149,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0126,DEP1150,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0127,DEP1151,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0128,DEP1152,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0129,DEP1153,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0130,DEP1154,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0131,DEP1155,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0132,DEP1156,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0133,DEP1157,2025-08-05,10:00,13:00,undefined,onsite,https://www.keio.ac.jp/ja/admissions/oc-2/
+EV0134,DEP1296,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0135,DEP1297,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0136,DEP1298,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0137,DEP1299,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0138,DEP1300,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0139,DEP1301,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0140,DEP1302,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0141,DEP1303,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0142,DEP1304,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0143,DEP1305,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0144,DEP1306,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0145,DEP1307,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0146,DEP1308,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0147,DEP1309,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0148,DEP1310,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0149,DEP1311,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0150,DEP1312,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0151,DEP1313,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0152,DEP1314,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0153,DEP1315,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0154,DEP1316,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0155,DEP1317,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0156,DEP1318,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0157,DEP1319,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0158,DEP1320,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0159,DEP1321,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0160,DEP1322,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0161,DEP1323,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0162,DEP1324,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0163,DEP1325,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0164,DEP1326,2025-08-02,10:00,13:00,undefined,onsite,https://adm.sophia.ac.jp/jpn/sophia-open-campus-2025/
+EV0165,DEP2144,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0166,DEP2145,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0167,DEP2146,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0168,DEP2147,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0169,DEP2148,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0170,DEP2149,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0171,DEP2150,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0172,DEP2151,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0173,DEP2152,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0174,DEP2153,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0175,DEP2154,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0176,DEP2155,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0177,DEP2156,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0178,DEP2157,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0179,DEP2158,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0180,DEP2159,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0181,DEP2160,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0182,DEP2161,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0183,DEP2162,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0184,DEP2163,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0185,DEP2164,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0186,DEP2165,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0187,DEP2166,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0188,DEP2167,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0189,DEP2168,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0190,DEP2169,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0191,DEP2170,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0192,DEP2171,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0193,DEP2172,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0194,DEP2173,2025-08-02,10:00,13:00,undefined,onsite,https://www.rikkyo.ac.jp/admissions/visit/opencampus/?2403=
+EV0195,DEP2091,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0196,DEP2092,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0197,DEP2093,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0198,DEP2094,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0199,DEP2095,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0200,DEP2096,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0201,DEP2097,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0202,DEP2098,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0203,DEP2099,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0204,DEP2100,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0205,DEP2101,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0206,DEP2102,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0207,DEP2103,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0208,DEP2104,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0209,DEP2105,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0210,DEP2106,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0211,DEP2107,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0212,DEP2108,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0213,DEP2109,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0214,DEP2110,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0215,DEP2111,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0216,DEP2112,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0217,DEP2113,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0218,DEP2114,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0219,DEP2115,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0220,DEP2116,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0221,DEP2117,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0222,DEP2118,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0223,DEP2119,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0224,DEP2120,2025-08-06,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0225,DEP2091,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0226,DEP2092,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0227,DEP2093,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0228,DEP2094,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0229,DEP2095,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0230,DEP2096,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0231,DEP2097,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0232,DEP2098,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0233,DEP2099,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0234,DEP2100,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0235,DEP2101,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0236,DEP2102,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0237,DEP2103,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0238,DEP2104,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0239,DEP2105,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0240,DEP2106,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0241,DEP2107,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0242,DEP2108,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0243,DEP2109,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0244,DEP2110,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0245,DEP2111,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0246,DEP2112,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0247,DEP2113,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0248,DEP2114,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0249,DEP2115,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0250,DEP2116,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0251,DEP2117,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0252,DEP2118,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0253,DEP2119,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0254,DEP2120,2025-08-02,10:00,13:00,undefined,onsite,https://www.meiji.ac.jp/exam/event/opencampus/
+EV0255,DEP1501,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0256,DEP1502,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0257,DEP1503,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0258,DEP1504,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0259,DEP1505,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0260,DEP1506,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0261,DEP1507,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0262,DEP1508,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0263,DEP1509,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0264,DEP1510,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0265,DEP1511,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0266,DEP1512,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0267,DEP1513,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0268,DEP1514,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0269,DEP1515,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0270,DEP1516,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0271,DEP1517,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0272,DEP1518,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0273,DEP1519,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0274,DEP1520,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0275,DEP1521,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0276,DEP1522,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0277,DEP1523,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0278,DEP1524,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0279,DEP1525,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0280,DEP1526,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0281,DEP1527,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0282,DEP1528,2025-08-02,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0283,DEP1501,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0284,DEP1502,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0285,DEP1503,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0286,DEP1504,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0287,DEP1505,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0288,DEP1506,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0289,DEP1507,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0290,DEP1508,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0291,DEP1509,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0292,DEP1510,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0293,DEP1511,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0294,DEP1512,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0295,DEP1513,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0296,DEP1514,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0297,DEP1515,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0298,DEP1516,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0299,DEP1517,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0300,DEP1518,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0301,DEP1519,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0302,DEP1520,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0303,DEP1521,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0304,DEP1522,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0305,DEP1523,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0306,DEP1524,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0307,DEP1525,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0308,DEP1526,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0309,DEP1527,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0310,DEP1528,2025-08-06,10:00,13:00,undefined,onsite,https://www.chuo-u.ac.jp/admission/connect/topics/2025/04/79744/
+EV0311,DEP1997,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0312,DEP1998,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0313,DEP1999,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0314,DEP2000,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0315,DEP2001,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0316,DEP2002,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0317,DEP2003,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0318,DEP2004,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0319,DEP2005,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0320,DEP2006,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0321,DEP2007,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0322,DEP2008,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0323,DEP2009,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0324,DEP2010,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0325,DEP2011,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0326,DEP2012,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0327,DEP2013,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0328,DEP2014,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0329,DEP2015,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0330,DEP2016,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0331,DEP2017,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0332,DEP2018,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0333,DEP2019,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0334,DEP2020,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0335,DEP2021,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0336,DEP2022,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0337,DEP2023,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0338,DEP2024,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0339,DEP2025,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0340,DEP2026,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0341,DEP2027,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0342,DEP2028,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0343,DEP2029,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0344,DEP2030,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0345,DEP2031,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0346,DEP2032,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0347,DEP2033,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0348,DEP2034,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0349,DEP2035,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0350,DEP2036,2025-08-01,10:00,13:00,undefined,onsite,https://nyushi.hosei.ac.jp/event/oc/
+EV0351,DEP0278,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0352,DEP0279,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0353,DEP0280,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0354,DEP0281,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0355,DEP0282,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0356,DEP0283,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0357,DEP0284,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0358,DEP0285,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0359,DEP0286,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0360,DEP0287,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0361,DEP0288,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0362,DEP0289,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0363,DEP0290,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0364,DEP0291,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0365,DEP0292,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0366,DEP0293,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0367,DEP0294,2025-06-21,10:00,13:00,undefined,hybrid,https://www.ynu.ac.jp/exam/ynu/opencampus.html
+EV0368,DEP0088,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0369,DEP0089,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0370,DEP0090,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0371,DEP0091,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0372,DEP0092,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0373,DEP0093,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0374,DEP0094,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0375,DEP0095,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0376,DEP0096,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0377,DEP0097,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0378,DEP0098,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0379,DEP0099,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0380,DEP0100,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0381,DEP0101,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0382,DEP0102,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0383,DEP0103,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0384,DEP0104,2025-08-06,10:00,13:00,undefined,onsite,https://www.saitama-u.ac.jp/entrance/event/open/
+EV0385,DEP0105,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0386,DEP0106,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0387,DEP0107,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0388,DEP0108,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0389,DEP0109,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0390,DEP0110,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0391,DEP0111,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0392,DEP0112,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0393,DEP0113,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0394,DEP0114,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0395,DEP0115,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0396,DEP0116,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0397,DEP0117,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0398,DEP0118,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0399,DEP0119,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0400,DEP0120,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0401,DEP0121,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0402,DEP0122,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0403,DEP0123,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0404,DEP0124,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0405,DEP0125,2025-08-01,10:00,13:00,undefined,online,https://www.chiba-u.ac.jp/admissions/event/opencampus.html
+EV0406,DEP1719,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0407,DEP1720,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0408,DEP1721,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0409,DEP1722,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0410,DEP1723,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0411,DEP1724,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0412,DEP1725,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0413,DEP1726,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0414,DEP1727,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0415,DEP1728,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0416,DEP1729,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0417,DEP1730,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0418,DEP1731,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0419,DEP1732,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0420,DEP1733,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0421,DEP1734,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0422,DEP1735,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0423,DEP1736,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0424,DEP1737,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0425,DEP1738,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0426,DEP1739,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0427,DEP1740,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0428,DEP1741,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0429,DEP1742,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0430,DEP1743,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0431,DEP1744,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0432,DEP1745,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0433,DEP1746,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0434,DEP1747,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0435,DEP1748,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0436,DEP1749,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0437,DEP1750,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0438,DEP1751,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0439,DEP1752,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0440,DEP1753,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0441,DEP1754,2025-08-01,10:00,13:00,undefined,onsite,https://www.tus.ac.jp/admissions/university/visittus/opencampus/
+EV0442,DEP0593,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0443,DEP0594,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0444,DEP0595,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0445,DEP0596,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0446,DEP0597,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0447,DEP0598,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0448,DEP0599,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0449,DEP0600,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0450,DEP0601,2025-03-30,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250330/
+EV0451,DEP0593,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0452,DEP0594,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0453,DEP0595,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0454,DEP0596,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0455,DEP0597,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0456,DEP0598,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0457,DEP0599,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0458,DEP0600,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0459,DEP0601,2025-04-20,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250420/
+EV0460,DEP0593,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0461,DEP0594,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0462,DEP0595,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0463,DEP0596,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0464,DEP0597,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0465,DEP0598,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0466,DEP0599,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0467,DEP0600,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0468,DEP0601,2025-05-25,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250525/
+EV0469,DEP0593,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0470,DEP0594,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0471,DEP0595,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0472,DEP0596,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0473,DEP0597,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0474,DEP0598,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0475,DEP0599,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0476,DEP0600,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0477,DEP0601,2025-06-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250608/
+EV0478,DEP0593,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0479,DEP0594,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0480,DEP0595,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0481,DEP0596,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0482,DEP0597,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0483,DEP0598,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0484,DEP0599,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0485,DEP0600,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0486,DEP0601,2025-06-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250622/
+EV0487,DEP0593,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0488,DEP0594,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0489,DEP0595,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0490,DEP0596,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0491,DEP0597,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0492,DEP0598,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0493,DEP0599,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0494,DEP0600,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0495,DEP0601,2025-07-06,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250706/
+EV0496,DEP0593,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0497,DEP0594,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0498,DEP0595,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0499,DEP0596,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0500,DEP0597,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0501,DEP0598,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0502,DEP0599,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0503,DEP0600,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0504,DEP0601,2025-07-23,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250723/
+EV0505,DEP0593,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0506,DEP0594,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0507,DEP0595,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0508,DEP0596,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0509,DEP0597,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0510,DEP0598,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0511,DEP0599,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0512,DEP0600,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0513,DEP0601,2025-08-01,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250801/
+EV0514,DEP0593,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0515,DEP0594,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0516,DEP0595,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0517,DEP0596,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0518,DEP0597,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0519,DEP0598,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0520,DEP0599,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0521,DEP0600,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0522,DEP0601,2025-08-08,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250808/
+EV0523,DEP0593,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0524,DEP0594,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0525,DEP0595,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0526,DEP0596,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0527,DEP0597,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0528,DEP0598,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0529,DEP0599,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0530,DEP0600,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0531,DEP0601,2025-08-22,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250822/
+EV0532,DEP0593,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0533,DEP0594,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0534,DEP0595,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0535,DEP0596,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0536,DEP0597,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0537,DEP0598,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0538,DEP0599,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0539,DEP0600,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0540,DEP0601,2025-09-14,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20250914/
+EV0541,DEP0593,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0542,DEP0594,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0543,DEP0595,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0544,DEP0596,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0545,DEP0597,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0546,DEP0598,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0547,DEP0599,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0548,DEP0600,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/
+EV0549,DEP0601,2025-12-07,10:00,15:00,埼玉県川越市 尚美学園大学キャンパス,onsite,https://www.shobi-u.ac.jp/examinee/opencampus/opencampus/20251207/

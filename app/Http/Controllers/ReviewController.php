@@ -120,7 +120,42 @@ class ReviewController extends Controller
                     ->all();
             });
 
-        $schools = $schools->map(function ($row) use ($tagMap, $tagDictionary) {
+        $latestReviews = DB::table('reviews as r')
+            ->join('oc_events as e', 'e.ocev_id', '=', 'r.ocev_id')
+            ->join('departments as d', 'd.dept_id', '=', 'e.dept_id')
+            ->join('schools as s', 's.school_id', '=', 'd.school_id')
+            ->where('r.is_published', true)
+            ->orderByDesc('r.created_at')
+            ->select([
+                's.school_id',
+                'r.pros',
+                'r.cons',
+                'r.notes',
+            ])
+            ->get()
+            ->unique('school_id')
+            ->keyBy('school_id');
+
+        $parsePoints = function ($value) {
+            if (empty($value)) {
+                return [];
+            }
+            $decoded = json_decode($value, true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded)) {
+                return collect($decoded)
+                    ->map(fn($item) => is_string($item) ? trim($item) : '')
+                    ->filter()
+                    ->values()
+                    ->all();
+            }
+            return collect(preg_split('/\r?\n/', $value))
+                ->map(fn($item) => trim($item))
+                ->filter()
+                ->values()
+                ->all();
+        };
+
+        $schools = $schools->map(function ($row) use ($tagMap, $tagDictionary, $latestReviews, $parsePoints) {
             $row->avg_rating = $row->avg_rating ? round($row->avg_rating, 1) : null;
             $row->last_review_date = $row->last_review_at ? Carbon::parse($row->last_review_at)->format('Y/m/d') : null;
             $row->tag_list = collect($tagMap->get($row->school_id, []))
@@ -136,6 +171,17 @@ class ReviewController extends Controller
                 ->sort()
                 ->values()
                 ->all();
+
+            $latest = $latestReviews->get($row->school_id);
+            if ($latest) {
+                $row->latest_review = [
+                    'pros'  => $parsePoints($latest->pros),
+                    'cons'  => $parsePoints($latest->cons),
+                    'notes' => trim($latest->notes ?? ''),
+                ];
+            } else {
+                $row->latest_review = ['pros' => [], 'cons' => [], 'notes' => ''];
+            }
             return $row;
         });
 

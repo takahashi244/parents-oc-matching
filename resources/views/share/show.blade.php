@@ -20,19 +20,7 @@
 
   <section class="space-y-4">
     @forelse($candidates as $candidate)
-      <article class="bg-white border rounded-2xl p-4">
-        <div class="text-lg font-semibold">{{ $candidate['school_name'] }} {{ $candidate['dept_name'] }}</div>
-        <div class="mt-2 flex flex-wrap gap-2">
-          @foreach($candidate['reasons'] as $reason)
-            <span class="px-2 py-1 rounded-full text-sm border">{{ $reason }}</span>
-          @endforeach
-        </div>
-        <div class="mt-4 flex gap-3">
-          @if(!empty($candidate['detail_url']) && $candidate['detail_url'] !== '#')
-            <a href="{{ $candidate['detail_url'] }}" class="px-4 py-2 rounded-xl bg-black text-white">OC候補を見る</a>
-          @endif
-        </div>
-      </article>
+      <x-match-card :candidate="$candidate" />
     @empty
       <article class="bg-white border rounded-2xl p-4 text-sm text-gray-600">
         候補が見つかりませんでした。共有リンクの作成者に確認してください。

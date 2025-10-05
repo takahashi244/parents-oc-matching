@@ -1,8 +1,2856 @@
 dept_id,school_id,dept_name,tags
-DEP001,SCH001,工学部 情報工学科,"programming;math_data"
-DEP002,SCH001,文学部 英語文化学科,english_global
-DEP003,SCH002,メディア学部 映像デザイン学科,"media;design_art"
-DEP004,SCH003,ゲームCG学科,"game_cg;programming"
-DEP005,SCH003,サウンドクリエイト学科,"music;media"
-DEP006,SCH004,国際学部,"english_global;history_social"
-DEP007,SCH005,看護学科,"medical;science"
+DEP0001,SCH0001,人文社会科学部 現代社会学科,history_social
+DEP0002,SCH0001,人文社会科学部 法律経済学科,history_social;business;math_data
+DEP0003,SCH0001,人文社会科学部 人間文化学科,science;history_social
+DEP0004,SCH0001,人文学部 社会科学科,history_social
+DEP0005,SCH0001,教育学部 学校教育教員養成課程,edu_psych;history_social
+DEP0006,SCH0001,教育学部 養護教諭養成課程,edu_psych;history_social
+DEP0007,SCH0001,理学部 理学科,science
+DEP0008,SCH0001,工学部 機械システム工学科,programming;science
+DEP0009,SCH0001,工学部 電気電子システム工学科,programming;science
+DEP0010,SCH0001,工学部 物質科学工学科,programming;science
+DEP0011,SCH0001,工学部 情報工学科,programming;science;math_data
+DEP0012,SCH0001,工学部 都市システム工学科,programming;science
+DEP0013,SCH0001,工学部 機械工学科,programming;science
+DEP0014,SCH0001,工学部 電気電子工学科,programming;science
+DEP0015,SCH0001,工学部 メディア通信工学科,programming;science;math_data
+DEP0016,SCH0001,工学部 知能システム工学科,programming;science
+DEP0017,SCH0001,農学部 食生命科学科,science
+DEP0018,SCH0001,農学部 地域総合農学科,science;history_social
+DEP0019,SCH0001,共同実施制度利用（学部）,history_social
+DEP0020,SCH0001,共同学科等の名称,history_social
+DEP0021,SCH0002,人文・文化学群 人文学類,science;history_social
+DEP0022,SCH0002,人文・文化学群 比較文化学類,science;history_social
+DEP0023,SCH0002,人文・文化学群 日本語・日本文化学類,science;history_social
+DEP0024,SCH0002,社会・国際学群 社会学類,history_social;english_global
+DEP0025,SCH0002,社会・国際学群 国際総合学類,history_social;english_global
+DEP0026,SCH0002,人間学群 教育学類,history_social;edu_psych
+DEP0027,SCH0002,人間学群 心理学類,science;history_social;edu_psych
+DEP0028,SCH0002,人間学群 障害科学類,history_social
+DEP0029,SCH0002,生命環境学群 生物学類,science
+DEP0030,SCH0002,生命環境学群 生物資源学類,science
+DEP0031,SCH0002,生命環境学群 地球学類,science
+DEP0032,SCH0002,理工学群 数学類,programming;science
+DEP0033,SCH0002,理工学群 物理学類,programming;science
+DEP0034,SCH0002,理工学群 化学類,programming;science
+DEP0035,SCH0002,理工学群 応用理工学類,programming;science
+DEP0036,SCH0002,理工学群 工学システム学類,programming;science
+DEP0037,SCH0002,理工学群 社会工学類,programming;science;history_social
+DEP0038,SCH0002,情報学群 情報科学類,programming;science;math_data
+DEP0039,SCH0002,情報学群 情報メディア創成学類,programming;science;math_data
+DEP0040,SCH0002,情報学群 知識情報・図書館学類,programming;science;math_data
+DEP0041,SCH0002,医学群 医学類,medical;science
+DEP0042,SCH0002,医学群 看護学類,medical;science
+DEP0043,SCH0002,医学群 医療科学類,medical;science
+DEP0044,SCH0002,体育専門学群 体育専門学群,sports
+DEP0045,SCH0002,芸術専門学群 芸術専門学群,design_art
+DEP0046,SCH0002,共同実施制度利用（学部）,history_social
+DEP0047,SCH0002,共同学科等の名称,history_social
+DEP0048,SCH0003,産業技術学部 産業情報学科,programming;science;math_data
+DEP0049,SCH0003,産業技術学部 総合デザイン学科,design_art
+DEP0050,SCH0003,保健科学部 保健学科,medical;science
+DEP0051,SCH0003,保健科学部 情報システム学科,programming;science;medical;math_data
+DEP0052,SCH0003,共同実施制度利用（学部）,history_social
+DEP0053,SCH0003,共同学科等の名称,history_social
+DEP0054,SCH0004,地域デザイン科学部 コミュニティデザイン学科,history_social;design_art
+DEP0055,SCH0004,地域デザイン科学部 建築都市デザイン学科,programming;science;history_social;design_art
+DEP0056,SCH0004,地域デザイン科学部 社会基盤デザイン学科,history_social;design_art
+DEP0057,SCH0004,国際学部 国際学科,english_global
+DEP0058,SCH0004,共同教育学部 学校教育教員養成課程,edu_psych;history_social
+DEP0059,SCH0004,工学部 基盤工学科,programming;science
+DEP0060,SCH0004,農学部 生物資源科学科,science
+DEP0061,SCH0004,農学部 応用生命化学科,science
+DEP0062,SCH0004,農学部 農業環境工学科,programming;science
+DEP0063,SCH0004,農学部 農業経済学科,science;business;math_data
+DEP0064,SCH0004,農学部 森林科学科,science
+DEP0065,SCH0004,農学部 （共通）,science
+DEP0066,SCH0004,データサイエンス経営学部 データサイエンス経営学科,programming;science;business;math_data
+DEP0067,SCH0004,共同実施制度利用（学部）,history_social
+DEP0068,SCH0004,共同学科等の名称,history_social
+DEP0069,SCH0004,共同教育学部,edu_psych;history_social
+DEP0070,SCH0004,共同教育学部,edu_psych;history_social
+DEP0071,SCH0005,共同教育学部 学校教育教員養成課程,edu_psych;history_social
+DEP0072,SCH0005,情報学部 情報学科,programming;science;math_data
+DEP0073,SCH0005,社会情報学部 社会情報学科,programming;science;history_social;math_data
+DEP0074,SCH0005,医学部 医学科,medical;science
+DEP0075,SCH0005,医学部 保健学科,medical;science
+DEP0076,SCH0005,理工学部 物質・環境類,programming;science
+DEP0077,SCH0005,理工学部 電子・機械類,programming;science
+DEP0078,SCH0005,理工学部 化学・生物化学科,programming;science
+DEP0079,SCH0005,理工学部 機械知能システム理工学科,programming;science
+DEP0080,SCH0005,理工学部 環境創生理工学科,programming;science
+DEP0081,SCH0005,理工学部 電子情報理工学科,programming;science;math_data
+DEP0082,SCH0005,理工学部 総合理工学科,programming;science
+DEP0083,SCH0005,理工学部 （共通）,programming;science
+DEP0084,SCH0005,共同実施制度利用（学部）,history_social
+DEP0085,SCH0005,共同学科等の名称,history_social
+DEP0086,SCH0005,共同教育学部,edu_psych;history_social
+DEP0087,SCH0005,共同教育学部,edu_psych;history_social
+DEP0088,SCH0006,教養学部 教養学科,history_social
+DEP0089,SCH0006,経済学部 経営学科,business;math_data
+DEP0090,SCH0006,経済学部 経済学科,business;math_data
+DEP0091,SCH0006,教育学部 学校教育教員養成課程,edu_psych;history_social
+DEP0092,SCH0006,教育学部 養護教諭養成課程,edu_psych;history_social
+DEP0093,SCH0006,理学部 数学科,science
+DEP0094,SCH0006,理学部 物理学科,science
+DEP0095,SCH0006,理学部 基礎化学科,science
+DEP0096,SCH0006,理学部 分子生物学科,science
+DEP0097,SCH0006,理学部 生体制御学科,science
+DEP0098,SCH0006,工学部 機械工学・システムデザイン学科,programming;science;design_art
+DEP0099,SCH0006,工学部 電気電子物理工学科,programming;science
+DEP0100,SCH0006,工学部 情報工学科,programming;science;math_data
+DEP0101,SCH0006,工学部 応用化学科,programming;science
+DEP0102,SCH0006,工学部 環境社会デザイン学科,programming;science;history_social;design_art
+DEP0103,SCH0006,共同実施制度利用（学部）,history_social
+DEP0104,SCH0006,共同学科等の名称,history_social
+DEP0105,SCH0007,国際教養学部 国際教養学科,history_social;english_global
+DEP0106,SCH0007,文学部 人文学科,history_social
+DEP0107,SCH0007,法政経学部 法政経学科,history_social
+DEP0108,SCH0007,教育学部 学校教員養成課程,edu_psych;history_social
+DEP0109,SCH0007,理学部 数学・情報数理学科,programming;science;math_data
+DEP0110,SCH0007,理学部 物理学科,science
+DEP0111,SCH0007,理学部 化学科,science
+DEP0112,SCH0007,理学部 生物学科,science
+DEP0113,SCH0007,理学部 地球科学科,science
+DEP0114,SCH0007,工学部 総合工学科,programming;science
+DEP0115,SCH0007,園芸学部 園芸学科,science
+DEP0116,SCH0007,園芸学部 応用生命化学科,science
+DEP0117,SCH0007,園芸学部 緑地環境学科,science
+DEP0118,SCH0007,園芸学部 食料資源経済学科,science;business;math_data
+DEP0119,SCH0007,医学部 医学科,medical;science
+DEP0120,SCH0007,薬学部 薬学科,medical;science
+DEP0121,SCH0007,薬学部 薬科学科,medical;science
+DEP0122,SCH0007,看護学部 看護学科,medical;science
+DEP0123,SCH0007,情報・データサイエンス学部 情報・データサイエンス学科,programming;science;math_data
+DEP0124,SCH0007,共同実施制度利用（学部）,history_social
+DEP0125,SCH0007,共同学科等の名称,history_social
+DEP0126,SCH0008,法学部 第1類（法学総合コース）、第2類（法律プロフェッション・コース）、第3類（政治コース）,history_social;business
+DEP0127,SCH0008,医学部 医学科,medical;science
+DEP0128,SCH0008,医学部 健康総合科学科,medical;science
+DEP0129,SCH0008,工学部 社会基盤学科,programming;science;history_social
+DEP0130,SCH0008,工学部 建築学科,programming;science
+DEP0131,SCH0008,工学部 都市工学科,programming;science
+DEP0132,SCH0008,工学部 機械工学科,programming;science
+DEP0133,SCH0008,工学部 機械情報工学科,programming;science;math_data
+DEP0134,SCH0008,工学部 航空宇宙工学科,programming;science
+DEP0135,SCH0008,工学部 精密工学科,programming;science
+DEP0136,SCH0008,工学部 電子情報工学科,programming;science;math_data
+DEP0137,SCH0008,工学部 電気電子工学科,programming;science
+DEP0138,SCH0008,工学部 物理工学科,programming;science
+DEP0139,SCH0008,工学部 計数工学科,programming;science
+DEP0140,SCH0008,工学部 マテリアル工学科,programming;science
+DEP0141,SCH0008,工学部 応用化学科,programming;science
+DEP0142,SCH0008,工学部 化学システム工学科,programming;science
+DEP0143,SCH0008,工学部 化学生命工学科,programming;science
+DEP0144,SCH0008,工学部 システム創成学科,programming;science
+DEP0145,SCH0008,工学部 （共通）,programming;science
+DEP0146,SCH0008,文学部 人文学科,history_social
+DEP0147,SCH0008,理学部 数学科,science
+DEP0148,SCH0008,理学部 情報科学科,programming;science;math_data
+DEP0149,SCH0008,理学部 物理学科,science
+DEP0150,SCH0008,理学部 天文学科,science;history_social
+DEP0151,SCH0008,理学部 地球惑星物理学科,science
+DEP0152,SCH0008,理学部 地球惑星環境学科,science
+DEP0153,SCH0008,理学部 化学科,science
+DEP0154,SCH0008,理学部 生物化学科,science
+DEP0155,SCH0008,理学部 生物学科,science
+DEP0156,SCH0008,理学部 生物情報科学科,programming;science;math_data
+DEP0157,SCH0008,農学部 応用生命科学課程,science
+DEP0158,SCH0008,農学部 環境資源科学課程,science
+DEP0159,SCH0008,農学部 獣医学課程,medical;science
+DEP0160,SCH0008,経済学部 経済学科,business;math_data
+DEP0161,SCH0008,経済学部 経営学科,business;math_data
+DEP0162,SCH0008,経済学部 金融学科,business;math_data
+DEP0163,SCH0008,教養学部 教養学科,history_social
+DEP0164,SCH0008,教養学部 学際科学科,history_social
+DEP0165,SCH0008,教養学部 統合自然科学科,science;history_social
+DEP0166,SCH0008,教育学部 総合教育科学科,edu_psych;history_social
+DEP0167,SCH0008,薬学部 薬科学科,medical;science
+DEP0168,SCH0008,薬学部 薬学科,medical;science
+DEP0169,SCH0008,共同実施制度利用（学部）,history_social
+DEP0170,SCH0008,共同学科等の名称,history_social
+DEP0171,SCH0009,医学部 医学科,medical;science
+DEP0172,SCH0009,医学部 保健衛生学科,medical;science
+DEP0173,SCH0009,歯学部 歯学科,medical;science
+DEP0174,SCH0009,歯学部 口腔保健学科,medical;science
+DEP0175,SCH0009,共同実施制度利用（学部）,history_social
+DEP0176,SCH0009,共同学科等の名称,history_social
+DEP0177,SCH0010,言語文化学部 言語文化学科,science;history_social
+DEP0178,SCH0010,国際社会学部 国際社会学科,history_social;english_global
+DEP0179,SCH0010,国際日本学部 国際日本学科,english_global
+DEP0180,SCH0010,共同実施制度利用（学部）,history_social
+DEP0181,SCH0010,共同学科等の名称,history_social
+DEP0182,SCH0011,教育学部 初等教育教員養成課程,edu_psych;history_social
+DEP0183,SCH0011,教育学部 中等教育教員養成課程,edu_psych;history_social
+DEP0184,SCH0011,教育学部 特別支援教育教員養成課程,edu_psych;history_social
+DEP0185,SCH0011,教育学部 養護教育教員養成課程,edu_psych;history_social
+DEP0186,SCH0011,教育学部 教育支援課程,edu_psych;history_social
+DEP0187,SCH0011,教育学部 学校教育教員養成課程,edu_psych;history_social
+DEP0188,SCH0011,共同実施制度利用（学部）,history_social
+DEP0189,SCH0011,共同学科等の名称,history_social
+DEP0190,SCH0012,農学部 生物生産学科,science
+DEP0191,SCH0012,農学部 応用生物科学科,science
+DEP0192,SCH0012,農学部 環境資源科学科,science
+DEP0193,SCH0012,農学部 地域生態システム学科,programming;science;history_social
+DEP0194,SCH0012,農学部 共同獣医学科,medical;science
+DEP0195,SCH0012,工学部 生命工学科,programming;science
+DEP0196,SCH0012,工学部 生体医用システム工学科,programming;science
+DEP0197,SCH0012,工学部 応用化学科,programming;science
+DEP0198,SCH0012,工学部 化学物理工学科,programming;science
+DEP0199,SCH0012,工学部 機械システム工学科,programming;science
+DEP0200,SCH0012,工学部 知能情報システム工学科,programming;science;math_data
+DEP0201,SCH0012,工学部 応用分子化学科,programming;science
+DEP0202,SCH0012,工学部 有機材料化学科,programming;science
+DEP0203,SCH0012,工学部 化学システム工学科,programming;science
+DEP0204,SCH0012,工学部 機械システム工学科,programming;science
+DEP0205,SCH0012,工学部 物理システム工学科,programming;science
+DEP0206,SCH0012,工学部 電気電子工学科,programming;science
+DEP0207,SCH0012,工学部 情報工学科,programming;science;math_data
+DEP0208,SCH0012,共同実施制度利用（学部）,history_social
+DEP0209,SCH0012,共同学科等の名称,history_social
+DEP0210,SCH0012,共同獣医学科,medical;science
+DEP0211,SCH0012,共同獣医学科,medical;science
+DEP0212,SCH0013,美術学部 絵画科,design_art
+DEP0213,SCH0013,美術学部 彫刻科,design_art
+DEP0214,SCH0013,美術学部 工芸科,design_art
+DEP0215,SCH0013,美術学部 デザイン科,design_art
+DEP0216,SCH0013,美術学部 建築科,programming;science;design_art
+DEP0217,SCH0013,美術学部 先端芸術表現科,design_art
+DEP0218,SCH0013,美術学部 芸術学科,design_art
+DEP0219,SCH0013,音楽学部 作曲科,design_art;music
+DEP0220,SCH0013,音楽学部 声楽科,design_art;music
+DEP0221,SCH0013,音楽学部 器楽科,design_art;music
+DEP0222,SCH0013,音楽学部 指揮科,design_art;music
+DEP0223,SCH0013,音楽学部 邦楽科,design_art;music
+DEP0224,SCH0013,音楽学部 楽理科,design_art;music
+DEP0225,SCH0013,音楽学部 音楽環境創造科,design_art;music
+DEP0226,SCH0013,共同実施制度利用（学部）,history_social
+DEP0227,SCH0013,共同学科等の名称,history_social
+DEP0228,SCH0014,理学院 数学系、物理学系、化学系、地球惑星科学系,science
+DEP0229,SCH0014,工学院 機械系、システム制御系、電気電子系、情報通信系、経営工学系,programming;science;business;math_data
+DEP0230,SCH0014,物質理工学院 材料系、応用化学系,programming;science
+DEP0231,SCH0014,情報理工学院 数理・計算科学系、情報工学系,programming;science;math_data
+DEP0232,SCH0014,生命理工学院 生命理工学系,programming;science
+DEP0233,SCH0014,環境・社会理工学院 建築学系、土木・環境工学系、融合理工学系,programming;science;history_social
+DEP0234,SCH0014,共同実施制度利用（学部）,history_social
+DEP0235,SCH0014,共同学科等の名称,history_social
+DEP0236,SCH0015,海洋生命科学部 海洋生物資源学科,science
+DEP0237,SCH0015,海洋生命科学部 食品生産科学科,science
+DEP0238,SCH0015,海洋生命科学部 海洋政策文化学科,science;history_social;business
+DEP0239,SCH0015,海洋生命科学部 水産教員養成課程,science
+DEP0240,SCH0015,海洋工学部 海事システム工学科,programming;science
+DEP0241,SCH0015,海洋工学部 海洋電子機械工学科,programming;science
+DEP0242,SCH0015,海洋工学部 流通情報工学科,programming;science;math_data
+DEP0243,SCH0015,海洋資源環境学部 海洋環境科学科,science
+DEP0244,SCH0015,海洋資源環境学部 海洋資源エネルギー学科,science
+DEP0245,SCH0015,共同実施制度利用（学部）,history_social
+DEP0246,SCH0015,共同学科等の名称,history_social
+DEP0247,SCH0016,文教育学部 人文科学科,history_social;edu_psych
+DEP0248,SCH0016,文教育学部 言語文化学科,science;history_social;edu_psych
+DEP0249,SCH0016,文教育学部 人間社会科学科,history_social;edu_psych
+DEP0250,SCH0016,文教育学部 芸術・表現行動学科,edu_psych;history_social;design_art
+DEP0251,SCH0016,理学部 数学科,science
+DEP0252,SCH0016,理学部 物理学科,science
+DEP0253,SCH0016,理学部 化学科,science
+DEP0254,SCH0016,理学部 生物学科,science
+DEP0255,SCH0016,理学部 情報科学科,programming;science;math_data
+DEP0256,SCH0016,生活科学部 食物栄養学科,science
+DEP0257,SCH0016,生活科学部 人間・環境科学科,history_social
+DEP0258,SCH0016,生活科学部 人間生活学科,history_social
+DEP0259,SCH0016,生活科学部 心理学科,science;history_social;edu_psych
+DEP0260,SCH0016,共創工学部 人間環境工学科,programming;science;history_social
+DEP0261,SCH0016,共創工学部 文化情報工学科,programming;science;history_social;math_data
+DEP0262,SCH0016,共同実施制度利用（学部）,history_social
+DEP0263,SCH0016,共同学科等の名称,history_social
+DEP0264,SCH0017,情報理工学域 Ⅰ類（情報系）,programming;science;math_data
+DEP0265,SCH0017,情報理工学域 Ⅱ類（融合系）,programming;science;math_data
+DEP0266,SCH0017,情報理工学域 Ⅲ類（理工系）,programming;science;math_data
+DEP0267,SCH0017,情報理工学域 先端工学基礎課程,programming;science;math_data
+DEP0268,SCH0017,共同実施制度利用（学部）,history_social
+DEP0269,SCH0017,共同学科等の名称,history_social
+DEP0270,SCH0018,商学部 経営学科,business;math_data
+DEP0271,SCH0018,商学部 商学科,business;math_data
+DEP0272,SCH0018,経済学部 経済学科,business;math_data
+DEP0273,SCH0018,法学部 法律学科,history_social;business
+DEP0274,SCH0018,社会学部 社会学科,history_social
+DEP0275,SCH0018,ソーシャル・データサイエンス学部 ソーシャル・データサイエンス学科,programming;science;math_data
+DEP0276,SCH0018,共同実施制度利用（学部）,history_social
+DEP0277,SCH0018,共同学科等の名称,history_social
+DEP0278,SCH0019,教育学部 学校教員養成課程,edu_psych;history_social
+DEP0279,SCH0019,教育学部 学校教育課程,edu_psych;history_social
+DEP0280,SCH0019,教育人間科学部 学校教育課程,history_social;edu_psych
+DEP0281,SCH0019,経済学部 経済学科,business;math_data
+DEP0282,SCH0019,経済学部 経済システム学科,programming;science;business;math_data
+DEP0283,SCH0019,経済学部 国際経済学科,english_global;business;math_data
+DEP0284,SCH0019,経営学部 経営学科,business;math_data
+DEP0285,SCH0019,理工学部 機械・材料・海洋系学科,programming;science
+DEP0286,SCH0019,理工学部 化学・生命系学科,programming;science
+DEP0287,SCH0019,理工学部 数物・電子情報系学科,programming;science;math_data
+DEP0288,SCH0019,理工学部 建築都市・環境系学科,programming;science
+DEP0289,SCH0019,都市科学部 都市社会共生学科,programming;science;history_social
+DEP0290,SCH0019,都市科学部 建築学科,programming;science
+DEP0291,SCH0019,都市科学部 都市基盤学科,programming;science
+DEP0292,SCH0019,都市科学部 環境リスク共生学科,programming;science
+DEP0293,SCH0019,共同実施制度利用（学部）,history_social
+DEP0294,SCH0019,共同学科等の名称,history_social
+DEP0295,SCH0020,共同実施制度利用（学部）,history_social
+DEP0296,SCH0020,共同学科等の名称,history_social
+DEP0297,SCH0021,共同実施制度利用（学部）,history_social
+DEP0298,SCH0021,共同学科等の名称,history_social
+DEP0299,SCH0022,保健医療学部 看護学科,medical;science
+DEP0300,SCH0022,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0301,SCH0022,保健医療学部 作業療法学科,medical;science;history_social;business
+DEP0302,SCH0022,保健医療学部 放射線技術科学科,medical;science
+DEP0303,SCH0022,共同実施制度利用（学部）,history_social
+DEP0304,SCH0022,共同学科等の名称,history_social
+DEP0305,SCH0023,経済学部 経済学科,business;math_data
+DEP0306,SCH0023,経済学部 経営学科,business;math_data
+DEP0307,SCH0023,経済学部 国際学科,english_global;business;math_data
+DEP0308,SCH0023,地域政策学部 地域政策学科,history_social;business
+DEP0309,SCH0023,地域政策学部 地域づくり学科,history_social;business
+DEP0310,SCH0023,地域政策学部 観光政策学科,history_social;business;math_data
+DEP0311,SCH0023,共同実施制度利用（学部）,history_social
+DEP0312,SCH0023,共同学科等の名称,history_social
+DEP0313,SCH0024,工学部 社会環境工学科,programming;science;history_social
+DEP0314,SCH0024,工学部 建築学科,programming;science
+DEP0315,SCH0024,工学部 生命情報学科,programming;science;math_data
+DEP0316,SCH0024,工学部 システム生体工学科,programming;science
+DEP0317,SCH0024,工学部 生物工学科,programming;science
+DEP0318,SCH0024,工学部 総合デザイン工学科,programming;science;design_art
+DEP0319,SCH0024,工学部 建築・都市・環境工学群,programming;science
+DEP0320,SCH0024,工学部 情報・生命工学群,programming;science;math_data
+DEP0321,SCH0024,共同実施制度利用（学部）,history_social
+DEP0322,SCH0024,共同学科等の名称,history_social
+DEP0323,SCH0025,文学部 国文学科,history_social
+DEP0324,SCH0025,文学部 英米文化学科,science;history_social
+DEP0325,SCH0025,文学部 美学美術史学科,history_social;design_art
+DEP0326,SCH0025,文学部 総合教養学科,history_social
+DEP0327,SCH0025,文学部 文化情報学科,programming;science;history_social;math_data
+DEP0328,SCH0025,国際コミュニケーション学部 英語コミュニケーション課程,english_global
+DEP0329,SCH0025,国際コミュニケーション学部 国際ビジネス課程,english_global;business;math_data
+DEP0330,SCH0025,国際コミュニケーション学部 グローバル・コミュニケーション課程,english_global
+DEP0331,SCH0025,国際コミュニケーション学部 グローバル社会システム課程,programming;science;history_social;english_global
+DEP0332,SCH0025,共同実施制度利用（学部）,history_social
+DEP0333,SCH0025,共同学科等の名称,history_social
+DEP0334,SCH0026,看護学部 看護学科,medical;science
+DEP0335,SCH0026,診療放射線学部 診療放射線学科,history_social
+DEP0336,SCH0026,共同実施制度利用（学部）,history_social
+DEP0337,SCH0026,共同学科等の名称,history_social
+DEP0338,SCH0027,保健医療福祉学部 看護学科,medical;science;edu_psych;history_social
+DEP0339,SCH0027,保健医療福祉学部 理学療法学科,science;medical;edu_psych;history_social;business
+DEP0340,SCH0027,保健医療福祉学部 作業療法学科,medical;science;edu_psych;history_social;business
+DEP0341,SCH0027,保健医療福祉学部 健康開発学科,medical;science;edu_psych;history_social
+DEP0342,SCH0027,保健医療福祉学部 社会福祉子ども学科,medical;science;history_social;edu_psych
+DEP0343,SCH0027,共同実施制度利用（学部）,history_social
+DEP0344,SCH0027,共同学科等の名称,history_social
+DEP0345,SCH0028,健康科学部 看護学科,medical;science
+DEP0346,SCH0028,健康科学部 栄養学科,medical;science
+DEP0347,SCH0028,健康科学部 歯科衛生学科,medical;science
+DEP0348,SCH0028,健康科学部 リハビリテーション学科,medical;science
+DEP0349,SCH0028,共同実施制度利用（学部）,history_social
+DEP0350,SCH0028,共同学科等の名称,history_social
+DEP0351,SCH0029,都市教養学部 都市教養学科,programming;science;history_social
+DEP0352,SCH0029,人文社会学部 人間社会学科,history_social
+DEP0353,SCH0029,人文社会学部 人文学科,history_social
+DEP0354,SCH0029,法学部 法学科,history_social;business
+DEP0355,SCH0029,経済経営学部 経済経営学科,business;math_data
+DEP0356,SCH0029,理学部 数理科学科,science;math_data
+DEP0357,SCH0029,理学部 物理学科,science
+DEP0358,SCH0029,理学部 化学科,science
+DEP0359,SCH0029,理学部 生命科学科,science
+DEP0360,SCH0029,都市環境学部 地理環境学科,programming;science
+DEP0361,SCH0029,都市環境学部 都市基盤環境学科,programming;science
+DEP0362,SCH0029,都市環境学部 建築学科,programming;science
+DEP0363,SCH0029,都市環境学部 環境応用化学科,programming;science
+DEP0364,SCH0029,都市環境学部 観光科学科,programming;science;business;math_data
+DEP0365,SCH0029,都市環境学部 都市政策科学科,programming;science;history_social;business
+DEP0366,SCH0029,システムデザイン学部 システムデザイン学科,programming;science;design_art
+DEP0367,SCH0029,システムデザイン学部 情報科学科,programming;science;math_data;design_art
+DEP0368,SCH0029,システムデザイン学部 電子情報システム工学科,programming;science;math_data;design_art
+DEP0369,SCH0029,システムデザイン学部 機械システム工学科,programming;science;design_art
+DEP0370,SCH0029,システムデザイン学部 航空宇宙システム工学科,programming;science;design_art
+DEP0371,SCH0029,システムデザイン学部 インダストリアルアート学科,programming;science;design_art
+DEP0372,SCH0029,健康福祉学部 看護学科,medical;science;edu_psych;history_social
+DEP0373,SCH0029,健康福祉学部 理学療法学科,science;medical;edu_psych;history_social;business
+DEP0374,SCH0029,健康福祉学部 作業療法学科,medical;science;edu_psych;history_social;business
+DEP0375,SCH0029,健康福祉学部 放射線学科,medical;science;edu_psych;history_social
+DEP0376,SCH0029,共同実施制度利用（学部）,history_social
+DEP0377,SCH0029,共同学科等の名称,history_social
+DEP0378,SCH0030,共同実施制度利用（学部）,history_social
+DEP0379,SCH0030,共同学科等の名称,history_social
+DEP0380,SCH0031,国際教養学部 国際教養学科,history_social;english_global
+DEP0381,SCH0031,国際商学部 国際商学科,english_global;business;math_data
+DEP0382,SCH0031,理学部 理学科,science
+DEP0383,SCH0031,データサイエンス学部 データサイエンス学科,programming;science;math_data
+DEP0384,SCH0031,医学部 医学科,medical;science
+DEP0385,SCH0031,医学部 看護学科,medical;science
+DEP0386,SCH0031,共同実施制度利用（学部）,history_social
+DEP0387,SCH0031,共同学科等の名称,history_social
+DEP0388,SCH0032,保健福祉学部 看護学科,medical;science;edu_psych;history_social
+DEP0389,SCH0032,保健福祉学部 栄養学科,medical;science;edu_psych;history_social
+DEP0390,SCH0032,保健福祉学部 社会福祉学科,medical;science;history_social;edu_psych
+DEP0391,SCH0032,保健福祉学部 リハビリテーション学科,medical;science;edu_psych;history_social
+DEP0392,SCH0032,共同実施制度利用（学部）,history_social
+DEP0393,SCH0032,共同学科等の名称,history_social
+DEP0394,SCH0033,看護学部 看護学科,medical;science
+DEP0395,SCH0033,共同実施制度利用（学部）,history_social
+DEP0396,SCH0033,共同学科等の名称,history_social
+DEP0397,SCH0034,文学部 現代英語学科,history_social;english_global
+DEP0398,SCH0034,文学部 児童教育学科,history_social;edu_psych
+DEP0399,SCH0034,文学部 文化交流学科,history_social
+DEP0400,SCH0034,生活科学部 心理福祉学科,history_social;edu_psych
+DEP0401,SCH0034,生活科学部 食物健康科学科,medical;science
+DEP0402,SCH0034,看護学部 看護学科,medical;science
+DEP0403,SCH0034,経営学部 経営学科,business;math_data
+DEP0404,SCH0034,共同実施制度利用（学部）,history_social
+DEP0405,SCH0034,共同学科等の名称,history_social
+DEP0406,SCH0035,経済学部 経済学科,business;math_data
+DEP0407,SCH0035,経済学部 経済学科,business;math_data
+DEP0408,SCH0035,経済学部 経営学科,business;math_data
+DEP0409,SCH0035,経済学部 経営学科,business;math_data
+DEP0410,SCH0035,共創社会学部 地域人間科学科,history_social
+DEP0411,SCH0035,共創社会学部 地域人間科学科,history_social
+DEP0412,SCH0035,共創社会学部 国際文化ツーリズム学科,history_social;english_global
+DEP0413,SCH0035,流通情報学部 流通情報学科,programming;science;math_data
+DEP0414,SCH0035,法学部 法律学科,history_social;business
+DEP0415,SCH0035,法学部 法律学科,history_social;business
+DEP0416,SCH0035,法学部 自治行政学科,history_social;business
+DEP0417,SCH0035,法学部 自治行政学科,history_social;business
+DEP0418,SCH0035,スポーツ健康科学部 スポーツ健康科学科,medical;science;sports
+DEP0419,SCH0035,スポーツ健康科学部 スポーツコミュニケーション学科,medical;science;sports
+DEP0420,SCH0035,共同実施制度利用（学部）,history_social
+DEP0421,SCH0035,共同学科等の名称,history_social
+DEP0422,SCH0036,人間科学部 心理学科,science;history_social;edu_psych
+DEP0423,SCH0036,人間科学部 教育学科,history_social;edu_psych
+DEP0424,SCH0036,人間科学部 現代社会学科,history_social
+DEP0425,SCH0036,人間科学部 コミュニケーション学科,history_social
+DEP0426,SCH0036,人間科学部 健康栄養学科,medical;science;history_social
+DEP0427,SCH0036,総合政策学部 経営学科,history_social;business;math_data
+DEP0428,SCH0036,総合政策学部 法律行政学科,history_social;business
+DEP0429,SCH0036,総合政策学部 総合政策学科,history_social;business
+DEP0430,SCH0036,看護学部 看護学科,medical;science
+DEP0431,SCH0036,共同実施制度利用（学部）,history_social
+DEP0432,SCH0036,共同学科等の名称,history_social
+DEP0433,SCH0037,医療保健学部 理学療法学科,science;medical;history_social;business
+DEP0434,SCH0037,医療保健学部 看護学科,medical;science
+DEP0435,SCH0037,医療保健学部 保健栄養学科,medical;science
+DEP0436,SCH0037,医療保健学部 診療放射線学科,medical;science
+DEP0437,SCH0037,医療保健学部 臨床検査学科,medical;science
+DEP0438,SCH0037,医療保健学部 医療技術学科,medical;science
+DEP0439,SCH0037,共同実施制度利用（学部）,history_social
+DEP0440,SCH0037,共同学科等の名称,history_social
+DEP0441,SCH0038,経営情報学部 ビジネスデザイン学科,programming;science;business;math_data;design_art
+DEP0442,SCH0038,共同実施制度利用（学部）,history_social
+DEP0443,SCH0038,共同学科等の名称,history_social
+DEP0444,SCH0039,スポーツプロモーション学部 スポーツプロモーション学科,sports
+DEP0445,SCH0039,共同実施制度利用（学部）,history_social
+DEP0446,SCH0039,共同学科等の名称,history_social
+DEP0447,SCH0040,リハビリテーション学部 理学療法学科,science;medical;history_social;business
+DEP0448,SCH0040,リハビリテーション学部 作業療法学科,medical;science;history_social;business
+DEP0449,SCH0040,共同実施制度利用（学部）,history_social
+DEP0450,SCH0040,共同学科等の名称,history_social
+DEP0451,SCH0041,工学部 創生工学科,programming;science
+DEP0452,SCH0041,看護学部 看護学科,medical;science
+DEP0453,SCH0041,共同実施制度利用（学部）,history_social
+DEP0454,SCH0041,共同学科等の名称,history_social
+DEP0455,SCH0042,経営学部 経営学科,business;math_data
+DEP0456,SCH0042,法学部 法律学科,history_social;business
+DEP0457,SCH0042,教育学部 発達科学科,edu_psych;history_social
+DEP0458,SCH0042,共同実施制度利用（学部）,history_social
+DEP0459,SCH0042,共同学科等の名称,history_social
+DEP0460,SCH0043,経営学部 経営学科,business;math_data
+DEP0461,SCH0043,経営学部 スポーツマネジメント学科,business;math_data;sports
+DEP0462,SCH0043,人間文化学部 発達教育学科,science;history_social;edu_psych
+DEP0463,SCH0043,人間文化学部 心理コミュニケーション学科,science;history_social;edu_psych
+DEP0464,SCH0043,共同実施制度利用（学部）,history_social
+DEP0465,SCH0043,共同学科等の名称,history_social
+DEP0466,SCH0044,保健医療学部 看護学科,medical;science
+DEP0467,SCH0044,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0468,SCH0044,保健医療学部 作業療法学科,medical;science;history_social;business
+DEP0469,SCH0044,保健医療学部 言語聴覚学科,medical;science;history_social
+DEP0470,SCH0044,保健医療学部 視機能療法学科,medical;science;history_social;business
+DEP0471,SCH0044,保健医療学部 放射線・情報科学科,programming;science;medical;math_data
+DEP0472,SCH0044,医療福祉学部 医療福祉・マネジメント学科,medical;science;edu_psych;history_social;business;math_data
+DEP0473,SCH0044,薬学部 薬学科,medical;science
+DEP0474,SCH0044,福岡保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0475,SCH0044,福岡保健医療学部 作業療法学科,medical;science;history_social;business
+DEP0476,SCH0044,福岡保健医療学部 言語聴覚学科,medical;science;history_social
+DEP0477,SCH0044,福岡保健医療学部 医学検査学科,medical;science
+DEP0478,SCH0044,福岡保健医療学部 看護学科,medical;science
+DEP0479,SCH0044,福岡薬学部 薬学科,medical;science
+DEP0480,SCH0044,小田原保健医療学部 看護学科,medical;science
+DEP0481,SCH0044,小田原保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0482,SCH0044,小田原保健医療学部 作業療法学科,medical;science;history_social;business
+DEP0483,SCH0044,成田看護学部 看護学科,medical;science
+DEP0484,SCH0044,成田保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0485,SCH0044,成田保健医療学部 作業療法学科,medical;science;history_social;business
+DEP0486,SCH0044,成田保健医療学部 言語聴覚学科,medical;science;history_social
+DEP0487,SCH0044,成田保健医療学部 医学検査学科,medical;science
+DEP0488,SCH0044,成田保健医療学部 放射線・情報科学科,programming;science;medical;math_data
+DEP0489,SCH0044,医学部 医学科,medical;science
+DEP0490,SCH0044,赤坂心理・医療福祉マネジメント学部 心理学科,science;medical;history_social;edu_psych;business;math_data
+DEP0491,SCH0044,赤坂心理・医療福祉マネジメント学部 医療マネジメント学科,medical;science;history_social;edu_psych;business;math_data
+DEP0492,SCH0044,成田薬学部 薬学科,medical;science
+DEP0493,SCH0044,共同実施制度利用（学部）,history_social
+DEP0494,SCH0044,共同学科等の名称,history_social
+DEP0495,SCH0045,シティライフ学部 シティライフ学科,history_social
+DEP0496,SCH0045,子ども生活学部 子ども生活学科,history_social
+DEP0497,SCH0045,共同実施制度利用（学部）,history_social
+DEP0498,SCH0045,共同学科等の名称,history_social
+DEP0499,SCH0046,美術学部 美術学科,design_art
+DEP0500,SCH0046,共同実施制度利用（学部）,history_social
+DEP0501,SCH0046,共同学科等の名称,history_social
+DEP0502,SCH0047,医学部 医学科,medical;science
+DEP0503,SCH0047,看護学部 看護学科,medical;science
+DEP0504,SCH0047,共同実施制度利用（学部）,history_social
+DEP0505,SCH0047,共同学科等の名称,history_social
+DEP0506,SCH0048,医学部 医学科,medical;science
+DEP0507,SCH0048,看護学部 看護学科,medical;science
+DEP0508,SCH0048,共同実施制度利用（学部）,history_social
+DEP0509,SCH0048,共同学科等の名称,history_social
+DEP0510,SCH0049,教育学部 教育学科,edu_psych;history_social
+DEP0511,SCH0049,共同実施制度利用（学部）,history_social
+DEP0512,SCH0049,共同学科等の名称,history_social
+DEP0513,SCH0050,医療保健学部 看護学科,medical;science
+DEP0514,SCH0050,医療保健学部 栄養学科,medical;science
+DEP0515,SCH0050,共同実施制度利用（学部）,history_social
+DEP0516,SCH0050,共同学科等の名称,history_social
+DEP0517,SCH0051,保健科学部 看護学科,medical;science
+DEP0518,SCH0051,医療技術学部 検査技術学科,medical;science
+DEP0519,SCH0051,医療技術学部 放射線学科,medical;science
+DEP0520,SCH0051,医療技術学部 臨床工学科,programming;science;medical
+DEP0521,SCH0051,リハビリテーション学部 理学療法学科,science;medical;history_social;business
+DEP0522,SCH0051,リハビリテーション学部 作業療法学科,medical;science;history_social;business
+DEP0523,SCH0051,リハビリテーション学部 言語聴覚学科,medical;science;history_social
+DEP0524,SCH0051,看護学部 看護学科,medical;science
+DEP0525,SCH0051,共同実施制度利用（学部）,history_social
+DEP0526,SCH0051,共同学科等の名称,history_social
+DEP0527,SCH0052,社会福祉学部 社会福祉学科,history_social;edu_psych
+DEP0528,SCH0052,看護学部 看護学科,medical;science
+DEP0529,SCH0052,リハビリテーション学部 リハビリテーション学科,medical;science
+DEP0530,SCH0052,医療技術学部 医療技術学科,medical;science
+DEP0531,SCH0052,共同実施制度利用（学部）,history_social
+DEP0532,SCH0052,共同学科等の名称,history_social
+DEP0533,SCH0053,健康福祉学部 医療情報学科,programming;science;medical;edu_psych;history_social;math_data
+DEP0534,SCH0053,健康福祉学部 社会福祉学科,medical;science;history_social;edu_psych
+DEP0535,SCH0053,健康福祉学部 健康栄養学科,medical;science;edu_psych;history_social
+DEP0536,SCH0053,薬学部 薬学科,medical;science
+DEP0537,SCH0053,保健医療学部 看護学科,medical;science
+DEP0538,SCH0053,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0539,SCH0053,人間発達学部 子ども教育学科,history_social;edu_psych
+DEP0540,SCH0053,農学部 生物生産学科,science
+DEP0541,SCH0053,共同実施制度利用（学部）,history_social
+DEP0542,SCH0053,共同学科等の名称,history_social
+DEP0543,SCH0054,商学部 経営学科,business;math_data
+DEP0544,SCH0054,商学部 会計学科,business;math_data
+DEP0545,SCH0054,共同実施制度利用（学部）,history_social
+DEP0546,SCH0054,共同学科等の名称,history_social
+DEP0547,SCH0055,ビジネス情報学部 スポーツ健康マネジメント学科,programming;science;medical;business;math_data;sports
+DEP0548,SCH0055,ビジネス情報学部 国際ビジネス学科,programming;science;english_global;business;math_data
+DEP0549,SCH0055,看護学部 看護学科,medical;science
+DEP0550,SCH0055,共同実施制度利用（学部）,history_social
+DEP0551,SCH0055,共同学科等の名称,history_social
+DEP0552,SCH0056,経済学部 経済学科,business;math_data
+DEP0553,SCH0056,経済学部 経営学科,business;math_data
+DEP0554,SCH0056,共同実施制度利用（学部）,history_social
+DEP0555,SCH0056,共同学科等の名称,history_social
+DEP0556,SCH0057,国際社会学部 国際社会学科,history_social;english_global
+DEP0557,SCH0057,共同実施制度利用（学部）,history_social
+DEP0558,SCH0057,共同学科等の名称,history_social
+DEP0559,SCH0058,保健医療学部 診療放射線学科,medical;science
+DEP0560,SCH0058,保健医療学部 リハビリテーション学科,medical;science
+DEP0561,SCH0058,保健医療学部 看護学科,medical;science
+DEP0562,SCH0058,保健医療学部 臨床工学科,programming;science;medical
+DEP0563,SCH0058,保健医療学部 臨床検査学科,medical;science
+DEP0564,SCH0058,共同実施制度利用（学部）,history_social
+DEP0565,SCH0058,共同学科等の名称,history_social
+DEP0566,SCH0059,薬学部 薬学科,medical;science
+DEP0567,SCH0059,薬学部 医療ビジネス薬科学科,medical;science;business;math_data
+DEP0568,SCH0059,共同実施制度利用（学部）,history_social
+DEP0569,SCH0059,共同学科等の名称,history_social
+DEP0570,SCH0060,国際コミュニケーション学部 国際コミュニケーション学科,english_global
+DEP0571,SCH0060,共同実施制度利用（学部）,history_social
+DEP0572,SCH0060,共同学科等の名称,history_social
+DEP0573,SCH0061,こども学部 こども学科,edu_psych;history_social
+DEP0574,SCH0061,こども学部 学校教育学科,edu_psych;history_social
+DEP0575,SCH0061,社会学部 総合福祉学科,history_social;edu_psych
+DEP0576,SCH0061,社会学部 現代社会学科,history_social
+DEP0577,SCH0061,共同実施制度利用（学部）,history_social
+DEP0578,SCH0061,共同学科等の名称,history_social
+DEP0579,SCH0062,技能工芸学部 情報メカトロニクス学科,programming;science;math_data
+DEP0580,SCH0062,技能工芸学部 建設学科,history_social
+DEP0581,SCH0062,共同実施制度利用（学部）,history_social
+DEP0582,SCH0062,共同学科等の名称,history_social
+DEP0583,SCH0063,国際経営学部 国際経営学科,english_global;business;math_data
+DEP0584,SCH0063,教育学部 教育学科,edu_psych;history_social
+DEP0585,SCH0063,共同実施制度利用（学部）,history_social
+DEP0586,SCH0063,共同学科等の名称,history_social
+DEP0587,SCH0064,人間学部 人間文化学科,science;history_social
+DEP0588,SCH0064,人間学部 子ども発達学科,history_social;edu_psych
+DEP0589,SCH0064,人間学部 心理学科,science;history_social;edu_psych
+DEP0590,SCH0064,経済経営学部 経済経営学科,business;math_data
+DEP0591,SCH0064,共同実施制度利用（学部）,history_social
+DEP0592,SCH0064,共同学科等の名称,history_social
+DEP0593,SCH0065,芸術情報学部 情報表現学科,programming;science;math_data;design_art
+DEP0594,SCH0065,芸術情報学部 音楽表現学科,programming;science;math_data;design_art;music
+DEP0595,SCH0065,芸術情報学部 音楽応用学科,programming;science;math_data;design_art;music
+DEP0596,SCH0065,芸術情報学部 舞台表現学科,programming;science;math_data;design_art
+DEP0597,SCH0065,総合政策学部 総合政策学科,history_social;business
+DEP0598,SCH0065,総合政策学部 ライフマネジメント学科,history_social;business;math_data
+DEP0599,SCH0065,スポーツマネジメント学部 スポーツマネジメント学科,business;math_data;sports
+DEP0600,SCH0065,共同実施制度利用（学部）,history_social
+DEP0601,SCH0065,共同学科等の名称,history_social
+DEP0602,SCH0066,人間科学部 健康栄養学科,medical;science;history_social
+DEP0603,SCH0066,人間科学部 ヘルスフードサイエンス学科,science;history_social
+DEP0604,SCH0066,保健医療学部 看護学科,medical;science
+DEP0605,SCH0066,保健医療学部 リハビリテーション学科,medical;science
+DEP0606,SCH0066,共同実施制度利用（学部）,history_social
+DEP0607,SCH0066,共同学科等の名称,history_social
+DEP0608,SCH0067,サービス経営学部 サービス経営学科,business;math_data
+DEP0609,SCH0067,サービス経営学部 健康福祉マネジメント学科,medical;science;edu_psych;history_social;business;math_data
+DEP0610,SCH0067,看護学部 看護学科,medical;science
+DEP0611,SCH0067,共同実施制度利用（学部）,history_social
+DEP0612,SCH0067,共同学科等の名称,history_social
+DEP0613,SCH0068,人間生活学部 幼児教育学科,history_social;edu_psych
+DEP0614,SCH0068,人間生活学部 児童教育学科,history_social;edu_psych
+DEP0615,SCH0068,人間生活学部 人間発達心理学科,science;history_social;edu_psych
+DEP0616,SCH0068,人間生活学部 人間福祉学科,history_social;edu_psych
+DEP0617,SCH0068,人間生活学部 健康栄養学科,medical;science;history_social
+DEP0618,SCH0068,人間生活学部 食物栄養学科,science;history_social
+DEP0619,SCH0068,人間生活学部 文芸文化学科,science;history_social
+DEP0620,SCH0068,人間生活学部 生活情報学科,programming;science;history_social;math_data
+DEP0621,SCH0068,人間生活学部 メディアコミュニケーション学科,history_social;programming;math_data
+DEP0622,SCH0068,人間生活学部 健康栄養学科,medical;science;history_social
+DEP0623,SCH0068,人間生活学部 食物栄養学科,science;history_social
+DEP0624,SCH0068,人間生活学部 食品開発学科,science;history_social
+DEP0625,SCH0068,人間生活学部 人間福祉学科,history_social;edu_psych
+DEP0626,SCH0068,教育人文学部 幼児教育学科,history_social;edu_psych
+DEP0627,SCH0068,教育人文学部 児童教育学科,history_social;edu_psych
+DEP0628,SCH0068,教育人文学部 心理学科,science;history_social;edu_psych
+DEP0629,SCH0068,教育人文学部 文芸文化学科,science;history_social;edu_psych
+DEP0630,SCH0068,社会情報デザイン学部 社会情報デザイン学科,programming;science;history_social;math_data;design_art
+DEP0631,SCH0068,共同実施制度利用（学部）,history_social
+DEP0632,SCH0068,共同学科等の名称,history_social
+DEP0633,SCH0069,法学部 法学科,history_social;business
+DEP0634,SCH0069,スポーツ健康学部 スポーツ健康学科,medical;science;sports
+DEP0635,SCH0069,共同実施制度利用（学部）,history_social
+DEP0636,SCH0069,共同学科等の名称,history_social
+DEP0637,SCH0070,商学部 商学科,business;math_data
+DEP0638,SCH0070,商学部 経営学科,business;math_data
+DEP0639,SCH0070,経済学部 経済学科,business;math_data
+DEP0640,SCH0070,国際関係学部 国際関係学科,english_global
+DEP0641,SCH0070,国際関係学部 国際メディア学科,english_global;programming;math_data
+DEP0642,SCH0070,人間社会学部 福祉心理学科,science;history_social;edu_psych
+DEP0643,SCH0070,人間社会学部 人間スポーツ学科,history_social;sports
+DEP0644,SCH0070,人間社会学部 スポーツ科学科,history_social;sports
+DEP0645,SCH0070,言語コミュニケーション学部 英語コミュニケーション学科,history_social;english_global
+DEP0646,SCH0070,医療健康学部 理学療法学科,science;medical;history_social;business
+DEP0647,SCH0070,共同実施制度利用（学部）,history_social
+DEP0648,SCH0070,共同学科等の名称,history_social
+DEP0649,SCH0071,経済学部 経済学科,business;math_data
+DEP0650,SCH0071,現代政策学部 社会経済システム学科,programming;science;history_social;business;math_data
+DEP0651,SCH0071,経営学部 マネジメント総合学科,business;math_data
+DEP0652,SCH0071,理学部 数学科,science
+DEP0653,SCH0071,理学部 数学科,science
+DEP0654,SCH0071,理学部 化学科,science
+DEP0655,SCH0071,薬学部 薬学科,medical;science
+DEP0656,SCH0071,薬学部 薬科学科,medical;science
+DEP0657,SCH0071,薬学部 医療栄養学科,medical;science
+DEP0658,SCH0071,共同実施制度利用（学部）,history_social
+DEP0659,SCH0071,共同学科等の名称,history_social
+DEP0660,SCH0072,音楽学部 音楽学科,design_art;music
+DEP0661,SCH0072,共同実施制度利用（学部）,history_social
+DEP0662,SCH0072,共同学科等の名称,history_social
+DEP0663,SCH0073,外国語学部 ドイツ語学科,history_social;english_global
+DEP0664,SCH0073,外国語学部 英語学科,history_social;english_global
+DEP0665,SCH0073,外国語学部 フランス語学科,history_social;english_global
+DEP0666,SCH0073,外国語学部 交流文化学科,science;history_social;english_global
+DEP0667,SCH0073,国際教養学部 言語文化学科,science;history_social;english_global
+DEP0668,SCH0073,経済学部 経済学科,business;math_data
+DEP0669,SCH0073,経済学部 経営学科,business;math_data
+DEP0670,SCH0073,経済学部 国際環境経済学科,english_global;business;math_data
+DEP0671,SCH0073,法学部 法律学科,history_social;business
+DEP0672,SCH0073,法学部 国際関係法学科,english_global;history_social;business
+DEP0673,SCH0073,法学部 総合政策学科,history_social;business
+DEP0674,SCH0073,共同実施制度利用（学部）,history_social
+DEP0675,SCH0073,共同学科等の名称,history_social
+DEP0676,SCH0074,基幹工学部 機械工学科,programming;science
+DEP0677,SCH0074,基幹工学部 電気電子通信工学科,programming;science
+DEP0678,SCH0074,基幹工学部 応用化学科,programming;science
+DEP0679,SCH0074,先進工学部 ロボティクス学科,programming;science
+DEP0680,SCH0074,先進工学部 情報メディア工学科,programming;science;math_data
+DEP0681,SCH0074,建築学部 建築学科,programming;science
+DEP0682,SCH0074,先進工学部 データサイエンス学科,programming;science;math_data
+DEP0683,SCH0074,共同実施制度利用（学部）,history_social
+DEP0684,SCH0074,共同学科等の名称,history_social
+DEP0685,SCH0075,外国語学部 日本語学科,history_social;english_global
+DEP0686,SCH0075,外国語学部 英米語学科,history_social;english_global
+DEP0687,SCH0075,外国語学部 中国語学科,history_social;english_global
+DEP0688,SCH0075,経済学部 経済学科,business;math_data
+DEP0689,SCH0075,不動産学部 不動産学科,history_social
+DEP0690,SCH0075,ホスピタリティ・ツーリズム学部 ホスピタリティ・ツーリズム学科,business;math_data
+DEP0691,SCH0075,歯学部 歯学科,medical;science
+DEP0692,SCH0075,保健医療学部 口腔保健学科,medical;science
+DEP0693,SCH0075,共同実施制度利用（学部）,history_social
+DEP0694,SCH0075,共同学科等の名称,history_social
+DEP0695,SCH0076,医学部 医学科,medical;science
+DEP0696,SCH0076,保健医療学部 看護学科,medical;science
+DEP0697,SCH0076,保健医療学部 臨床検査学科,medical;science
+DEP0698,SCH0076,保健医療学部 臨床工学科,programming;science;medical
+DEP0699,SCH0076,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0700,SCH0076,共同実施制度利用（学部）,history_social
+DEP0701,SCH0076,共同学科等の名称,history_social
+DEP0702,SCH0077,工学部 機械工学科,programming;science
+DEP0703,SCH0077,工学部 生命環境化学科,programming;science
+DEP0704,SCH0077,工学部 情報システム学科,programming;science;math_data
+DEP0705,SCH0077,人間社会学部 情報社会学科,programming;science;history_social;math_data
+DEP0706,SCH0077,人間社会学部 心理学科,science;history_social;edu_psych
+DEP0707,SCH0077,共同実施制度利用（学部）,history_social
+DEP0708,SCH0077,共同学科等の名称,history_social
+DEP0709,SCH0078,法学部 法律学科,history_social;business
+DEP0710,SCH0078,経済経営学部 経済経営学科,business;math_data
+DEP0711,SCH0078,メディア情報学部 メディア情報学科,programming;science;math_data
+DEP0712,SCH0078,スポーツ科学部 スポーツ科学科,sports
+DEP0713,SCH0078,現代文化学部 現代文化学科,science;history_social
+DEP0714,SCH0078,心理学部 心理学科,science;history_social;edu_psych
+DEP0715,SCH0078,共同実施制度利用（学部）,history_social
+DEP0716,SCH0078,共同学科等の名称,history_social
+DEP0717,SCH0079,政治経済学部 政治経済学科,history_social;business;math_data
+DEP0718,SCH0079,人文学部 欧米文化学科,science;history_social
+DEP0719,SCH0079,人文学部 日本文化学科,science;history_social
+DEP0720,SCH0079,人文学部 子ども教育学科,history_social;edu_psych
+DEP0721,SCH0079,心理福祉学部 心理福祉学科,history_social;edu_psych
+DEP0722,SCH0079,共同実施制度利用（学部）,history_social
+DEP0723,SCH0079,共同学科等の名称,history_social
+DEP0724,SCH0080,栄養学部 実践栄養学科,science
+DEP0725,SCH0080,栄養学部 保健栄養学科,medical;science
+DEP0726,SCH0080,栄養学部 食文化栄養学科,science;history_social
+DEP0727,SCH0080,共同実施制度利用（学部）,history_social
+DEP0728,SCH0080,共同学科等の名称,history_social
+DEP0729,SCH0081,ヒューマンケア学部 看護学科,medical;science
+DEP0730,SCH0081,管理栄養学部 管理栄養学科,science
+DEP0731,SCH0081,幕張ヒューマンケア学部 看護学科,medical;science
+DEP0732,SCH0081,幕張ヒューマンケア学部 理学療法学科,science;history_social;business
+DEP0733,SCH0081,幕張ヒューマンケア学部 臨床工学科,programming;science;medical
+DEP0734,SCH0081,幕張ヒューマンケア学部 健康科学科,medical;science
+DEP0735,SCH0081,沼津ヒューマンケア学部 看護学科,medical;science
+DEP0736,SCH0081,共同実施制度利用（学部）,history_social
+DEP0737,SCH0081,共同学科等の名称,history_social
+DEP0738,SCH0082,保健医療学部 看護学科,medical;science
+DEP0739,SCH0082,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0740,SCH0082,共同実施制度利用（学部）,history_social
+DEP0741,SCH0082,共同学科等の名称,history_social
+DEP0742,SCH0083,薬学部 薬学科,medical;science
+DEP0743,SCH0083,危機管理学部 危機管理学科,science
+DEP0744,SCH0083,危機管理学部 保健医療学科,science;medical
+DEP0745,SCH0083,危機管理学部 航空技術危機管理学科,programming;science
+DEP0746,SCH0083,危機管理学部 動物危機管理学科,science
+DEP0747,SCH0083,看護学部 看護学科,medical;science
+DEP0748,SCH0083,共同実施制度利用（学部）,history_social
+DEP0749,SCH0083,共同学科等の名称,history_social
+DEP0750,SCH0084,人間文化学部 人間文化学科,science;history_social
+DEP0751,SCH0084,共同実施制度利用（学部）,history_social
+DEP0752,SCH0084,共同学科等の名称,history_social
+DEP0753,SCH0085,教育学部 教育学科,edu_psych;history_social
+DEP0754,SCH0085,国際教養学部 国際教養学科,history_social;english_global
+DEP0755,SCH0085,共同実施制度利用（学部）,history_social
+DEP0756,SCH0085,共同学科等の名称,history_social
+DEP0757,SCH0086,法学部 法律学科,history_social;business
+DEP0758,SCH0086,共同実施制度利用（学部）,history_social
+DEP0759,SCH0086,共同学科等の名称,history_social
+DEP0760,SCH0087,経営情報学部 総合経営学科,programming;science;business;math_data
+DEP0761,SCH0087,国際人文学部 国際文化学科,science;history_social;english_global
+DEP0762,SCH0087,国際人文学部 国際交流学科,history_social;english_global
+DEP0763,SCH0087,福祉総合学部 福祉総合学科,edu_psych;history_social
+DEP0764,SCH0087,福祉総合学部 理学療法学科,science;edu_psych;history_social;business
+DEP0765,SCH0087,薬学部 医療薬学科,medical;science
+DEP0766,SCH0087,メディア学部 メディア情報学科,programming;science;math_data
+DEP0767,SCH0087,観光学部 観光学科,business;math_data
+DEP0768,SCH0087,看護学部 看護学科,medical;science
+DEP0769,SCH0087,共同実施制度利用（学部）,history_social
+DEP0770,SCH0087,共同学科等の名称,history_social
+DEP0771,SCH0088,総合福祉学部 社会福祉学科,history_social;edu_psych
+DEP0772,SCH0088,総合福祉学部 教育福祉学科,edu_psych;history_social
+DEP0773,SCH0088,総合福祉学部 実践心理学科,science;history_social;edu_psych
+DEP0774,SCH0088,コミュニティ政策学部 コミュニティ政策学科,history_social;business
+DEP0775,SCH0088,経営学部 経営学科,business;math_data
+DEP0776,SCH0088,経営学部 観光経営学科,business;math_data
+DEP0777,SCH0088,教育学部 こども教育学科,edu_psych;history_social
+DEP0778,SCH0088,看護栄養学部 看護学科,medical;science
+DEP0779,SCH0088,看護栄養学部 栄養学科,medical;science
+DEP0780,SCH0088,人文学部 表現学科,history_social
+DEP0781,SCH0088,人文学部 歴史学科,history_social
+DEP0782,SCH0088,人文学部 人間科学科,history_social
+DEP0783,SCH0088,地域創生学部 地域創生学科,history_social
+DEP0784,SCH0088,共同実施制度利用（学部）,history_social
+DEP0785,SCH0088,共同学科等の名称,history_social
+DEP0786,SCH0089,経済学部 経済学科,business;math_data
+DEP0787,SCH0089,経済学部 経営学科,business;math_data
+DEP0788,SCH0089,国際学部 国際学科,english_global
+DEP0789,SCH0089,国際学部 こども教育学科,english_global;edu_psych;history_social
+DEP0790,SCH0089,教育学部 こども教育学科,edu_psych;history_social
+DEP0791,SCH0089,共同実施制度利用（学部）,history_social
+DEP0792,SCH0089,共同学科等の名称,history_social
+DEP0793,SCH0090,工学部 機械工学科,programming;science
+DEP0794,SCH0090,工学部 機械電子創成工学科,programming;science
+DEP0795,SCH0090,工学部 先端材料工学科,programming;science
+DEP0796,SCH0090,工学部 電気電子工学科,programming;science
+DEP0797,SCH0090,工学部 情報通信システム工学科,programming;science;math_data
+DEP0798,SCH0090,工学部 応用化学科,programming;science
+DEP0799,SCH0090,創造工学部 建築学科,programming;science
+DEP0800,SCH0090,創造工学部 都市環境工学科,programming;science
+DEP0801,SCH0090,創造工学部 デザイン科学科,programming;science;design_art
+DEP0802,SCH0090,先進工学部 未来ロボティクス学科,programming;science
+DEP0803,SCH0090,先進工学部 生命科学科,programming;science
+DEP0804,SCH0090,先進工学部 知能メディア工学科,programming;science;math_data
+DEP0805,SCH0090,情報科学部 情報工学科,programming;science;math_data
+DEP0806,SCH0090,情報科学部 情報ネットワーク学科,programming;science;math_data
+DEP0807,SCH0090,社会システム科学部 経営情報科学科,programming;science;history_social;business;math_data
+DEP0808,SCH0090,社会システム科学部 プロジェクトマネジメント学科,programming;science;history_social;business;math_data
+DEP0809,SCH0090,社会システム科学部 金融・経営リスク科学科,programming;science;history_social;business;math_data
+DEP0810,SCH0090,情報変革科学部 情報工学科,programming;science;math_data
+DEP0811,SCH0090,情報変革科学部 認知情報科学科,programming;science;math_data
+DEP0812,SCH0090,情報変革科学部 高度応用情報科学科,programming;science;math_data
+DEP0813,SCH0090,未来変革科学部 デジタル変革化学科,science
+DEP0814,SCH0090,未来変革科学部 経営デザイン科学科,business;math_data;design_art
+DEP0815,SCH0090,共同実施制度利用（学部）,history_social
+DEP0816,SCH0090,共同学科等の名称,history_social
+DEP0817,SCH0091,商経学部 商学科,business;math_data
+DEP0818,SCH0091,商経学部 経済学科,business;math_data
+DEP0819,SCH0091,商経学部 経営学科,business;math_data
+DEP0820,SCH0091,政策情報学部 政策情報学科,programming;science;history_social;business;math_data
+DEP0821,SCH0091,サービス創造学部 サービス創造学科,history_social
+DEP0822,SCH0091,人間社会学部 人間社会学科,history_social
+DEP0823,SCH0091,国際教養学部 国際教養学科,history_social;english_global
+DEP0824,SCH0091,共同実施制度利用（学部）,history_social
+DEP0825,SCH0091,共同学科等の名称,history_social
+DEP0826,SCH0092,商学部 商学科,business;math_data
+DEP0827,SCH0092,法学部 法学科,history_social;business
+DEP0828,SCH0092,現代教養学部 現代教養学科,history_social
+DEP0829,SCH0092,共同実施制度利用（学部）,history_social
+DEP0830,SCH0092,共同学科等の名称,history_social
+DEP0831,SCH0093,外国語学部 外国語学科,history_social;english_global
+DEP0832,SCH0093,経済学部 経済学科,business;math_data
+DEP0833,SCH0093,経済学部 経営学科,business;math_data
+DEP0834,SCH0093,国際学部 国際学科,english_global
+DEP0835,SCH0093,国際学部 グローバルビジネス学科,english_global;business;math_data
+DEP0836,SCH0093,経営学部 経営学科,business;math_data
+DEP0837,SCH0093,工学部 工学科,programming;science
+DEP0838,SCH0093,共同実施制度利用（学部）,history_social
+DEP0839,SCH0093,共同学科等の名称,history_social
+DEP0840,SCH0094,人文学部 国際学科,history_social;english_global
+DEP0841,SCH0094,人文学部 日本文学文化学科,science;history_social
+DEP0842,SCH0094,人文学部 心理学科,science;history_social;edu_psych
+DEP0843,SCH0094,人文学部 こども発達学科,history_social;edu_psych
+DEP0844,SCH0094,国際学部 英語コミュニケーション学科,english_global
+DEP0845,SCH0094,国際学部 国際学科,english_global
+DEP0846,SCH0094,家政学部 服飾造形学科,design_art
+DEP0847,SCH0094,家政学部 健康栄養学科,medical;science
+DEP0848,SCH0094,家政学部 家政福祉学科,edu_psych;history_social
+DEP0849,SCH0094,看護学部 看護学科,medical;science
+DEP0850,SCH0094,共同実施制度利用（学部）,history_social
+DEP0851,SCH0094,共同学科等の名称,history_social
+DEP0852,SCH0095,体育学部 武道学科,sports
+DEP0853,SCH0095,体育学部 体育学科,sports
+DEP0854,SCH0095,共同実施制度利用（学部）,history_social
+DEP0855,SCH0095,共同学科等の名称,history_social
+DEP0856,SCH0096,外国語学部 英米語学科,history_social;english_global
+DEP0857,SCH0096,外国語学部 アジア言語学科,history_social;english_global
+DEP0858,SCH0096,外国語学部 イベロアメリカ言語学科,history_social;english_global
+DEP0859,SCH0096,外国語学部 国際コミュニケーション学科,history_social;english_global
+DEP0860,SCH0096,グローバル・リベラルアーツ学部 グローバル・リベラルアーツ学科,english_global
+DEP0861,SCH0096,共同実施制度利用（学部）,history_social
+DEP0862,SCH0096,共同学科等の名称,history_social
+DEP0863,SCH0097,経済学部 経済学科,business;math_data
+DEP0864,SCH0097,経済学部 経営学科,business;math_data
+DEP0865,SCH0097,共同実施制度利用（学部）,history_social
+DEP0866,SCH0097,共同学科等の名称,history_social
+DEP0867,SCH0098,総合経営学部 企業経営学科,business;math_data
+DEP0868,SCH0098,英語情報マネジメント学部 英語情報マネジメント学科,programming;science;english_global;business;math_data
+DEP0869,SCH0098,学校教師学部 中等教育教員養成課程,edu_psych;history_social
+DEP0870,SCH0098,観光ビジネス学部 観光ビジネス学科,business;math_data
+DEP0871,SCH0098,看護学部 看護学科,medical;science
+DEP0872,SCH0098,共同実施制度利用（学部）,history_social
+DEP0873,SCH0098,共同学科等の名称,history_social
+DEP0874,SCH0099,文学部 国際英語学科,history_social;english_global
+DEP0875,SCH0099,文学部 史学科,history_social
+DEP0876,SCH0099,文学部 心理学科,science;history_social;edu_psych
+DEP0877,SCH0099,文学部 日本文化学科,science;history_social
+DEP0878,SCH0099,教育学部 幼児教育学科,edu_psych;history_social
+DEP0879,SCH0099,教育学部 児童教育学科,edu_psych;history_social
+DEP0880,SCH0099,生活創造学部 生活文化学科,science;history_social
+DEP0881,SCH0099,生活創造学部 観光文化学科,science;history_social;business;math_data
+DEP0882,SCH0099,共同実施制度利用（学部）,history_social
+DEP0883,SCH0099,共同学科等の名称,history_social
+DEP0884,SCH0100,総合情報学部 総合情報学科,programming;science;math_data
+DEP0885,SCH0100,看護学部 看護学科,medical;science
+DEP0886,SCH0100,共同実施制度利用（学部）,history_social
+DEP0887,SCH0100,共同学科等の名称,history_social
+DEP0888,SCH0101,神学部 神学科,history_social
+DEP0889,SCH0101,神学部 国際キリスト教福祉学科,english_global;edu_psych;history_social
+DEP0890,SCH0101,神学部 総合神学科,history_social
+DEP0891,SCH0101,共同実施制度利用（学部）,history_social
+DEP0892,SCH0101,共同学科等の名称,history_social
+DEP0893,SCH0102,児童学部 児童学科,edu_psych;history_social
+DEP0894,SCH0102,教育学部 児童学科,edu_psych;history_social
+DEP0895,SCH0102,教育学部 教育学科,edu_psych;history_social
+DEP0896,SCH0102,心理・福祉学部 心理学科,science;history_social;edu_psych
+DEP0897,SCH0102,心理・福祉学部 社会福祉学科,history_social;edu_psych
+DEP0898,SCH0102,文学部 文学科,history_social
+DEP0899,SCH0102,人間栄養学部 人間栄養学科,science;history_social
+DEP0900,SCH0102,看護学部 看護学科,medical;science
+DEP0901,SCH0102,音楽学部 音楽学科,design_art;music
+DEP0902,SCH0102,共同実施制度利用（学部）,history_social
+DEP0903,SCH0102,共同学科等の名称,history_social
+DEP0904,SCH0103,社会学部 人間心理学科,science;history_social;edu_psych
+DEP0905,SCH0103,社会学部 現代社会学科,history_social
+DEP0906,SCH0103,社会学部 経営社会学科,history_social;business;math_data
+DEP0907,SCH0103,メディアコミュニケーション学部 マス・コミュニケーション学科,programming;math_data
+DEP0908,SCH0103,メディアコミュニケーション学部 情報文化学科,programming;science;history_social;math_data
+DEP0909,SCH0103,メディアコミュニケーション学部 こどもコミュニケーション学科,edu_psych;history_social;programming;math_data
+DEP0910,SCH0103,共同実施制度利用（学部）,history_social
+DEP0911,SCH0103,共同学科等の名称,history_social
+DEP0912,SCH0104,健康科学部 理学療法学科,science;medical;history_social;business
+DEP0913,SCH0104,健康科学部 整復医療・トレーナー学科,medical;science
+DEP0914,SCH0104,健康科学部 看護学科,medical;science
+DEP0915,SCH0104,共同実施制度利用（学部）,history_social
+DEP0916,SCH0104,共同学科等の名称,history_social
+DEP0917,SCH0105,発達教育学部 発達支援教育学科,edu_psych;history_social
+DEP0918,SCH0105,保健医療学部 リハビリテーション学科,medical;science
+DEP0919,SCH0105,共同実施制度利用（学部）,history_social
+DEP0920,SCH0105,共同学科等の名称,history_social
+DEP0921,SCH0106,看護学部 看護学科,medical;science
+DEP0922,SCH0106,共同実施制度利用（学部）,history_social
+DEP0923,SCH0106,共同学科等の名称,history_social
+DEP0924,SCH0107,看護学部 看護学科,medical;science
+DEP0925,SCH0107,共同実施制度利用（学部）,history_social
+DEP0926,SCH0107,共同学科等の名称,history_social
+DEP0927,SCH0108,社会福祉学部 社会福祉学科,history_social;edu_psych
+DEP0928,SCH0108,社会福祉学部 社会福祉学科,history_social;edu_psych
+DEP0929,SCH0108,社会福祉学部 社会福祉学科,history_social;edu_psych
+DEP0930,SCH0108,教育学部 教育学科,edu_psych;history_social
+DEP0931,SCH0108,教育学部 教育学科,edu_psych;history_social
+DEP0932,SCH0108,教育学部 教育学科,edu_psych;history_social
+DEP0933,SCH0108,心理学部 心理学科,science;history_social;edu_psych
+DEP0934,SCH0108,心理学部 心理学科,science;history_social;edu_psych
+DEP0935,SCH0108,心理学部 心理学科,science;history_social;edu_psych
+DEP0936,SCH0108,保育児童学部 保育児童学科,edu_psych;history_social
+DEP0937,SCH0108,保育児童学部 保育児童学科,edu_psych;history_social
+DEP0938,SCH0108,共同実施制度利用（学部）,history_social
+DEP0939,SCH0108,共同学科等の名称,history_social
+DEP0940,SCH0109,文学部 人文学科,history_social
+DEP0941,SCH0109,文学部 現代文化表現学科,history_social
+DEP0942,SCH0109,文学部 コミュニケーション文化学科,science;history_social
+DEP0943,SCH0109,マネジメント学部 マネジメント学科,business;math_data
+DEP0944,SCH0109,マネジメント学部 生活環境マネジメント学科,business;math_data
+DEP0945,SCH0109,観光コミュニティ学部 観光デザイン学科,business;math_data;history_social;design_art
+DEP0946,SCH0109,観光コミュニティ学部 コミュニティデザイン学科,business;math_data;history_social;design_art
+DEP0947,SCH0109,観光コミュニティ学部 まちづくり学科,business;math_data;history_social
+DEP0948,SCH0109,心理学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP0949,SCH0109,共同実施制度利用（学部）,history_social
+DEP0950,SCH0109,共同学科等の名称,history_social
+DEP0951,SCH0110,教育学部 学校教育課程,edu_psych;history_social
+DEP0952,SCH0110,教育学部 発達教育課程,edu_psych;history_social
+DEP0953,SCH0110,教育学部 心理教育課程,history_social;edu_psych
+DEP0954,SCH0110,人間科学部 人間科学科,history_social
+DEP0955,SCH0110,人間科学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP0956,SCH0110,人間科学部 心理学科,science;history_social;edu_psych
+DEP0957,SCH0110,情報学部 情報システム学科,programming;science;math_data
+DEP0958,SCH0110,情報学部 情報社会学科,programming;science;history_social;math_data
+DEP0959,SCH0110,情報学部 メディア表現学科,programming;science;math_data
+DEP0960,SCH0110,文学部 日本語日本文学科,history_social
+DEP0961,SCH0110,文学部 英米語英米文学科,history_social
+DEP0962,SCH0110,文学部 中国語中国文学科,history_social
+DEP0963,SCH0110,文学部 外国語学科,history_social;english_global
+DEP0964,SCH0110,国際学部 国際理解学科,english_global
+DEP0965,SCH0110,国際学部 国際観光学科,english_global;business;math_data
+DEP0966,SCH0110,健康栄養学部 管理栄養学科,medical;science
+DEP0967,SCH0110,経営学部 経営学科,business;math_data
+DEP0968,SCH0110,共同実施制度利用（学部）,history_social
+DEP0969,SCH0110,共同学科等の名称,history_social
+DEP0970,SCH0111,経営学部 経営コミュニケーション学科,business;math_data
+DEP0971,SCH0111,経営学部 マーケティング・デザイン学科,business;math_data;design_art
+DEP0972,SCH0111,人間学部 コミュニケーション社会学科,history_social
+DEP0973,SCH0111,人間学部 児童発達学科,history_social;edu_psych
+DEP0974,SCH0111,人間学部 人間福祉学科,history_social;edu_psych
+DEP0975,SCH0111,人間学部 心理学科,science;history_social;edu_psych
+DEP0976,SCH0111,外国語学部 英語コミュニケーション学科,history_social;english_global
+DEP0977,SCH0111,保健医療技術学部 理学療法学科,science;medical;history_social;business
+DEP0978,SCH0111,保健医療技術学部 作業療法学科,medical;science;history_social;business
+DEP0979,SCH0111,保健医療技術学部 臨床検査学科,medical;science
+DEP0980,SCH0111,保健医療技術学部 看護学科,medical;science
+DEP0981,SCH0111,共同実施制度利用（学部）,history_social
+DEP0982,SCH0111,共同学科等の名称,history_social
+DEP0983,SCH0112,心理学部 心理カウンセリング学科,science;history_social;edu_psych
+DEP0984,SCH0112,人間学部 心理カウンセリング学科,history_social;edu_psych
+DEP0985,SCH0112,人間学部 人間福祉学科,history_social;edu_psych
+DEP0986,SCH0112,人間学部 子ども学科,history_social
+DEP0987,SCH0112,人間学部 児童教育学科,history_social;edu_psych
+DEP0988,SCH0112,社会学部 社会情報学科,programming;science;history_social;math_data
+DEP0989,SCH0112,社会学部 地域社会学科,history_social
+DEP0990,SCH0112,メディア学部 メディア学科,programming;math_data
+DEP0991,SCH0112,経営学部 経営学科,business;math_data
+DEP0992,SCH0112,外国語学部 英米語学科,history_social;english_global
+DEP0993,SCH0112,外国語学部 中国語学科,history_social;english_global
+DEP0994,SCH0112,外国語学部 韓国語学科,history_social;english_global
+DEP0995,SCH0112,外国語学部 日本語・日本語教育学科,history_social;english_global;edu_psych
+DEP0996,SCH0112,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP0997,SCH0112,保健医療学部 作業療法学科,medical;science;history_social;business
+DEP0998,SCH0112,保健医療学部 言語聴覚学科,medical;science;history_social
+DEP0999,SCH0112,看護学部 看護学科,medical;science
+DEP1000,SCH0112,共同実施制度利用（学部）,history_social
+DEP1001,SCH0112,共同学科等の名称,history_social
+DEP1002,SCH0113,国際学部 国際学科,english_global
+DEP1003,SCH0113,応用心理学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP1004,SCH0113,応用心理学部 健康・スポーツ心理学科,science;medical;history_social;edu_psych;sports
+DEP1005,SCH0113,子ども学部 子ども学科,history_social
+DEP1006,SCH0113,経営学部 経営学科,business;math_data
+DEP1007,SCH0113,共同実施制度利用（学部）,history_social
+DEP1008,SCH0113,共同学科等の名称,history_social
+DEP1009,SCH0114,現代経営学部 現代経営学科,business;math_data
+DEP1010,SCH0114,人間科学部 人間科学科,history_social
+DEP1011,SCH0114,グローバル・コミュニケーション学部 グローバル・コミュニケーション学科,english_global
+DEP1012,SCH0114,グローバル・コミュニケーション学部 英語コミュニケーション学科,english_global
+DEP1013,SCH0114,共同実施制度利用（学部）,history_social
+DEP1014,SCH0114,共同学科等の名称,history_social
+DEP1015,SCH0115,人文社会学部 人間文化学科,science;history_social
+DEP1016,SCH0115,人文社会学部 経営学科,history_social;business;math_data
+DEP1017,SCH0115,人文社会学部 児童学科,history_social;edu_psych
+DEP1018,SCH0115,人文社会学部 観光経営学科,history_social;business;math_data
+DEP1019,SCH0115,健康メディカル学部 理学療法学科,science;medical;history_social;business
+DEP1020,SCH0115,健康メディカル学部 作業療法学科,medical;science;history_social;business
+DEP1021,SCH0115,健康メディカル学部 言語聴覚学科,medical;science;history_social
+DEP1022,SCH0115,健康メディカル学部 心理学科,science;medical;history_social;edu_psych
+DEP1023,SCH0115,健康メディカル学部 健康栄養学科,medical;science
+DEP1024,SCH0115,健康メディカル学部 医療科学科,medical;science
+DEP1025,SCH0115,ヒューマンケア学部 看護学科,medical;science
+DEP1026,SCH0115,ヒューマンケア学部 柔道整復学科,history_social
+DEP1027,SCH0115,ヒューマンケア学部 鍼灸学科,history_social
+DEP1028,SCH0115,薬学部 薬学科,medical;science
+DEP1029,SCH0115,健康医療スポーツ学部 理学療法学科,science;medical;history_social;business;sports
+DEP1030,SCH0115,健康医療スポーツ学部 作業療法学科,medical;science;history_social;business;sports
+DEP1031,SCH0115,健康医療スポーツ学部 柔道整復学科,medical;science;sports
+DEP1032,SCH0115,健康医療スポーツ学部 医療スポーツ学科,medical;science;sports
+DEP1033,SCH0115,健康医療スポーツ学部 看護学科,medical;science;sports
+DEP1034,SCH0115,健康医療スポーツ学部 リハビリテーション学科,medical;science;sports
+DEP1035,SCH0115,共同実施制度利用（学部）,history_social
+DEP1036,SCH0115,共同学科等の名称,history_social
+DEP1037,SCH0116,文学部 英米文学科,history_social
+DEP1038,SCH0116,文学部 フランス文学科,history_social
+DEP1039,SCH0116,文学部 日本文学科,history_social
+DEP1040,SCH0116,文学部 史学科,history_social
+DEP1041,SCH0116,文学部 比較芸術学科,history_social;design_art
+DEP1042,SCH0116,教育人間科学部 教育学科,history_social;edu_psych
+DEP1043,SCH0116,教育人間科学部 心理学科,science;history_social;edu_psych
+DEP1044,SCH0116,経済学部 経済学科,business;math_data
+DEP1045,SCH0116,経済学部 現代経済デザイン学科,business;math_data;design_art
+DEP1046,SCH0116,法学部 法学科,history_social;business
+DEP1047,SCH0116,法学部 ヒューマンライツ学科,history_social;business
+DEP1048,SCH0116,経営学部 経営学科,business;math_data
+DEP1049,SCH0116,経営学部 マーケティング学科,business;math_data
+DEP1050,SCH0116,国際政治経済学部 国際政治学科,english_global;history_social;business;math_data
+DEP1051,SCH0116,国際政治経済学部 国際経済学科,english_global;history_social;business;math_data
+DEP1052,SCH0116,国際政治経済学部 国際コミュニケーション学科,english_global;history_social;business;math_data
+DEP1053,SCH0116,総合文化政策学部 総合文化政策学科,history_social;business
+DEP1054,SCH0116,理工学部 物理・数理学科,programming;science;math_data
+DEP1055,SCH0116,理工学部 物理科学科,programming;science
+DEP1056,SCH0116,理工学部 数理サイエンス学科,programming;science;math_data
+DEP1057,SCH0116,理工学部 化学・生命科学科,programming;science
+DEP1058,SCH0116,理工学部 電気電子工学科,programming;science
+DEP1059,SCH0116,理工学部 機械創造工学科,programming;science
+DEP1060,SCH0116,理工学部 経営システム工学科,programming;science;business;math_data
+DEP1061,SCH0116,理工学部 情報テクノロジー学科,programming;science;math_data
+DEP1062,SCH0116,社会情報学部 社会情報学科,programming;science;history_social;math_data
+DEP1063,SCH0116,地球社会共生学部 地球社会共生学科,science;history_social
+DEP1064,SCH0116,コミュニティ人間科学部 コミュニティ人間科学科,history_social
+DEP1065,SCH0116,共同実施制度利用（学部）,history_social
+DEP1066,SCH0116,共同学科等の名称,history_social
+DEP1067,SCH0117,音楽学部 音楽学科,design_art;music
+DEP1068,SCH0117,共同実施制度利用（学部）,history_social
+DEP1069,SCH0117,共同学科等の名称,history_social
+DEP1070,SCH0118,家政学部 被服学科,history_social
+DEP1071,SCH0118,家政学部 食物学科,history_social
+DEP1072,SCH0118,家政学部 児童学科,edu_psych;history_social
+DEP1073,SCH0118,家政学部 ライフデザイン学科,design_art
+DEP1074,SCH0118,文学部 日本文学科,history_social
+DEP1075,SCH0118,文学部 英語英文学科,history_social;english_global
+DEP1076,SCH0118,文学部 コミュニケーション文化学科,science;history_social
+DEP1077,SCH0118,社会情報学部 社会情報学科,programming;science;history_social;math_data
+DEP1078,SCH0118,人間関係学部 人間関係学科,history_social
+DEP1079,SCH0118,人間関係学部 人間福祉学科,history_social;edu_psych
+DEP1080,SCH0118,比較文化学部 比較文化学科,science;history_social
+DEP1081,SCH0118,共同実施制度利用（学部）,history_social
+DEP1082,SCH0118,共同学科等の名称,history_social
+DEP1083,SCH0119,法学部 法学科,history_social;business
+DEP1084,SCH0119,法学部 政治学科,history_social;business
+DEP1085,SCH0119,経済学部 経済学科,business;math_data
+DEP1086,SCH0119,経済学部 経営学科,business;math_data
+DEP1087,SCH0119,文学部 哲学科,history_social
+DEP1088,SCH0119,文学部 史学科,history_social
+DEP1089,SCH0119,文学部 日本語日本文学科,history_social
+DEP1090,SCH0119,文学部 英語英米文化学科,science;history_social;english_global
+DEP1091,SCH0119,文学部 ドイツ語圏文化学科,science;history_social
+DEP1092,SCH0119,文学部 フランス語圏文化学科,science;history_social
+DEP1093,SCH0119,文学部 心理学科,science;history_social;edu_psych
+DEP1094,SCH0119,文学部 教育学科,history_social;edu_psych
+DEP1095,SCH0119,理学部 物理学科,science
+DEP1096,SCH0119,理学部 化学科,science
+DEP1097,SCH0119,理学部 数学科,science
+DEP1098,SCH0119,理学部 生命科学科,science
+DEP1099,SCH0119,国際社会科学部 国際社会科学科,history_social;english_global
+DEP1100,SCH0119,共同実施制度利用（学部）,history_social
+DEP1101,SCH0119,共同学科等の名称,history_social
+DEP1102,SCH0120,薬学部 薬学科,medical;science
+DEP1103,SCH0120,薬学部 生命創薬科学科,medical;science
+DEP1104,SCH0120,獣医学部 獣医学科,medical;science
+DEP1105,SCH0120,獣医学部 動物資源科学科,medical;science
+DEP1106,SCH0120,獣医学部 生物環境科学科,medical;science
+DEP1107,SCH0120,獣医学部 生物環境科学科,medical;science
+DEP1108,SCH0120,医学部 医学科,medical;science
+DEP1109,SCH0120,海洋生命科学部 海洋生命科学科,science
+DEP1110,SCH0120,看護学部 看護学科,medical;science
+DEP1111,SCH0120,理学部 物理学科,science
+DEP1112,SCH0120,理学部 化学科,science
+DEP1113,SCH0120,理学部 生物科学科,science
+DEP1114,SCH0120,医療衛生学部 保健衛生学科,medical;science
+DEP1115,SCH0120,医療衛生学部 医療検査学科,medical;science
+DEP1116,SCH0120,医療衛生学部 医療工学科,programming;science;medical
+DEP1117,SCH0120,医療衛生学部 リハビリテーション学科,medical;science
+DEP1118,SCH0120,未来工学部 データサイエンス学科,programming;science;math_data
+DEP1119,SCH0120,健康科学部 看護学科,medical;science
+DEP1120,SCH0120,健康科学部 医療検査学科,medical;science
+DEP1121,SCH0120,共同実施制度利用（学部）,history_social
+DEP1122,SCH0120,共同学科等の名称,history_social
+DEP1123,SCH0121,家政学部 被服学科,history_social
+DEP1124,SCH0121,家政学部 食物栄養学科,science
+DEP1125,SCH0121,家政学部 建築・デザイン学科,programming;science;design_art
+DEP1126,SCH0121,家政学部 児童学科,edu_psych;history_social
+DEP1127,SCH0121,文芸学部 文芸学科,history_social
+DEP1128,SCH0121,国際学部 国際学科,english_global
+DEP1129,SCH0121,看護学部 看護学科,medical;science
+DEP1130,SCH0121,ビジネス学部 ビジネス学科,business;math_data
+DEP1131,SCH0121,建築・デザイン学部 建築・デザイン学科,programming;science;design_art
+DEP1132,SCH0121,共同実施制度利用（学部）,history_social
+DEP1133,SCH0121,共同学科等の名称,history_social
+DEP1134,SCH0122,文学部 人文社会学科,history_social
+DEP1135,SCH0122,経済学部 経済学科,business;math_data
+DEP1136,SCH0122,法学部 法律学科,history_social;business
+DEP1137,SCH0122,法学部 政治学科,history_social;business
+DEP1138,SCH0122,商学部 商学科,business;math_data
+DEP1139,SCH0122,医学部 医学科,medical;science
+DEP1140,SCH0122,理工学部 機械工学科,programming;science
+DEP1141,SCH0122,理工学部 電気情報工学科,programming;science;math_data
+DEP1142,SCH0122,理工学部 応用化学科,programming;science
+DEP1143,SCH0122,理工学部 物理情報工学科,programming;science;math_data
+DEP1144,SCH0122,理工学部 管理工学科,programming;science
+DEP1145,SCH0122,理工学部 数理科学科,programming;science;math_data
+DEP1146,SCH0122,理工学部 物理学科,programming;science
+DEP1147,SCH0122,理工学部 化学科,programming;science
+DEP1148,SCH0122,理工学部 システムデザイン工学科,programming;science;design_art
+DEP1149,SCH0122,理工学部 情報工学科,programming;science;math_data
+DEP1150,SCH0122,理工学部 生命情報学科,programming;science;math_data
+DEP1151,SCH0122,総合政策学部 総合政策学科,history_social;business
+DEP1152,SCH0122,環境情報学部 環境情報学科,programming;science;math_data
+DEP1153,SCH0122,看護医療学部 看護学科,medical;science
+DEP1154,SCH0122,薬学部 薬学科,medical;science
+DEP1155,SCH0122,薬学部 薬科学科,medical;science
+DEP1156,SCH0122,共同実施制度利用（学部）,history_social
+DEP1157,SCH0122,共同学科等の名称,history_social
+DEP1158,SCH0123,先進工学部 生命化学科,programming;science
+DEP1159,SCH0123,先進工学部 生命化学科,programming;science
+DEP1160,SCH0123,先進工学部 応用化学科,programming;science
+DEP1161,SCH0123,先進工学部 応用化学科,programming;science
+DEP1162,SCH0123,先進工学部 環境化学科,programming;science
+DEP1163,SCH0123,先進工学部 環境化学科,programming;science
+DEP1164,SCH0123,先進工学部 応用物理学科,programming;science
+DEP1165,SCH0123,先進工学部 応用物理学科,programming;science
+DEP1166,SCH0123,先進工学部 機械理工学科,programming;science
+DEP1167,SCH0123,先進工学部 機械理工学科,programming;science
+DEP1168,SCH0123,工学部 機械工学科,programming;science
+DEP1169,SCH0123,工学部 機械工学科,programming;science
+DEP1170,SCH0123,工学部 機械システム工学科,programming;science
+DEP1171,SCH0123,工学部 機械システム工学科,programming;science
+DEP1172,SCH0123,工学部 電気電子工学科,programming;science
+DEP1173,SCH0123,工学部 電気電子工学科,programming;science
+DEP1174,SCH0123,建築学部 まちづくり学科,programming;science
+DEP1175,SCH0123,建築学部 まちづくり学科,programming;science
+DEP1176,SCH0123,建築学部 建築学科,programming;science
+DEP1177,SCH0123,建築学部 建築学科,programming;science
+DEP1178,SCH0123,建築学部 建築デザイン学科,programming;science;design_art
+DEP1179,SCH0123,建築学部 建築デザイン学科,programming;science;design_art
+DEP1180,SCH0123,情報学部 情報通信工学科,programming;science;math_data
+DEP1181,SCH0123,情報学部 情報通信工学科,programming;science;math_data
+DEP1182,SCH0123,情報学部 コンピュータ科学科,programming;science;math_data
+DEP1183,SCH0123,情報学部 コンピュータ科学科,programming;science;math_data
+DEP1184,SCH0123,情報学部 情報デザイン学科,programming;science;math_data;design_art
+DEP1185,SCH0123,情報学部 情報デザイン学科,programming;science;math_data;design_art
+DEP1186,SCH0123,情報学部 システム数理学科,programming;science;math_data
+DEP1187,SCH0123,情報学部 システム数理学科,programming;science;math_data
+DEP1188,SCH0123,情報学部 情報科学科,programming;science;math_data
+DEP1189,SCH0123,情報学部 情報科学科,programming;science;math_data
+DEP1190,SCH0123,共同実施制度利用（学部）,history_social
+DEP1191,SCH0123,共同学科等の名称,history_social
+DEP1192,SCH0124,文学部 哲学科,history_social
+DEP1193,SCH0124,文学部 史学科,history_social
+DEP1194,SCH0124,文学部 日本文学科,history_social
+DEP1195,SCH0124,文学部 中国文学科,history_social
+DEP1196,SCH0124,文学部 外国語文化学科,science;history_social;english_global
+DEP1197,SCH0124,経済学部 経済学科,business;math_data
+DEP1198,SCH0124,経済学部 経営学科,business;math_data
+DEP1199,SCH0124,法学部 法律学科,history_social;business
+DEP1200,SCH0124,神道文化学部 神道文化学科,science;history_social
+DEP1201,SCH0124,人間開発学部 初等教育学科,history_social;edu_psych
+DEP1202,SCH0124,人間開発学部 健康体育学科,medical;science;history_social;sports
+DEP1203,SCH0124,人間開発学部 子ども支援学科,history_social
+DEP1204,SCH0124,観光まちづくり学部 観光まちづくり学科,business;math_data
+DEP1205,SCH0124,共同実施制度利用（学部）,history_social
+DEP1206,SCH0124,共同学科等の名称,history_social
+DEP1207,SCH0125,政経学部 政治行政学科,history_social;business
+DEP1208,SCH0125,政経学部 経済学科,business;math_data
+DEP1209,SCH0125,体育学部 体育学科,sports
+DEP1210,SCH0125,体育学部 武道学科,sports
+DEP1211,SCH0125,体育学部 スポーツ医科学科,medical;science;sports
+DEP1212,SCH0125,体育学部 こどもスポーツ教育学科,edu_psych;history_social;sports
+DEP1213,SCH0125,理工学部 理工学科,programming;science
+DEP1214,SCH0125,法学部 法律学科,history_social;business
+DEP1215,SCH0125,法学部 現代ビジネス法学科,history_social;business;math_data
+DEP1216,SCH0125,文学部 教育学科,history_social;edu_psych
+DEP1217,SCH0125,文学部 史学地理学科,science;history_social
+DEP1218,SCH0125,文学部 文学科,history_social
+DEP1219,SCH0125,21世紀アジア学部 21世紀アジア学科,history_social
+DEP1220,SCH0125,経営学部 経営学科,business;math_data
+DEP1221,SCH0125,共同実施制度利用（学部）,history_social
+DEP1222,SCH0125,共同学科等の名称,history_social
+DEP1223,SCH0126,仏教学部 禅学科,history_social
+DEP1224,SCH0126,仏教学部 仏教学科,history_social
+DEP1225,SCH0126,文学部 国文学科,history_social
+DEP1226,SCH0126,文学部 英米文学科,history_social
+DEP1227,SCH0126,文学部 地理学科,science;history_social
+DEP1228,SCH0126,文学部 歴史学科,history_social
+DEP1229,SCH0126,文学部 社会学科,history_social
+DEP1230,SCH0126,文学部 心理学科,science;history_social;edu_psych
+DEP1231,SCH0126,経済学部 経済学科,business;math_data
+DEP1232,SCH0126,経済学部 商学科,business;math_data
+DEP1233,SCH0126,経済学部 現代応用経済学科,business;math_data
+DEP1234,SCH0126,法学部 法律学科,history_social;business
+DEP1235,SCH0126,法学部 政治学科,history_social;business
+DEP1236,SCH0126,経営学部 経営学科,business;math_data
+DEP1237,SCH0126,経営学部 市場戦略学科,business;math_data
+DEP1238,SCH0126,医療健康科学部 診療放射線技術科学科,medical;science
+DEP1239,SCH0126,グローバル・メディア・スタディーズ学部 グローバル・メディア学科,english_global;programming;math_data
+DEP1240,SCH0126,共同実施制度利用（学部）,history_social
+DEP1241,SCH0126,共同学科等の名称,history_social
+DEP1242,SCH0127,文学部 国文学科,history_social
+DEP1243,SCH0127,文学部 英文学科,history_social
+DEP1244,SCH0127,文学部 美学美術史学科,history_social;design_art
+DEP1245,SCH0127,生活科学部 食生活科学科,history_social
+DEP1246,SCH0127,生活科学部 生活環境学科,history_social
+DEP1247,SCH0127,生活科学部 生活文化学科,science;history_social
+DEP1248,SCH0127,生活科学部 現代生活学科,history_social
+DEP1249,SCH0127,人間社会学部 人間社会学科,history_social
+DEP1250,SCH0127,人間社会学部 現代社会学科,history_social
+DEP1251,SCH0127,人間社会学部 ビジネス社会学科,history_social;business;math_data
+DEP1252,SCH0127,人間社会学部 社会デザイン学科,history_social;design_art
+DEP1253,SCH0127,国際学部 国際学科,english_global
+DEP1254,SCH0127,共同実施制度利用（学部）,history_social
+DEP1255,SCH0127,共同学科等の名称,history_social
+DEP1256,SCH0128,工学部 機械工学科,programming;science
+DEP1257,SCH0128,工学部 機械機能工学科,programming;science
+DEP1258,SCH0128,工学部 材料工学科,programming;science
+DEP1259,SCH0128,工学部 応用化学科,programming;science
+DEP1260,SCH0128,工学部 電気工学科,programming;science
+DEP1261,SCH0128,工学部 情報通信工学科,programming;science;math_data
+DEP1262,SCH0128,工学部 電子工学科,programming;science
+DEP1263,SCH0128,工学部 土木工学科,programming;science
+DEP1264,SCH0128,工学部 情報工学科,programming;science;math_data
+DEP1265,SCH0128,工学部 先進国際課程,programming;science;english_global
+DEP1266,SCH0128,工学部 機械工学課程,programming;science
+DEP1267,SCH0128,工学部 物質化学課程,programming;science
+DEP1268,SCH0128,工学部 電気電子工学課程,programming;science
+DEP1269,SCH0128,工学部 情報・通信工学課程,programming;science;math_data
+DEP1270,SCH0128,工学部 土木工学課程,programming;science
+DEP1271,SCH0128,システム理工学部 電子情報システム学科,programming;science;math_data
+DEP1272,SCH0128,システム理工学部 機械制御システム学科,programming;science
+DEP1273,SCH0128,システム理工学部 環境システム学科,programming;science
+DEP1274,SCH0128,システム理工学部 生命科学科,programming;science
+DEP1275,SCH0128,システム理工学部 数理科学科,programming;science;math_data
+DEP1276,SCH0128,デザイン工学部 デザイン工学科,programming;science;design_art
+DEP1277,SCH0128,建築学部 建築学科,programming;science
+DEP1278,SCH0128,共同実施制度利用（学部）,history_social
+DEP1279,SCH0128,共同学科等の名称,history_social
+DEP1280,SCH0129,医学部 医学科,medical;science
+DEP1281,SCH0129,スポーツ健康科学部 スポーツ科学科,medical;science;sports
+DEP1282,SCH0129,スポーツ健康科学部 スポーツマネジメント学科,medical;science;business;math_data;sports
+DEP1283,SCH0129,スポーツ健康科学部 健康学科,medical;science;sports
+DEP1284,SCH0129,スポーツ健康科学部 スポーツ健康科学科,medical;science;sports
+DEP1285,SCH0129,医療看護学部 看護学科,medical;science
+DEP1286,SCH0129,保健看護学部 看護学科,medical;science
+DEP1287,SCH0129,国際教養学部 国際教養学科,history_social;english_global
+DEP1288,SCH0129,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP1289,SCH0129,保健医療学部 診療放射線学科,medical;science
+DEP1290,SCH0129,医療科学部 臨床検査学科,medical;science
+DEP1291,SCH0129,医療科学部 臨床工学科,programming;science;medical
+DEP1292,SCH0129,健康データサイエンス学部 健康データサイエンス学科,programming;science;medical;math_data
+DEP1293,SCH0129,薬学部 薬学科,medical;science
+DEP1294,SCH0129,共同実施制度利用（学部）,history_social
+DEP1295,SCH0129,共同学科等の名称,history_social
+DEP1296,SCH0130,神学部 神学科,history_social
+DEP1297,SCH0130,文学部 哲学科,history_social
+DEP1298,SCH0130,文学部 史学科,history_social
+DEP1299,SCH0130,文学部 国文学科,history_social
+DEP1300,SCH0130,文学部 英文学科,history_social
+DEP1301,SCH0130,文学部 ドイツ文学科,history_social
+DEP1302,SCH0130,文学部 フランス文学科,history_social
+DEP1303,SCH0130,文学部 新聞学科,history_social
+DEP1304,SCH0130,総合人間科学部 教育学科,history_social;edu_psych
+DEP1305,SCH0130,総合人間科学部 心理学科,science;history_social;edu_psych
+DEP1306,SCH0130,総合人間科学部 社会学科,history_social;edu_psych
+DEP1307,SCH0130,総合人間科学部 社会福祉学科,history_social;edu_psych
+DEP1308,SCH0130,総合人間科学部 看護学科,medical;science;history_social;edu_psych
+DEP1309,SCH0130,法学部 法律学科,history_social;business
+DEP1310,SCH0130,法学部 国際関係法学科,english_global;history_social;business
+DEP1311,SCH0130,法学部 地球環境法学科,science;history_social;business
+DEP1312,SCH0130,経済学部 経済学科,business;math_data
+DEP1313,SCH0130,経済学部 経営学科,business;math_data
+DEP1314,SCH0130,外国語学部 英語学科,history_social;english_global
+DEP1315,SCH0130,外国語学部 ドイツ語学科,history_social;english_global
+DEP1316,SCH0130,外国語学部 フランス語学科,history_social;english_global
+DEP1317,SCH0130,外国語学部 イスパニア語学科,history_social;english_global
+DEP1318,SCH0130,外国語学部 ロシア語学科,history_social;english_global
+DEP1319,SCH0130,外国語学部 ポルトガル語学科,history_social;english_global
+DEP1320,SCH0130,総合グローバル学部 総合グローバル学科,english_global
+DEP1321,SCH0130,国際教養学部 国際教養学科,history_social;english_global
+DEP1322,SCH0130,理工学部 物質生命理工学科,programming;science
+DEP1323,SCH0130,理工学部 機能創造理工学科,programming;science
+DEP1324,SCH0130,理工学部 情報理工学科,programming;science;math_data
+DEP1325,SCH0130,共同実施制度利用（学部）,history_social
+DEP1326,SCH0130,共同学科等の名称,history_social
+DEP1327,SCH0131,医学部 医学科,medical;science
+DEP1328,SCH0131,歯学部 歯学科,medical;science
+DEP1329,SCH0131,薬学部 薬学科,medical;science
+DEP1330,SCH0131,保健医療学部 看護学科,medical;science
+DEP1331,SCH0131,保健医療学部 理学療法学科,science;medical;history_social;business
+DEP1332,SCH0131,保健医療学部 作業療法学科,medical;science;history_social;business
+DEP1333,SCH0131,保健医療学部 リハビリテーション学科,medical;science
+DEP1334,SCH0131,共同実施制度利用（学部）,history_social
+DEP1335,SCH0131,共同学科等の名称,history_social
+DEP1336,SCH0132,人間文化学部 日本語日本文学科,science;history_social
+DEP1337,SCH0132,人間文化学部 歴史文化学科,science;history_social
+DEP1338,SCH0132,国際学部 英語コミュニケーション学科,english_global
+DEP1339,SCH0132,国際学部 国際学科,english_global
+DEP1340,SCH0132,グローバルビジネス学部 ビジネスデザイン学科,english_global;business;math_data;design_art
+DEP1341,SCH0132,グローバルビジネス学部 会計ファイナンス学科,english_global;business;math_data
+DEP1342,SCH0132,人間社会学部 心理学科,science;history_social;edu_psych
+DEP1343,SCH0132,人間社会学部 福祉社会学科,history_social;edu_psych
+DEP1344,SCH0132,人間社会学部 現代教養学科,history_social
+DEP1345,SCH0132,人間社会学部 初等教育学科,history_social;edu_psych
+DEP1346,SCH0132,環境デザイン学部 環境デザイン学科,design_art
+DEP1347,SCH0132,生活科学部 環境デザイン学科,design_art
+DEP1348,SCH0132,食健康科学部 健康デザイン学科,medical;science;design_art
+DEP1349,SCH0132,食健康科学部 管理栄養学科,medical;science
+DEP1350,SCH0132,食健康科学部 食安全マネジメント学科,medical;science;business;math_data
+DEP1351,SCH0132,共同実施制度利用（学部）,history_social
+DEP1352,SCH0132,共同学科等の名称,history_social
+DEP1353,SCH0133,薬学部 薬学科,medical;science
+DEP1354,SCH0133,共同実施制度利用（学部）,history_social
+DEP1355,SCH0133,共同学科等の名称,history_social
+DEP1356,SCH0134,芸術学部 美術学科,design_art
+DEP1357,SCH0134,芸術学部 デザイン・工芸学科,design_art
+DEP1358,SCH0134,芸術学部 アート・デザイン表現学科,design_art
+DEP1359,SCH0134,芸術学部 共創デザイン学科,design_art
+DEP1360,SCH0134,共同実施制度利用（学部）,history_social
+DEP1361,SCH0134,共同学科等の名称,history_social
+DEP1362,SCH0135,服飾学部 服飾学科,history_social
+DEP1363,SCH0135,服飾学部 服飾表現学科,history_social
+DEP1364,SCH0135,服飾学部 服飾文化学科,science;history_social
+DEP1365,SCH0135,共同実施制度利用（学部）,history_social
+DEP1366,SCH0135,共同学科等の名称,history_social
+DEP1367,SCH0136,経済学部 経済学科,business;math_data
+DEP1368,SCH0136,経済学部 経営学科,business;math_data
+DEP1369,SCH0136,文芸学部 文化史学科,history_social
+DEP1370,SCH0136,文芸学部 国文学科,history_social
+DEP1371,SCH0136,文芸学部 英文学科,history_social
+DEP1372,SCH0136,文芸学部 芸術学科,design_art
+DEP1373,SCH0136,文芸学部 マスコミュニケーション学科,history_social
+DEP1374,SCH0136,文芸学部 ヨーロッパ文化学科,science;history_social
+DEP1375,SCH0136,法学部 法律学科,history_social;business
+DEP1376,SCH0136,社会イノベーション学部 政策イノベーション学科,history_social;business
+DEP1377,SCH0136,社会イノベーション学部 心理社会学科,history_social;edu_psych
+DEP1378,SCH0136,共同実施制度利用（学部）,history_social
+DEP1379,SCH0136,共同学科等の名称,history_social
+DEP1380,SCH0137,現代教養学部 英語文化コミュニケーション学科,history_social;english_global
+DEP1381,SCH0137,現代教養学部 日本語日本文学科,history_social
+DEP1382,SCH0137,現代教養学部 哲学科,history_social
+DEP1383,SCH0137,現代教養学部 史学科,history_social
+DEP1384,SCH0137,現代教養学部 人間関係学科,history_social
+DEP1385,SCH0137,現代教養学部 国際交流学科,history_social;english_global
+DEP1386,SCH0137,現代教養学部 心理学科,science;history_social;edu_psych
+DEP1387,SCH0137,現代教養学部 教育学科,history_social;edu_psych
+DEP1388,SCH0137,共同実施制度利用（学部）,history_social
+DEP1389,SCH0137,共同学科等の名称,history_social
+DEP1390,SCH0138,文学部 日本語日本文学科,history_social
+DEP1391,SCH0138,文学部 英語英文学科,history_social;english_global
+DEP1392,SCH0138,文学部 スペイン語スペイン文学科,history_social
+DEP1393,SCH0138,文学部 文化史学科,history_social
+DEP1394,SCH0138,文学部 地球市民学科,science;history_social
+DEP1395,SCH0138,共同実施制度利用（学部）,history_social
+DEP1396,SCH0138,共同学科等の名称,history_social
+DEP1397,SCH0139,看護学部 看護学科,medical;science
+DEP1398,SCH0139,共同実施制度利用（学部）,history_social
+DEP1399,SCH0139,共同学科等の名称,history_social
+DEP1400,SCH0140,経済学部 現代経済学科,business;math_data
+DEP1401,SCH0140,経済学部 生活環境経済学科,business;math_data
+DEP1402,SCH0140,経済学部 国際経済学科,english_global;business;math_data
+DEP1403,SCH0140,経済学部 経済学科,business;math_data
+DEP1404,SCH0140,経済学部二部 経済学科,business;math_data
+DEP1405,SCH0140,法学部 法律学科,history_social;business
+DEP1406,SCH0140,法学部 政治学科,history_social;business
+DEP1407,SCH0140,法学部二部 法律学科,history_social;business
+DEP1408,SCH0140,経営学部 経営学科,business;math_data
+DEP1409,SCH0140,経営学部 ビジネスデザイン学科,business;math_data;design_art
+DEP1410,SCH0140,商学部 マーケティング学科,business;math_data
+DEP1411,SCH0140,商学部 会計学科,business;math_data
+DEP1412,SCH0140,商学部二部 マーケティング学科,business;math_data
+DEP1413,SCH0140,文学部 日本文学文化学科,science;history_social
+DEP1414,SCH0140,文学部 英語英米文学科,history_social;english_global
+DEP1415,SCH0140,文学部 哲学科,history_social
+DEP1416,SCH0140,文学部 歴史学科,history_social
+DEP1417,SCH0140,文学部 環境地理学科,science;history_social
+DEP1418,SCH0140,文学部 ジャーナリズム学科,history_social
+DEP1419,SCH0140,文学部 日本語学科,history_social;english_global
+DEP1420,SCH0140,文学部 人文・ジャーナリズム学科,history_social
+DEP1421,SCH0140,ネットワーク情報学部 ネットワーク情報学科,programming;science;math_data
+DEP1422,SCH0140,人間科学部 心理学科,science;history_social;edu_psych
+DEP1423,SCH0140,人間科学部 社会学科,history_social
+DEP1424,SCH0140,国際コミュニケーション学部 日本語学科,history_social;english_global
+DEP1425,SCH0140,国際コミュニケーション学部 異文化コミュニケーション学科,history_social;english_global
+DEP1426,SCH0140,共同実施制度利用（学部）,history_social
+DEP1427,SCH0140,共同学科等の名称,history_social
+DEP1428,SCH0141,仏教学部 仏教学科,history_social
+DEP1429,SCH0141,人間学部 人間科学科,history_social
+DEP1430,SCH0141,人間学部 社会福祉学科,history_social;edu_psych
+DEP1431,SCH0141,心理社会学部 人間科学科,history_social;edu_psych
+DEP1432,SCH0141,心理社会学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP1433,SCH0141,文学部 人文学科,history_social
+DEP1434,SCH0141,文学部 日本文学科,history_social
+DEP1435,SCH0141,文学部 歴史学科,history_social
+DEP1436,SCH0141,表現学部 表現文化学科,science;history_social
+DEP1437,SCH0141,表現学部 メディア表現学科,programming;math_data
+DEP1438,SCH0141,地域創生学部 地域創生学科,history_social
+DEP1439,SCH0141,社会共生学部 公共政策学科,history_social;business
+DEP1440,SCH0141,社会共生学部 社会福祉学科,history_social;edu_psych
+DEP1441,SCH0141,臨床心理学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP1442,SCH0141,地域創生学部 公共政策学科,history_social;business
+DEP1443,SCH0141,共同実施制度利用（学部）,history_social
+DEP1444,SCH0141,共同学科等の名称,history_social
+DEP1445,SCH0142,文学部 日本文学科,history_social
+DEP1446,SCH0142,文学部 中国文学科,history_social
+DEP1447,SCH0142,文学部 英米文学科,history_social
+DEP1448,SCH0142,文学部 教育学科,history_social;edu_psych
+DEP1449,SCH0142,文学部 書道学科,history_social
+DEP1450,SCH0142,文学部 歴史文化学科,science;history_social
+DEP1451,SCH0142,経済学部 社会経済学科,history_social;business;math_data
+DEP1452,SCH0142,経済学部 現代経済学科,business;math_data
+DEP1453,SCH0142,外国語学部 中国語学科,history_social;english_global
+DEP1454,SCH0142,外国語学部 英語学科,history_social;english_global
+DEP1455,SCH0142,外国語学部 日本語学科,history_social;english_global
+DEP1456,SCH0142,法学部 法律学科,history_social;business
+DEP1457,SCH0142,法学部 政治学科,history_social;business
+DEP1458,SCH0142,国際関係学部 国際関係学科,english_global
+DEP1459,SCH0142,国際関係学部 国際文化学科,science;history_social;english_global
+DEP1460,SCH0142,経営学部 経営学科,business;math_data
+DEP1461,SCH0142,スポーツ・健康科学部 スポーツ科学科,medical;science;sports
+DEP1462,SCH0142,スポーツ・健康科学部 健康科学科,medical;science;sports
+DEP1463,SCH0142,スポーツ・健康科学部 看護学科,medical;science;sports
+DEP1464,SCH0142,社会学部 社会学科,history_social
+DEP1465,SCH0142,共同実施制度利用（学部）,history_social
+DEP1466,SCH0142,共同学科等の名称,history_social
+DEP1467,SCH0143,商学部 商学科,business;math_data
+DEP1468,SCH0143,経営学部 経営学科,business;math_data
+DEP1469,SCH0143,人間科学部 人間科学科,history_social
+DEP1470,SCH0143,共同実施制度利用（学部）,history_social
+DEP1471,SCH0143,共同学科等の名称,history_social
+DEP1472,SCH0144,商学部 経営学科,business;math_data
+DEP1473,SCH0144,商学部 国際ビジネス学科,english_global;business;math_data
+DEP1474,SCH0144,商学部 会計学科,business;math_data
+DEP1475,SCH0144,政経学部 法律政治学科,history_social;business
+DEP1476,SCH0144,政経学部 経済学科,business;math_data
+DEP1477,SCH0144,外国語学部 英米語学科,history_social;english_global
+DEP1478,SCH0144,外国語学部 中国語学科,history_social;english_global
+DEP1479,SCH0144,外国語学部 スペイン語学科,history_social;english_global
+DEP1480,SCH0144,外国語学部 国際日本語学科,history_social;english_global
+DEP1481,SCH0144,工学部 機械システム工学科,programming;science
+DEP1482,SCH0144,工学部 電子システム工学科,programming;science
+DEP1483,SCH0144,工学部 情報工学科,programming;science;math_data
+DEP1484,SCH0144,工学部 デザイン学科,programming;science;design_art
+DEP1485,SCH0144,国際学部 国際学科,english_global
+DEP1486,SCH0144,共同実施制度利用（学部）,history_social
+DEP1487,SCH0144,共同学科等の名称,history_social
+DEP1488,SCH0145,美術学部 絵画学科,design_art
+DEP1489,SCH0145,美術学部 彫刻学科,design_art
+DEP1490,SCH0145,美術学部 グラフィックデザイン学科,design_art
+DEP1491,SCH0145,美術学部 情報デザイン学科,programming;science;math_data;design_art
+DEP1492,SCH0145,美術学部 環境デザイン学科,design_art
+DEP1493,SCH0145,美術学部 建築・環境デザイン学科,programming;science;design_art
+DEP1494,SCH0145,美術学部 生産デザイン学科,design_art
+DEP1495,SCH0145,美術学部 工芸学科,design_art
+DEP1496,SCH0145,美術学部 芸術学科,design_art
+DEP1497,SCH0145,美術学部 統合デザイン学科,design_art
+DEP1498,SCH0145,美術学部 演劇舞踊デザイン学科,design_art
+DEP1499,SCH0145,共同実施制度利用（学部）,history_social
+DEP1500,SCH0145,共同学科等の名称,history_social
+DEP1501,SCH0146,法学部 法律学科,history_social;business
+DEP1502,SCH0146,法学部 国際企業関係法学科,english_global;history_social;business
+DEP1503,SCH0146,法学部 政治学科,history_social;business
+DEP1504,SCH0146,経済学部 経済学科,business;math_data
+DEP1505,SCH0146,経済学部 経済情報システム学科,programming;science;business;math_data
+DEP1506,SCH0146,経済学部 国際経済学科,english_global;business;math_data
+DEP1507,SCH0146,経済学部 公共・環境経済学科,business;math_data
+DEP1508,SCH0146,商学部 経営学科,business;math_data
+DEP1509,SCH0146,商学部 会計学科,business;math_data
+DEP1510,SCH0146,商学部 国際マーケティング学科,english_global;business;math_data
+DEP1511,SCH0146,商学部 金融学科,business;math_data
+DEP1512,SCH0146,理工学部 数学科,programming;science
+DEP1513,SCH0146,理工学部 物理学科,programming;science
+DEP1514,SCH0146,理工学部 都市環境学科,programming;science
+DEP1515,SCH0146,理工学部 精密機械工学科,programming;science
+DEP1516,SCH0146,理工学部 電気電子情報通信工学科,programming;science;math_data
+DEP1517,SCH0146,理工学部 応用化学科,programming;science
+DEP1518,SCH0146,理工学部 ビジネスデータサイエンス学科,programming;science;business;math_data
+DEP1519,SCH0146,理工学部 情報工学科,programming;science;math_data
+DEP1520,SCH0146,理工学部 生命科学科,programming;science
+DEP1521,SCH0146,理工学部 人間総合理工学科,programming;science;history_social
+DEP1522,SCH0146,文学部 人文社会学科,history_social
+DEP1523,SCH0146,総合政策学部 政策科学科,history_social;business
+DEP1524,SCH0146,総合政策学部 国際政策文化学科,science;history_social;english_global;business
+DEP1525,SCH0146,国際経営学部 国際経営学科,english_global;business;math_data
+DEP1526,SCH0146,国際情報学部 国際情報学科,programming;science;english_global;math_data
+DEP1527,SCH0146,共同実施制度利用（学部）,history_social
+DEP1528,SCH0146,共同学科等の名称,history_social
+DEP1529,SCH0147,文学部 文明学科,history_social
+DEP1530,SCH0147,文学部 歴史学科,history_social
+DEP1531,SCH0147,文学部 日本文学科,history_social
+DEP1532,SCH0147,文学部 英語文化コミュニケーション学科,history_social;english_global
+DEP1533,SCH0147,文化社会学部 アジア学科,history_social
+DEP1534,SCH0147,文化社会学部 ヨーロッパ・アメリカ学科,history_social
+DEP1535,SCH0147,文化社会学部 北欧学科,history_social
+DEP1536,SCH0147,文化社会学部 文芸創作学科,history_social
+DEP1537,SCH0147,文化社会学部 広報メディア学科,history_social;programming;math_data
+DEP1538,SCH0147,文化社会学部 心理・社会学科,history_social;edu_psych
+DEP1539,SCH0147,政治経済学部 政治学科,history_social;business;math_data
+DEP1540,SCH0147,政治経済学部 経済学科,history_social;business;math_data
+DEP1541,SCH0147,政治経済学部 経営学科,history_social;business;math_data
+DEP1542,SCH0147,法学部 法律学科,history_social;business
+DEP1543,SCH0147,教養学部 人間環境学科,history_social
+DEP1544,SCH0147,教養学部 芸術学科,history_social;design_art
+DEP1545,SCH0147,教養学部 国際学科,history_social;english_global
+DEP1546,SCH0147,体育学部 体育学科,sports
+DEP1547,SCH0147,体育学部 競技スポーツ学科,sports
+DEP1548,SCH0147,体育学部 武道学科,sports
+DEP1549,SCH0147,体育学部 生涯スポーツ学科,sports
+DEP1550,SCH0147,体育学部 スポーツ・レジャーマネジメント学科,business;math_data;sports
+DEP1551,SCH0147,健康学部 健康マネジメント学科,medical;science;business;math_data
+DEP1552,SCH0147,理学部 数学科,science
+DEP1553,SCH0147,理学部 情報数理学科,programming;science;math_data
+DEP1554,SCH0147,理学部 物理学科,science
+DEP1555,SCH0147,理学部 化学科,science
+DEP1556,SCH0147,情報理工学部 情報科学科,programming;science;math_data
+DEP1557,SCH0147,情報理工学部 コンピュータ応用工学科,programming;science;math_data
+DEP1558,SCH0147,工学部 生命化学科,programming;science
+DEP1559,SCH0147,工学部 応用化学科,programming;science
+DEP1560,SCH0147,工学部 光・画像工学科,programming;science
+DEP1561,SCH0147,工学部 原子力工学科,programming;science
+DEP1562,SCH0147,工学部 電気電子工学科,programming;science
+DEP1563,SCH0147,工学部 材料科学科,programming;science
+DEP1564,SCH0147,工学部 建築学科,programming;science
+DEP1565,SCH0147,工学部 土木工学科,programming;science
+DEP1566,SCH0147,工学部 精密工学科,programming;science
+DEP1567,SCH0147,工学部 機械工学科,programming;science
+DEP1568,SCH0147,工学部 動力機械工学科,programming;science
+DEP1569,SCH0147,工学部 航空宇宙学科,programming;science
+DEP1570,SCH0147,工学部 医用生体工学科,programming;science
+DEP1571,SCH0147,観光学部 観光学科,business;math_data
+DEP1572,SCH0147,情報通信学部 情報メディア学科,programming;science;math_data
+DEP1573,SCH0147,情報通信学部 組込みソフトウェア工学科,programming;science;math_data
+DEP1574,SCH0147,情報通信学部 経営システム工学科,programming;science;business;math_data
+DEP1575,SCH0147,情報通信学部 通信ネットワーク工学科,programming;science;math_data
+DEP1576,SCH0147,海洋学部 海洋文明学科,science
+DEP1577,SCH0147,海洋学部 環境社会学科,science;history_social
+DEP1578,SCH0147,海洋学部 海洋地球科学科,science
+DEP1579,SCH0147,海洋学部 水産学科,science
+DEP1580,SCH0147,海洋学部 海洋生物学科,science
+DEP1581,SCH0147,海洋学部 航海工学科,programming;science
+DEP1582,SCH0147,医学部 医学科,medical;science
+DEP1583,SCH0147,医学部 看護学科,medical;science
+DEP1584,SCH0147,経営学部 経営学科,business;math_data
+DEP1585,SCH0147,経営学部 観光ビジネス学科,business;math_data
+DEP1586,SCH0147,基盤工学部 電気電子情報工学科,programming;science;math_data
+DEP1587,SCH0147,基盤工学部 医療福祉工学科,programming;science;medical;edu_psych;history_social
+DEP1588,SCH0147,農学部 応用植物科学科,science
+DEP1589,SCH0147,農学部 応用動物科学科,science
+DEP1590,SCH0147,農学部 バイオサイエンス学科,science
+DEP1591,SCH0147,国際文化学部 地域創造学科,science;history_social;english_global
+DEP1592,SCH0147,国際文化学部 国際コミュニケーション学科,science;history_social;english_global
+DEP1593,SCH0147,国際文化学部 デザイン文化学科,science;history_social;english_global;design_art
+DEP1594,SCH0147,生物学部 生物学科,science
+DEP1595,SCH0147,生物学部 海洋生物科学科,science
+DEP1596,SCH0147,児童教育学部 児童教育学科,edu_psych;history_social
+DEP1597,SCH0147,経営学部 経営学科,business;math_data
+DEP1598,SCH0147,国際学部 国際学科,english_global
+DEP1599,SCH0147,建築都市学部 建築学科,programming;science
+DEP1600,SCH0147,建築都市学部 土木工学科,programming;science
+DEP1601,SCH0147,人文学部 人文学科,history_social
+DEP1602,SCH0147,文理融合学部 経営学科,business;math_data
+DEP1603,SCH0147,文理融合学部 地域社会学科,history_social
+DEP1604,SCH0147,文理融合学部 人間情報工学科,programming;science;history_social;math_data
+DEP1605,SCH0147,情報通信学部 情報通信学科,programming;science;math_data
+DEP1606,SCH0147,情報理工学部 情報メディア学科,programming;science;math_data
+DEP1607,SCH0147,工学部 機械システム工学科,programming;science
+DEP1608,SCH0147,工学部 医工学科,programming;science
+DEP1609,SCH0147,工学部 生物工学科,programming;science
+DEP1610,SCH0147,海洋学部 海洋理工学科,programming;science
+DEP1611,SCH0147,農学部 農学科,science
+DEP1612,SCH0147,農学部 動物科学科,science
+DEP1613,SCH0147,農学部 食生命科学科,science
+DEP1614,SCH0147,共同実施制度利用（学部）,history_social
+DEP1615,SCH0147,共同学科等の名称,history_social
+DEP1616,SCH0148,医学部 医学科,medical;science
+DEP1617,SCH0148,医学部 看護学科,medical;science
+DEP1618,SCH0148,共同実施制度利用（学部）,history_social
+DEP1619,SCH0148,共同学科等の名称,history_social
+DEP1620,SCH0149,家政学部 児童学科,edu_psych;history_social
+DEP1621,SCH0149,家政学部 児童教育学科,edu_psych;history_social
+DEP1622,SCH0149,家政学部 栄養学科,science
+DEP1623,SCH0149,家政学部 服飾美術学科,design_art
+DEP1624,SCH0149,家政学部 環境教育学科,edu_psych;history_social
+DEP1625,SCH0149,家政学部 環境共生学科,history_social
+DEP1626,SCH0149,家政学部 造形表現学科,design_art
+DEP1627,SCH0149,人文学部 英語コミュニケーション学科,history_social;english_global
+DEP1628,SCH0149,人文学部 心理カウンセリング学科,history_social;edu_psych
+DEP1629,SCH0149,人文学部 教育福祉学科,history_social;edu_psych
+DEP1630,SCH0149,健康科学部 看護学科,medical;science
+DEP1631,SCH0149,健康科学部 リハビリテーション学科,medical;science
+DEP1632,SCH0149,子ども学部 子ども支援学科,history_social
+DEP1633,SCH0149,子ども支援学部 子ども支援学科,history_social
+DEP1634,SCH0149,栄養学部 栄養学科,science
+DEP1635,SCH0149,栄養学部 管理栄養学科,science
+DEP1636,SCH0149,児童学部 児童学科,edu_psych;history_social
+DEP1637,SCH0149,児童学部 初等教育学科,edu_psych;history_social
+DEP1638,SCH0149,共同実施制度利用（学部）,history_social
+DEP1639,SCH0149,共同学科等の名称,history_social
+DEP1640,SCH0150,現代生活学部 現代家政学科,history_social
+DEP1641,SCH0150,現代生活学部 生活デザイン学科,design_art
+DEP1642,SCH0150,現代生活学部 食物学科,history_social
+DEP1643,SCH0150,現代生活学部 児童学科,edu_psych;history_social
+DEP1644,SCH0150,人間栄養学部 人間栄養学科,science;history_social
+DEP1645,SCH0150,共同実施制度利用（学部）,history_social
+DEP1646,SCH0150,共同学科等の名称,history_social
+DEP1647,SCH0151,歯学部 歯学科,medical;science
+DEP1648,SCH0151,共同実施制度利用（学部）,history_social
+DEP1649,SCH0151,共同学科等の名称,history_social
+DEP1650,SCH0152,医学部 医学科,medical;science
+DEP1651,SCH0152,医学部 看護学科,medical;science
+DEP1652,SCH0152,共同実施制度利用（学部）,history_social
+DEP1653,SCH0152,共同学科等の名称,history_social
+DEP1654,SCH0153,現代教養学部 国際英語学科,history_social;english_global
+DEP1655,SCH0153,現代教養学部 人文学科,history_social
+DEP1656,SCH0153,現代教養学部 国際社会学科,history_social;english_global
+DEP1657,SCH0153,現代教養学部 心理・コミュニケーション学科,history_social;edu_psych
+DEP1658,SCH0153,現代教養学部 人間科学科,history_social
+DEP1659,SCH0153,現代教養学部 数理科学科,science;history_social;math_data
+DEP1660,SCH0153,共同実施制度利用（学部）,history_social
+DEP1661,SCH0153,共同学科等の名称,history_social
+DEP1662,SCH0154,医学部 医学科,medical;science
+DEP1663,SCH0154,看護学部 看護学科,medical;science
+DEP1664,SCH0154,共同実施制度利用（学部）,history_social
+DEP1665,SCH0154,共同学科等の名称,history_social
+DEP1666,SCH0155,工学部 電気電子工学科,programming;science
+DEP1667,SCH0155,工学部 電子システム工学科,programming;science
+DEP1668,SCH0155,工学部 応用化学科,programming;science
+DEP1669,SCH0155,工学部 機械工学科,programming;science
+DEP1670,SCH0155,工学部 先端機械工学科,programming;science
+DEP1671,SCH0155,工学部 情報通信工学科,programming;science;math_data
+DEP1672,SCH0155,工学部第二部 電気電子工学科,programming;science
+DEP1673,SCH0155,工学部第二部 機械工学科,programming;science
+DEP1674,SCH0155,工学部第二部 情報通信工学科,programming;science;math_data
+DEP1675,SCH0155,理工学部 理工学科,programming;science
+DEP1676,SCH0155,情報環境学部 情報環境学科,programming;science;math_data
+DEP1677,SCH0155,未来科学部 建築学科,programming;science
+DEP1678,SCH0155,未来科学部 情報メディア学科,programming;science;math_data
+DEP1679,SCH0155,未来科学部 ロボット・メカトロニクス学科,programming;science
+DEP1680,SCH0155,システムデザイン工学部 情報システム工学科,programming;science;math_data;design_art
+DEP1681,SCH0155,システムデザイン工学部 デザイン工学科,programming;science;design_art
+DEP1682,SCH0155,共同実施制度利用（学部）,history_social
+DEP1683,SCH0155,共同学科等の名称,history_social
+DEP1684,SCH0156,農学部 農学科,science
+DEP1685,SCH0156,農学部 動物科学科,science
+DEP1686,SCH0156,農学部 生物資源開発学科,science
+DEP1687,SCH0156,農学部 デザイン農学科,science;design_art
+DEP1688,SCH0156,応用生物科学部 農芸化学科,science
+DEP1689,SCH0156,応用生物科学部 醸造科学科,science
+DEP1690,SCH0156,応用生物科学部 食品安全健康学科,medical;science
+DEP1691,SCH0156,応用生物科学部 栄養科学科,science
+DEP1692,SCH0156,生命科学部 バイオサイエンス学科,science
+DEP1693,SCH0156,生命科学部 分子生命化学科,science
+DEP1694,SCH0156,生命科学部 分子微生物学科,science
+DEP1695,SCH0156,地域環境科学部 森林総合科学科,science;history_social
+DEP1696,SCH0156,地域環境科学部 生産環境工学科,programming;science;history_social
+DEP1697,SCH0156,地域環境科学部 造園科学科,history_social
+DEP1698,SCH0156,地域環境科学部 地域創成科学科,history_social
+DEP1699,SCH0156,国際食料情報学部 国際農業開発学科,programming;science;english_global;math_data
+DEP1700,SCH0156,国際食料情報学部 食料環境経済学科,programming;science;english_global;business;math_data
+DEP1701,SCH0156,国際食料情報学部 国際バイオビジネス学科,programming;science;english_global;business;math_data
+DEP1702,SCH0156,国際食料情報学部 アグリビジネス学科,programming;science;english_global;business;math_data
+DEP1703,SCH0156,国際食料情報学部 国際食農科学科,programming;science;english_global;math_data
+DEP1704,SCH0156,生物産業学部 北方圏農学科,science
+DEP1705,SCH0156,生物産業学部 海洋水産学科,science
+DEP1706,SCH0156,生物産業学部 食香粧化学科,science
+DEP1707,SCH0156,生物産業学部 自然資源経営学科,science;business;math_data
+DEP1708,SCH0156,共同実施制度利用（学部）,history_social
+DEP1709,SCH0156,共同学科等の名称,history_social
+DEP1710,SCH0157,薬学部 医療薬学科,medical;science
+DEP1711,SCH0157,薬学部 医療薬物薬学科,medical;science
+DEP1712,SCH0157,薬学部 医療衛生薬学科,medical;science
+DEP1713,SCH0157,薬学部 薬学科,medical;science
+DEP1714,SCH0157,生命科学部 分子生命科学科,science
+DEP1715,SCH0157,生命科学部 応用生命科学科,science
+DEP1716,SCH0157,生命科学部 生命医科学科,medical;science
+DEP1717,SCH0157,共同実施制度利用（学部）,history_social
+DEP1718,SCH0157,共同学科等の名称,history_social
+DEP1719,SCH0158,理学部第一部 数学科,science
+DEP1720,SCH0158,理学部第一部 物理学科,science
+DEP1721,SCH0158,理学部第一部 化学科,science
+DEP1722,SCH0158,理学部第一部 応用数学科,science
+DEP1723,SCH0158,理学部第一部 応用物理学科,science
+DEP1724,SCH0158,理学部第一部 応用化学科,programming;science
+DEP1725,SCH0158,理学部第二部 数学科,science
+DEP1726,SCH0158,理学部第二部 物理学科,science
+DEP1727,SCH0158,理学部第二部 化学科,science
+DEP1728,SCH0158,薬学部 薬学科,medical;science
+DEP1729,SCH0158,薬学部 生命創薬科学科,medical;science
+DEP1730,SCH0158,工学部 建築学科,programming;science
+DEP1731,SCH0158,工学部 工業化学科,programming;science
+DEP1732,SCH0158,工学部 電気工学科,programming;science
+DEP1733,SCH0158,工学部 情報工学科,programming;science;math_data
+DEP1734,SCH0158,工学部 機械工学科,programming;science
+DEP1735,SCH0158,創域理工学部 数理科学科,programming;science;math_data
+DEP1736,SCH0158,創域理工学部 先端物理学科,programming;science
+DEP1737,SCH0158,創域理工学部 情報計算科学科,programming;science;math_data
+DEP1738,SCH0158,創域理工学部 生命生物科学科,programming;science
+DEP1739,SCH0158,創域理工学部 建築学科,programming;science
+DEP1740,SCH0158,創域理工学部 先端化学科,programming;science
+DEP1741,SCH0158,創域理工学部 電気電子情報工学科,programming;science;math_data
+DEP1742,SCH0158,創域理工学部 経営システム工学科,programming;science;business;math_data
+DEP1743,SCH0158,創域理工学部 機械航空宇宙工学科,programming;science
+DEP1744,SCH0158,創域理工学部 社会基盤工学科,programming;science;history_social
+DEP1745,SCH0158,先進工学部 電子システム工学科,programming;science
+DEP1746,SCH0158,先進工学部 マテリアル創成工学科,programming;science
+DEP1747,SCH0158,先進工学部 生命システム工学科,programming;science
+DEP1748,SCH0158,先進工学部 物理工学科,programming;science
+DEP1749,SCH0158,先進工学部 機能デザイン工学科,programming;science;design_art
+DEP1750,SCH0158,経営学部 経営学科,business;math_data
+DEP1751,SCH0158,経営学部 ビジネスエコノミクス学科,business;math_data
+DEP1752,SCH0158,経営学部 国際デザイン経営学科,english_global;business;math_data;design_art
+DEP1753,SCH0158,共同実施制度利用（学部）,history_social
+DEP1754,SCH0158,共同学科等の名称,history_social
+DEP1755,SCH0159,医学部 医学科,medical;science
+DEP1756,SCH0159,薬学部 薬学科,medical;science
+DEP1757,SCH0159,理学部 化学科,science
+DEP1758,SCH0159,理学部 生物学科,science
+DEP1759,SCH0159,理学部 物理学科,science
+DEP1760,SCH0159,理学部 生物分子科学科,science
+DEP1761,SCH0159,理学部 情報科学科,programming;science;math_data
+DEP1762,SCH0159,理学部 生命圏環境科学科,science
+DEP1763,SCH0159,看護学部 看護学科,medical;science
+DEP1764,SCH0159,健康科学部 看護学科,medical;science
+DEP1765,SCH0159,共同実施制度利用（学部）,history_social
+DEP1766,SCH0159,共同学科等の名称,history_social
+DEP1767,SCH0160,文学部第一部 哲学科,history_social
+DEP1768,SCH0160,文学部第一部 東洋思想文化学科,science;history_social
+DEP1769,SCH0160,文学部第一部 日本文学文化学科,science;history_social
+DEP1770,SCH0160,文学部第一部 英語コミュニケーション学科,history_social;english_global
+DEP1771,SCH0160,文学部第一部 英米文学科,history_social
+DEP1772,SCH0160,文学部第一部 国際文化コミュニケーション学科,history_social;english_global
+DEP1773,SCH0160,文学部第一部 史学科,history_social
+DEP1774,SCH0160,文学部第一部 教育学科,history_social;edu_psych
+DEP1775,SCH0160,文学部第二部 東洋思想文化学科,science;history_social
+DEP1776,SCH0160,文学部第二部 日本文学文化学科,science;history_social
+DEP1777,SCH0160,文学部第二部 教育学科,history_social;edu_psych
+DEP1778,SCH0160,経済学部第一部 経済学科,business;math_data
+DEP1779,SCH0160,経済学部第一部 国際経済学科,english_global;business;math_data
+DEP1780,SCH0160,経済学部第一部 総合政策学科,history_social;business;math_data
+DEP1781,SCH0160,経済学部第二部 経済学科,business;math_data
+DEP1782,SCH0160,経営学部第一部 経営学科,business;math_data
+DEP1783,SCH0160,経営学部第一部 マーケティング学科,business;math_data
+DEP1784,SCH0160,経営学部第一部 会計ファイナンス学科,business;math_data
+DEP1785,SCH0160,経営学部第二部 経営学科,business;math_data
+DEP1786,SCH0160,法学部第一部 法律学科,history_social;business
+DEP1787,SCH0160,法学部第一部 企業法学科,history_social;business
+DEP1788,SCH0160,法学部第二部 法律学科,history_social;business
+DEP1789,SCH0160,社会学部第一部 社会学科,history_social
+DEP1790,SCH0160,社会学部第一部 社会文化システム学科,programming;science;history_social
+DEP1791,SCH0160,社会学部第一部 メディアコミュニケーション学科,history_social;programming;math_data
+DEP1792,SCH0160,社会学部第一部 社会心理学科,science;history_social;edu_psych
+DEP1793,SCH0160,社会学部第一部 社会福祉学科,history_social;edu_psych
+DEP1794,SCH0160,社会学部第一部 国際社会学科,history_social;english_global
+DEP1795,SCH0160,社会学部第二部 社会学科,history_social
+DEP1796,SCH0160,社会学部第二部 社会福祉学科,history_social;edu_psych
+DEP1797,SCH0160,理工学部 機械工学科,programming;science
+DEP1798,SCH0160,理工学部 生体医工学科,programming;science
+DEP1799,SCH0160,理工学部 電気電子情報工学科,programming;science;math_data
+DEP1800,SCH0160,理工学部 応用化学科,programming;science
+DEP1801,SCH0160,理工学部 都市環境デザイン学科,programming;science;design_art
+DEP1802,SCH0160,理工学部 建築学科,programming;science
+DEP1803,SCH0160,国際地域学部 国際地域学科,english_global;history_social
+DEP1804,SCH0160,国際学部 グローバル・イノベーション学科,english_global
+DEP1805,SCH0160,国際学部 国際地域学科,english_global;history_social
+DEP1806,SCH0160,国際観光学部 国際観光学科,english_global;business;math_data
+DEP1807,SCH0160,生命科学部 生命科学科,science
+DEP1808,SCH0160,生命科学部 応用生物科学科,science
+DEP1809,SCH0160,生命科学部 生体医工学科,programming;science
+DEP1810,SCH0160,生命科学部 生物資源学科,science
+DEP1811,SCH0160,ライフデザイン学部 生活支援学科,design_art
+DEP1812,SCH0160,ライフデザイン学部 健康スポーツ学科,medical;science;design_art;sports
+DEP1813,SCH0160,ライフデザイン学部 人間環境デザイン学科,history_social;design_art
+DEP1814,SCH0160,総合情報学部 総合情報学科,programming;science;math_data
+DEP1815,SCH0160,食環境科学部 食環境科学科,history_social
+DEP1816,SCH0160,食環境科学部 食環境科学科,history_social
+DEP1817,SCH0160,食環境科学部 健康栄養学科,medical;science
+DEP1818,SCH0160,食環境科学部 フードデータサイエンス学科,programming;science;math_data
+DEP1819,SCH0160,情報連携学部 情報連携学科,programming;science;math_data
+DEP1820,SCH0160,福祉社会デザイン学部 社会福祉学科,history_social;edu_psych;design_art
+DEP1821,SCH0160,福祉社会デザイン学部 子ども支援学科,history_social;edu_psych;design_art
+DEP1822,SCH0160,福祉社会デザイン学部 人間環境デザイン学科,history_social;edu_psych;design_art
+DEP1823,SCH0160,健康スポーツ科学部 健康スポーツ科学科,medical;science;sports
+DEP1824,SCH0160,健康スポーツ科学部 栄養科学科,medical;science;sports
+DEP1825,SCH0160,共同実施制度利用（学部）,history_social
+DEP1826,SCH0160,共同学科等の名称,history_social
+DEP1827,SCH0161,音楽学部 音楽学科,design_art;music
+DEP1828,SCH0161,音楽学部 音楽学科,design_art;music
+DEP1829,SCH0161,共同実施制度利用（学部）,history_social
+DEP1830,SCH0161,共同学科等の名称,history_social
+DEP1831,SCH0162,文学部 国文学科,history_social
+DEP1832,SCH0162,文学部 中国文学科,history_social
+DEP1833,SCH0162,文学部 都市文化デザイン学科,programming;science;history_social;design_art
+DEP1834,SCH0162,国際政治経済学部 国際政治経済学科,english_global;history_social;business;math_data
+DEP1835,SCH0162,国際政治経済学部 国際経営学科,english_global;history_social;business;math_data
+DEP1836,SCH0162,文学部 歴史文化学科,science;history_social
+DEP1837,SCH0162,共同実施制度利用（学部）,history_social
+DEP1838,SCH0162,共同学科等の名称,history_social
+DEP1839,SCH0163,法学部第一部 法律学科,history_social;business
+DEP1840,SCH0163,法学部第一部 政治経済学科,history_social;business;math_data
+DEP1841,SCH0163,法学部第一部 新聞学科,history_social;business
+DEP1842,SCH0163,法学部第一部 経営法学科,history_social;business;math_data
+DEP1843,SCH0163,法学部第一部 公共政策学科,history_social;business
+DEP1844,SCH0163,法学部第二部 法律学科,history_social;business
+DEP1845,SCH0163,文理学部 哲学科,science;history_social
+DEP1846,SCH0163,文理学部 史学科,science;history_social
+DEP1847,SCH0163,文理学部 国文学科,science;history_social
+DEP1848,SCH0163,文理学部 中国語中国文化学科,science;history_social
+DEP1849,SCH0163,文理学部 英文学科,science;history_social
+DEP1850,SCH0163,文理学部 ドイツ文学科,science;history_social
+DEP1851,SCH0163,文理学部 社会学科,science;history_social
+DEP1852,SCH0163,文理学部 社会福祉学科,science;history_social;edu_psych
+DEP1853,SCH0163,文理学部 教育学科,science;edu_psych;history_social
+DEP1854,SCH0163,文理学部 体育学科,science;sports
+DEP1855,SCH0163,文理学部 心理学科,science;history_social;edu_psych
+DEP1856,SCH0163,文理学部 地理学科,science
+DEP1857,SCH0163,文理学部 地球科学科,science
+DEP1858,SCH0163,文理学部 数学科,science
+DEP1859,SCH0163,文理学部 情報科学科,programming;science;math_data
+DEP1860,SCH0163,文理学部 物理学科,science
+DEP1861,SCH0163,文理学部 生命科学科,science
+DEP1862,SCH0163,文理学部 化学科,science
+DEP1863,SCH0163,経済学部 経済学科,business;math_data
+DEP1864,SCH0163,経済学部 産業経営学科,business;math_data
+DEP1865,SCH0163,経済学部 金融公共経済学科,business;math_data
+DEP1866,SCH0163,商学部 商業学科,business;math_data
+DEP1867,SCH0163,商学部 経営学科,business;math_data
+DEP1868,SCH0163,商学部 会計学科,business;math_data
+DEP1869,SCH0163,芸術学部 写真学科,design_art
+DEP1870,SCH0163,芸術学部 映画学科,design_art
+DEP1871,SCH0163,芸術学部 美術学科,design_art
+DEP1872,SCH0163,芸術学部 音楽学科,design_art;music
+DEP1873,SCH0163,芸術学部 文芸学科,design_art
+DEP1874,SCH0163,芸術学部 演劇学科,design_art
+DEP1875,SCH0163,芸術学部 放送学科,design_art
+DEP1876,SCH0163,芸術学部 デザイン学科,design_art
+DEP1877,SCH0163,国際関係学部 国際総合政策学科,english_global;history_social;business
+DEP1878,SCH0163,国際関係学部 国際教養学科,history_social;english_global
+DEP1879,SCH0163,危機管理学部 危機管理学科,science
+DEP1880,SCH0163,スポーツ科学部 競技スポーツ学科,sports
+DEP1881,SCH0163,理工学部 土木工学科,programming;science
+DEP1882,SCH0163,理工学部 交通システム工学科,programming;science
+DEP1883,SCH0163,理工学部 建築学科,programming;science
+DEP1884,SCH0163,理工学部 海洋建築工学科,programming;science
+DEP1885,SCH0163,理工学部 まちづくり工学科,programming;science
+DEP1886,SCH0163,理工学部 機械工学科,programming;science
+DEP1887,SCH0163,理工学部 精密機械工学科,programming;science
+DEP1888,SCH0163,理工学部 航空宇宙工学科,programming;science
+DEP1889,SCH0163,理工学部 電気工学科,programming;science
+DEP1890,SCH0163,理工学部 電子工学科,programming;science
+DEP1891,SCH0163,理工学部 応用情報工学科,programming;science;math_data
+DEP1892,SCH0163,理工学部 物質応用化学科,programming;science
+DEP1893,SCH0163,理工学部 物理学科,programming;science
+DEP1894,SCH0163,理工学部 数学科,programming;science
+DEP1895,SCH0163,生産工学部 機械工学科,programming;science
+DEP1896,SCH0163,生産工学部 電気電子工学科,programming;science
+DEP1897,SCH0163,生産工学部 土木工学科,programming;science
+DEP1898,SCH0163,生産工学部 建築工学科,programming;science
+DEP1899,SCH0163,生産工学部 応用分子化学科,programming;science
+DEP1900,SCH0163,生産工学部 マネジメント工学科,programming;science;business;math_data
+DEP1901,SCH0163,生産工学部 数理情報工学科,programming;science;math_data
+DEP1902,SCH0163,生産工学部 環境安全工学科,programming;science
+DEP1903,SCH0163,生産工学部 創生デザイン学科,programming;science;design_art
+DEP1904,SCH0163,工学部 土木工学科,programming;science
+DEP1905,SCH0163,工学部 建築学科,programming;science
+DEP1906,SCH0163,工学部 機械工学科,programming;science
+DEP1907,SCH0163,工学部 電気電子工学科,programming;science
+DEP1908,SCH0163,工学部 生命応用化学科,programming;science
+DEP1909,SCH0163,工学部 情報工学科,programming;science;math_data
+DEP1910,SCH0163,医学部 医学科,medical;science
+DEP1911,SCH0163,歯学部 歯学科,medical;science
+DEP1912,SCH0163,松戸歯学部 歯学科,medical;science
+DEP1913,SCH0163,生物資源科学部 生命農学科,science
+DEP1914,SCH0163,生物資源科学部 生命化学科,science
+DEP1915,SCH0163,生物資源科学部 獣医学科,medical;science
+DEP1916,SCH0163,生物資源科学部 動物資源科学科,science
+DEP1917,SCH0163,生物資源科学部 食品ビジネス学科,science;business;math_data
+DEP1918,SCH0163,生物資源科学部 森林資源科学科,science
+DEP1919,SCH0163,生物資源科学部 海洋生物資源科学科,science
+DEP1920,SCH0163,生物資源科学部 生物環境工学科,programming;science
+DEP1921,SCH0163,生物資源科学部 食品生命学科,science
+DEP1922,SCH0163,生物資源科学部 国際地域開発学科,science;english_global;history_social
+DEP1923,SCH0163,生物資源科学部 応用生物科学科,science
+DEP1924,SCH0163,生物資源科学部 くらしの生物学科,science
+DEP1925,SCH0163,生物資源科学部 バイオサイエンス学科,science
+DEP1926,SCH0163,生物資源科学部 動物学科,science
+DEP1927,SCH0163,生物資源科学部 海洋生物学科,science
+DEP1928,SCH0163,生物資源科学部 森林学科,science
+DEP1929,SCH0163,生物資源科学部 環境学科,science
+DEP1930,SCH0163,生物資源科学部 アグリサイエンス学科,science
+DEP1931,SCH0163,生物資源科学部 食品開発学科,science
+DEP1932,SCH0163,生物資源科学部 国際共生学科,science;english_global
+DEP1933,SCH0163,生物資源科学部 獣医保健看護学科,medical;science
+DEP1934,SCH0163,薬学部 薬学科,medical;science
+DEP1935,SCH0163,共同実施制度利用（学部）,history_social
+DEP1936,SCH0163,共同学科等の名称,history_social
+DEP1937,SCH0164,医学部 医学科,medical;science
+DEP1938,SCH0164,共同実施制度利用（学部）,history_social
+DEP1939,SCH0164,共同学科等の名称,history_social
+DEP1940,SCH0165,生命歯学部 生命歯学科,medical;science
+DEP1941,SCH0165,新潟生命歯学部 生命歯学科,medical;science
+DEP1942,SCH0165,共同実施制度利用（学部）,history_social
+DEP1943,SCH0165,共同学科等の名称,history_social
+DEP1944,SCH0166,社会福祉学部 福祉計画学科,history_social;edu_psych
+DEP1945,SCH0166,社会福祉学部 福祉援助学科,history_social;edu_psych
+DEP1946,SCH0166,共同実施制度利用（学部）,history_social
+DEP1947,SCH0166,共同学科等の名称,history_social
+DEP1948,SCH0167,家政学部 児童学科,edu_psych;history_social
+DEP1949,SCH0167,家政学部 食物学科,history_social
+DEP1950,SCH0167,家政学部 住居学科,history_social
+DEP1951,SCH0167,家政学部 被服学科,history_social
+DEP1952,SCH0167,家政学部 家政経済学科,business;math_data
+DEP1953,SCH0167,文学部 日本文学科,history_social
+DEP1954,SCH0167,文学部 英文学科,history_social
+DEP1955,SCH0167,文学部 史学科,history_social
+DEP1956,SCH0167,人間社会学部 現代社会学科,history_social
+DEP1957,SCH0167,人間社会学部 社会福祉学科,history_social;edu_psych
+DEP1958,SCH0167,人間社会学部 教育学科,history_social;edu_psych
+DEP1959,SCH0167,人間社会学部 心理学科,science;history_social;edu_psych
+DEP1960,SCH0167,人間社会学部 文化学科,science;history_social
+DEP1961,SCH0167,理学部 数物情報科学科,programming;science;math_data
+DEP1962,SCH0167,理学部 化学生命科学科,science
+DEP1963,SCH0167,国際文化学部 国際文化学科,science;history_social;english_global
+DEP1964,SCH0167,建築デザイン学部 建築デザイン学科,programming;science;design_art
+DEP1965,SCH0167,共同実施制度利用（学部）,history_social
+DEP1966,SCH0167,共同学科等の名称,history_social
+DEP1967,SCH0168,体育学部 運動科学科,sports
+DEP1968,SCH0168,体育学部 スポーツ科学科,sports
+DEP1969,SCH0168,体育学部 ダンス学科,sports
+DEP1970,SCH0168,体育学部 スポーツ健康学科,medical;science;sports
+DEP1971,SCH0168,体育学部 健康スポーツ学科,medical;science;sports
+DEP1972,SCH0168,体育学部 子ども運動学科,sports
+DEP1973,SCH0168,共同実施制度利用（学部）,history_social
+DEP1974,SCH0168,共同学科等の名称,history_social
+DEP1975,SCH0169,体育学部 体育学科,sports
+DEP1976,SCH0169,体育学部 健康学科,medical;science;sports
+DEP1977,SCH0169,スポーツ文化学部 武道教育学科,science;history_social;edu_psych;sports
+DEP1978,SCH0169,スポーツ文化学部 スポーツ国際学科,science;history_social;english_global;sports
+DEP1979,SCH0169,スポーツマネジメント学部 スポーツマネジメント学科,business;math_data;sports
+DEP1980,SCH0169,スポーツマネジメント学部 スポーツライフマネジメント学科,business;math_data;sports
+DEP1981,SCH0169,児童スポーツ教育学部 児童スポーツ教育学科,edu_psych;history_social;sports
+DEP1982,SCH0169,保健医療学部 整復医療学科,medical;science
+DEP1983,SCH0169,保健医療学部 救急医療学科,medical;science
+DEP1984,SCH0169,共同実施制度利用（学部）,history_social
+DEP1985,SCH0169,共同学科等の名称,history_social
+DEP1986,SCH0170,総合人間学部 人間福祉心理学科,science;history_social;edu_psych
+DEP1987,SCH0170,共同実施制度利用（学部）,history_social
+DEP1988,SCH0170,共同学科等の名称,history_social
+DEP1989,SCH0171,服装学部 ファッションクリエイション学科,history_social
+DEP1990,SCH0171,服装学部 ファッション社会学科,history_social
+DEP1991,SCH0171,造形学部 デザイン・造形学科,design_art
+DEP1992,SCH0171,造形学部 建築・インテリア学科,programming;science;design_art
+DEP1993,SCH0171,国際文化学部 国際文化・観光学科,science;history_social;english_global;business;math_data
+DEP1994,SCH0171,国際文化学部 国際ファッション文化学科,science;history_social;english_global
+DEP1995,SCH0171,共同実施制度利用（学部）,history_social
+DEP1996,SCH0171,共同学科等の名称,history_social
+DEP1997,SCH0172,法学部 法律学科,history_social;business
+DEP1998,SCH0172,法学部 政治学科,history_social;business
+DEP1999,SCH0172,法学部 国際政治学科,english_global;history_social;business
+DEP2000,SCH0172,文学部 哲学科,history_social
+DEP2001,SCH0172,文学部 日本文学科,history_social
+DEP2002,SCH0172,文学部 英文学科,history_social
+DEP2003,SCH0172,文学部 史学科,history_social
+DEP2004,SCH0172,文学部 地理学科,science;history_social
+DEP2005,SCH0172,文学部 心理学科,science;history_social;edu_psych
+DEP2006,SCH0172,経済学部 経済学科,business;math_data
+DEP2007,SCH0172,経済学部 国際経済学科,english_global;business;math_data
+DEP2008,SCH0172,経済学部 現代ビジネス学科,business;math_data
+DEP2009,SCH0172,社会学部 社会政策科学科,history_social;business
+DEP2010,SCH0172,社会学部 社会学科,history_social
+DEP2011,SCH0172,社会学部 メディア社会学科,history_social;programming;math_data
+DEP2012,SCH0172,経営学部 経営学科,business;math_data
+DEP2013,SCH0172,経営学部 経営戦略学科,business;math_data
+DEP2014,SCH0172,経営学部 市場経営学科,business;math_data
+DEP2015,SCH0172,国際文化学部 国際文化学科,science;history_social;english_global
+DEP2016,SCH0172,人間環境学部 人間環境学科,history_social
+DEP2017,SCH0172,現代福祉学部 福祉コミュニティ学科,edu_psych;history_social
+DEP2018,SCH0172,現代福祉学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP2019,SCH0172,情報科学部 コンピュータ科学科,programming;science;math_data
+DEP2020,SCH0172,情報科学部 ディジタルメディア学科,programming;science;math_data
+DEP2021,SCH0172,キャリアデザイン学部 キャリアデザイン学科,design_art
+DEP2022,SCH0172,デザイン工学部 建築学科,programming;science;design_art
+DEP2023,SCH0172,デザイン工学部 都市環境デザイン工学科,programming;science;design_art
+DEP2024,SCH0172,デザイン工学部 システムデザイン学科,programming;science;design_art
+DEP2025,SCH0172,理工学部 機械工学科,programming;science
+DEP2026,SCH0172,理工学部 電気電子工学科,programming;science
+DEP2027,SCH0172,理工学部 応用情報工学科,programming;science;math_data
+DEP2028,SCH0172,理工学部 経営システム工学科,programming;science;business;math_data
+DEP2029,SCH0172,理工学部 創生科学科,programming;science
+DEP2030,SCH0172,生命科学部 生命機能学科,science
+DEP2031,SCH0172,生命科学部 環境応用化学科,programming;science
+DEP2032,SCH0172,生命科学部 応用植物科学科,science
+DEP2033,SCH0172,グローバル教養学部 グローバル教養学科,history_social;english_global
+DEP2034,SCH0172,スポーツ健康学部 スポーツ健康学科,medical;science;sports
+DEP2035,SCH0172,共同実施制度利用（学部）,history_social
+DEP2036,SCH0172,共同学科等の名称,history_social
+DEP2037,SCH0173,薬学部 薬学科,medical;science
+DEP2038,SCH0173,薬学部 創薬科学科,medical;science
+DEP2039,SCH0173,共同実施制度利用（学部）,history_social
+DEP2040,SCH0173,共同学科等の名称,history_social
+DEP2041,SCH0174,経済学部 経済学科,business;math_data
+DEP2042,SCH0174,経済学部 経営学科,business;math_data
+DEP2043,SCH0174,経済学部 金融学科,business;math_data
+DEP2044,SCH0174,人文学部 英語英米文化学科,science;history_social;english_global
+DEP2045,SCH0174,人文学部 ヨーロッパ文化学科,science;history_social
+DEP2046,SCH0174,人文学部 日本・東アジア文化学科,science;history_social
+DEP2047,SCH0174,社会学部 社会学科,history_social
+DEP2048,SCH0174,社会学部 メディア社会学科,history_social;programming;math_data
+DEP2049,SCH0174,国際教養学部 国際教養学科,history_social;english_global
+DEP2050,SCH0174,共同実施制度利用（学部）,history_social
+DEP2051,SCH0174,共同学科等の名称,history_social
+DEP2052,SCH0175,理工学部 機械工学科,programming;science
+DEP2053,SCH0175,理工学部 機械システム工学科,programming;science
+DEP2054,SCH0175,理工学部 電気電子通信工学科,programming;science
+DEP2055,SCH0175,理工学部 医用工学科,programming;science
+DEP2056,SCH0175,理工学部 応用化学科,programming;science
+DEP2057,SCH0175,理工学部 原子力安全工学科,programming;science
+DEP2058,SCH0175,理工学部 自然科学科,programming;science
+DEP2059,SCH0175,工学部 機械工学科,programming;science
+DEP2060,SCH0175,工学部 機械システム工学科,programming;science
+DEP2061,SCH0175,工学部 原子力安全工学科,programming;science
+DEP2062,SCH0175,工学部 電気電子工学科,programming;science
+DEP2063,SCH0175,工学部 電気電子通信工学科,programming;science
+DEP2064,SCH0175,工学部 エネルギー化学科,programming;science
+DEP2065,SCH0175,工学部 建築学科,programming;science
+DEP2066,SCH0175,工学部 都市工学科,programming;science
+DEP2067,SCH0175,理工学部 エネルギー化学科,programming;science
+DEP2068,SCH0175,建築都市デザイン学部 建築学科,programming;science;design_art
+DEP2069,SCH0175,建築都市デザイン学部 都市工学科,programming;science;design_art
+DEP2070,SCH0175,知識工学部 情報科学科,programming;science;math_data
+DEP2071,SCH0175,知識工学部 経営システム工学科,programming;science;business;math_data
+DEP2072,SCH0175,知識工学部 知能情報工学科,programming;science;math_data
+DEP2073,SCH0175,知識工学部 自然科学科,programming;science
+DEP2074,SCH0175,情報工学部 情報科学科,programming;science;math_data
+DEP2075,SCH0175,情報工学部 知能情報工学科,programming;science;math_data
+DEP2076,SCH0175,環境学部 環境創生学科,history_social
+DEP2077,SCH0175,環境学部 環境経営システム学科,programming;science;business;math_data
+DEP2078,SCH0175,環境学部 環境マネジメント学科,business;math_data
+DEP2079,SCH0175,メディア情報学部 社会メディア学科,programming;science;history_social;math_data
+DEP2080,SCH0175,メディア情報学部 情報システム学科,programming;science;math_data
+DEP2081,SCH0175,都市生活学部 都市生活学科,programming;science
+DEP2082,SCH0175,人間科学部 児童学科,history_social;edu_psych
+DEP2083,SCH0175,人間科学部 人間科学科,history_social
+DEP2084,SCH0175,デザイン・データ科学部 デザイン・データ科学科,programming;math_data;design_art
+DEP2085,SCH0175,共同実施制度利用（学部）,history_social
+DEP2086,SCH0175,共同学科等の名称,history_social
+DEP2087,SCH0176,音楽学部 演奏学科,design_art;music
+DEP2088,SCH0176,音楽学部 音楽総合学科,design_art;music
+DEP2089,SCH0176,共同実施制度利用（学部）,history_social
+DEP2090,SCH0176,共同学科等の名称,history_social
+DEP2091,SCH0177,法学部 法律学科,history_social;business
+DEP2092,SCH0177,商学部 商学科,business;math_data
+DEP2093,SCH0177,政治経済学部 政治学科,history_social;business;math_data
+DEP2094,SCH0177,政治経済学部 経済学科,history_social;business;math_data
+DEP2095,SCH0177,政治経済学部 地域行政学科,history_social;business;math_data
+DEP2096,SCH0177,文学部 文学科,history_social
+DEP2097,SCH0177,文学部 史学地理学科,science;history_social
+DEP2098,SCH0177,文学部 心理社会学科,history_social;edu_psych
+DEP2099,SCH0177,理工学部 電気電子生命学科,programming;science
+DEP2100,SCH0177,理工学部 機械工学科,programming;science
+DEP2101,SCH0177,理工学部 機械情報工学科,programming;science;math_data
+DEP2102,SCH0177,理工学部 建築学科,programming;science
+DEP2103,SCH0177,理工学部 応用化学科,programming;science
+DEP2104,SCH0177,理工学部 情報科学科,programming;science;math_data
+DEP2105,SCH0177,理工学部 数学科,programming;science
+DEP2106,SCH0177,理工学部 物理学科,programming;science
+DEP2107,SCH0177,農学部 農学科,science
+DEP2108,SCH0177,農学部 食料環境政策学科,science;history_social;business
+DEP2109,SCH0177,農学部 農芸化学科,science
+DEP2110,SCH0177,農学部 生命科学科,science
+DEP2111,SCH0177,経営学部 経営学科,business;math_data
+DEP2112,SCH0177,経営学部 会計学科,business;math_data
+DEP2113,SCH0177,経営学部 公共経営学科,business;math_data
+DEP2114,SCH0177,情報コミュニケーション学部 情報コミュニケーション学科,programming;science;math_data
+DEP2115,SCH0177,国際日本学部 国際日本学科,english_global
+DEP2116,SCH0177,総合数理学部 現象数理学科,science;math_data
+DEP2117,SCH0177,総合数理学部 先端メディアサイエンス学科,science;programming;math_data
+DEP2118,SCH0177,総合数理学部 ネットワークデザイン学科,science;programming;math_data;design_art
+DEP2119,SCH0177,共同実施制度利用（学部）,history_social
+DEP2120,SCH0177,共同学科等の名称,history_social
+DEP2121,SCH0178,文学部 英文学科,history_social
+DEP2122,SCH0178,文学部 フランス文学科,history_social
+DEP2123,SCH0178,文学部 芸術学科,history_social;design_art
+DEP2124,SCH0178,経済学部 経済学科,business;math_data
+DEP2125,SCH0178,経済学部 経営学科,business;math_data
+DEP2126,SCH0178,経済学部 国際経営学科,english_global;business;math_data
+DEP2127,SCH0178,社会学部 社会学科,history_social
+DEP2128,SCH0178,社会学部 社会福祉学科,history_social;edu_psych
+DEP2129,SCH0178,法学部 法律学科,history_social;business
+DEP2130,SCH0178,法学部 政治学科,history_social;business
+DEP2131,SCH0178,法学部 消費情報環境法学科,programming;science;history_social;business;math_data
+DEP2132,SCH0178,法学部 グローバル法学科,english_global;history_social;business
+DEP2133,SCH0178,国際学部 国際学科,english_global
+DEP2134,SCH0178,国際学部 国際キャリア学科,english_global
+DEP2135,SCH0178,心理学部 心理学科,science;history_social;edu_psych
+DEP2136,SCH0178,心理学部 教育発達学科,science;history_social;edu_psych
+DEP2137,SCH0178,情報数理学部 情報数理学科,programming;science;math_data
+DEP2138,SCH0178,共同実施制度利用（学部）,history_social
+DEP2139,SCH0178,共同学科等の名称,history_social
+DEP2140,SCH0179,薬学部 薬学科,medical;science
+DEP2141,SCH0179,薬学部 生命創薬科学科,medical;science
+DEP2142,SCH0179,共同実施制度利用（学部）,history_social
+DEP2143,SCH0179,共同学科等の名称,history_social
+DEP2144,SCH0180,文学部 キリスト教学科,history_social
+DEP2145,SCH0180,文学部 史学科,history_social
+DEP2146,SCH0180,文学部 教育学科,history_social;edu_psych
+DEP2147,SCH0180,文学部 文学科,history_social
+DEP2148,SCH0180,経済学部 経済学科,business;math_data
+DEP2149,SCH0180,経済学部 会計ファイナンス学科,business;math_data
+DEP2150,SCH0180,経済学部 経済政策学科,history_social;business;math_data
+DEP2151,SCH0180,理学部 数学科,science
+DEP2152,SCH0180,理学部 物理学科,science
+DEP2153,SCH0180,理学部 化学科,science
+DEP2154,SCH0180,理学部 生命理学科,science
+DEP2155,SCH0180,社会学部 社会学科,history_social
+DEP2156,SCH0180,社会学部 現代文化学科,science;history_social
+DEP2157,SCH0180,社会学部 メディア社会学科,history_social;programming;math_data
+DEP2158,SCH0180,法学部 法学科,history_social;business
+DEP2159,SCH0180,法学部 政治学科,history_social;business
+DEP2160,SCH0180,法学部 国際ビジネス法学科,english_global;history_social;business;math_data
+DEP2161,SCH0180,観光学部 観光学科,business;math_data
+DEP2162,SCH0180,観光学部 交流文化学科,science;history_social;business;math_data
+DEP2163,SCH0180,コミュニティ福祉学部 福祉学科,edu_psych;history_social
+DEP2164,SCH0180,コミュニティ福祉学部 コミュニティ政策学科,edu_psych;history_social;business
+DEP2165,SCH0180,コミュニティ福祉学部 スポーツウエルネス学科,edu_psych;history_social;sports
+DEP2166,SCH0180,経営学部 経営学科,business;math_data
+DEP2167,SCH0180,経営学部 国際経営学科,english_global;business;math_data
+DEP2168,SCH0180,現代心理学部 心理学科,science;history_social;edu_psych
+DEP2169,SCH0180,現代心理学部 映像身体学科,science;history_social;edu_psych;design_art
+DEP2170,SCH0180,異文化コミュニケーション学部 異文化コミュニケーション学科,history_social
+DEP2171,SCH0180,スポーツウエルネス学部 スポーツウエルネス学科,sports
+DEP2172,SCH0180,共同実施制度利用（学部）,history_social
+DEP2173,SCH0180,共同学科等の名称,history_social
+DEP2174,SCH0181,仏教学部 宗学科,history_social
+DEP2175,SCH0181,仏教学部 仏教学科,history_social
+DEP2176,SCH0181,文学部 哲学科,history_social
+DEP2177,SCH0181,文学部 史学科,history_social
+DEP2178,SCH0181,文学部 社会学科,history_social
+DEP2179,SCH0181,文学部 文学科,history_social
+DEP2180,SCH0181,経済学部 経済学科,business;math_data
+DEP2181,SCH0181,経営学部 経営学科,business;math_data
+DEP2182,SCH0181,法学部 法学科,history_social;business
+DEP2183,SCH0181,社会福祉学部 社会福祉学科,history_social;edu_psych
+DEP2184,SCH0181,社会福祉学部 子ども教育福祉学科,history_social;edu_psych
+DEP2185,SCH0181,地球環境科学部 環境システム学科,programming;science
+DEP2186,SCH0181,地球環境科学部 地理学科,science
+DEP2187,SCH0181,心理学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP2188,SCH0181,心理学部 対人・社会心理学科,science;history_social;edu_psych
+DEP2189,SCH0181,データサイエンス学部 データサイエンス学科,programming;science;math_data
+DEP2190,SCH0181,共同実施制度利用（学部）,history_social
+DEP2191,SCH0181,共同学科等の名称,history_social
+DEP2192,SCH0182,政治経済学部 政治学科,history_social;business;math_data
+DEP2193,SCH0182,政治経済学部 経済学科,history_social;business;math_data
+DEP2194,SCH0182,政治経済学部 国際政治経済学科,english_global;history_social;business;math_data
+DEP2195,SCH0182,法学部 （学科組織なし）,history_social;business
+DEP2196,SCH0182,文化構想学部 文化構想学科,history_social
+DEP2197,SCH0182,文学部 文学科,history_social
+DEP2198,SCH0182,教育学部 教育学科,edu_psych;history_social
+DEP2199,SCH0182,教育学部 国語国文学科,history_social;edu_psych
+DEP2200,SCH0182,教育学部 英語英文学科,history_social;english_global;edu_psych
+DEP2201,SCH0182,教育学部 社会科,history_social;edu_psych
+DEP2202,SCH0182,教育学部 理学科,science;edu_psych;history_social
+DEP2203,SCH0182,教育学部 数学科,science;edu_psych;history_social
+DEP2204,SCH0182,教育学部 複合文化学科,science;history_social;edu_psych
+DEP2205,SCH0182,商学部 （学科組織なし）,business;math_data
+DEP2206,SCH0182,基幹理工学部 数学科,programming;science
+DEP2207,SCH0182,基幹理工学部 応用数理学科,programming;science;math_data
+DEP2208,SCH0182,基幹理工学部 情報理工学科,programming;science;math_data
+DEP2209,SCH0182,基幹理工学部 機械科学・航空宇宙学科,programming;science
+DEP2210,SCH0182,基幹理工学部 電子物理システム学科,programming;science
+DEP2211,SCH0182,基幹理工学部 表現工学科,programming;science
+DEP2212,SCH0182,基幹理工学部 情報通信学科,programming;science;math_data
+DEP2213,SCH0182,創造理工学部 建築学科,programming;science
+DEP2214,SCH0182,創造理工学部 総合機械工学科,programming;science
+DEP2215,SCH0182,創造理工学部 経営システム工学科,programming;science;business;math_data
+DEP2216,SCH0182,創造理工学部 社会環境工学科,programming;science;history_social
+DEP2217,SCH0182,創造理工学部 環境資源工学科,programming;science
+DEP2218,SCH0182,先進理工学部 物理学科,programming;science
+DEP2219,SCH0182,先進理工学部 応用物理学科,programming;science
+DEP2220,SCH0182,先進理工学部 化学・生命化学科,programming;science
+DEP2221,SCH0182,先進理工学部 応用化学科,programming;science
+DEP2222,SCH0182,先進理工学部 生命医科学科,programming;science;medical
+DEP2223,SCH0182,先進理工学部 電気・情報生命工学科,programming;science;math_data
+DEP2224,SCH0182,社会科学部 社会科学科,history_social
+DEP2225,SCH0182,人間科学部 人間環境科学科,history_social
+DEP2226,SCH0182,人間科学部 健康福祉科学科,medical;science;history_social;edu_psych
+DEP2227,SCH0182,人間科学部 人間情報科学科,programming;science;history_social;math_data
+DEP2228,SCH0182,スポーツ科学部 スポーツ科学科,sports
+DEP2229,SCH0182,国際教養学部 国際教養学科,history_social;english_global
+DEP2230,SCH0182,共同実施制度利用（学部）,history_social
+DEP2231,SCH0182,共同学科等の名称,history_social
+DEP2232,SCH0183,共同実施制度利用（学部）,history_social
+DEP2233,SCH0183,共同学科等の名称,history_social
+DEP2234,SCH0184,国際文化交流学部 日本文化学科,science;history_social;english_global
+DEP2235,SCH0184,国際文化交流学部 国際コミュニケーション学科,history_social;english_global
+DEP2236,SCH0184,国際文化交流学部 英語コミュニケーション学科,history_social;english_global
+DEP2237,SCH0184,共同実施制度利用（学部）,history_social
+DEP2238,SCH0184,共同学科等の名称,history_social
+DEP2239,SCH0185,工科学部 情報工学科,programming;science;math_data
+DEP2240,SCH0185,工科学部 デジタルエンタテインメント学科,history_social
+DEP2241,SCH0185,共同実施制度利用（学部）,history_social
+DEP2242,SCH0185,共同学科等の名称,history_social
+DEP2243,SCH0186,リハビリテーション学部 理学療法学科,science;medical;history_social;business
+DEP2244,SCH0186,リハビリテーション学部 作業療法学科,medical;science;history_social;business
+DEP2245,SCH0186,共同実施制度利用（学部）,history_social
+DEP2246,SCH0186,共同学科等の名称,history_social
+DEP2247,SCH0187,情報経営イノベーション学部 情報経営イノベーション学科,programming;science;business;math_data
+DEP2248,SCH0187,共同実施制度利用（学部）,history_social
+DEP2249,SCH0187,共同学科等の名称,history_social
+DEP2250,SCH0188,共同実施制度利用（学部）,history_social
+DEP2251,SCH0188,共同学科等の名称,history_social
+DEP2252,SCH0189,共同実施制度利用（学部）,history_social
+DEP2253,SCH0189,共同学科等の名称,history_social
+DEP2254,SCH0190,国際ファッション学部 ファッションクリエイション学科,english_global
+DEP2255,SCH0190,国際ファッション学部 ファッションビジネス学科,english_global;business;math_data
+DEP2256,SCH0190,国際ファッション学部 大阪ファッションクリエイション・ビジネス学科,english_global;business;math_data
+DEP2257,SCH0190,国際ファッション学部 名古屋ファッションクリエイション・ビジネス学科,english_global;business;math_data
+DEP2258,SCH0190,共同実施制度利用（学部）,history_social
+DEP2259,SCH0190,共同学科等の名称,history_social
+DEP2260,SCH0191,人文学部 心理学科,science;history_social;edu_psych
+DEP2261,SCH0191,人間総合学群 人間文化学類,science;history_social
+DEP2262,SCH0191,人間総合学群 観光文化学類,science;history_social;business;math_data
+DEP2263,SCH0191,人間総合学群 心理学類,science;history_social;edu_psych
+DEP2264,SCH0191,人間総合学群 住空間デザイン学類,history_social;design_art
+DEP2265,SCH0191,人間健康学部 健康栄養学科,medical;science;history_social
+DEP2266,SCH0191,看護学部 看護学科,medical;science
+DEP2267,SCH0191,共同実施制度利用（学部）,history_social
+DEP2268,SCH0191,共同学科等の名称,history_social
+DEP2269,SCH0192,経営学部 経営学科,business;math_data
+DEP2270,SCH0192,経営学部 ホスピタリティ・マネジメント学科,business;math_data
+DEP2271,SCH0192,経営学部 データサイエンス学科,programming;science;business;math_data
+DEP2272,SCH0192,経済学部 経済学科,business;math_data
+DEP2273,SCH0192,法学部 法律学科,history_social;business
+DEP2274,SCH0192,国際関係学部 国際関係学科,english_global
+DEP2275,SCH0192,国際関係学部 多文化コミュニケーション学科,history_social;english_global
+DEP2276,SCH0192,都市創造学部 都市創造学科,programming;science
+DEP2277,SCH0192,共同実施制度利用（学部）,history_social
+DEP2278,SCH0192,共同学科等の名称,history_social
+DEP2279,SCH0193,芸術文化学群 （学科組織なし）,science;history_social;design_art
+DEP2280,SCH0193,健康福祉学群 （学科組織なし）,medical;science;edu_psych;history_social
+DEP2281,SCH0193,ビジネスマネジメント学群 ビジネスマネジメント学類,business;math_data
+DEP2282,SCH0193,ビジネスマネジメント学群 アビエーションマネジメント学類,business;math_data
+DEP2283,SCH0193,リベラルアーツ学群 （学科組織なし）,history_social
+DEP2284,SCH0193,グローバル・コミュニケーション学群 グローバル・コミュニケーション学類,english_global
+DEP2285,SCH0193,航空・マネジメント学群 航空・マネジメント学類,programming;science;business;math_data
+DEP2286,SCH0193,教育探究科学群 教育探究科学類,edu_psych;history_social
+DEP2287,SCH0193,共同実施制度利用（学部）,history_social
+DEP2288,SCH0193,共同学科等の名称,history_social
+DEP2289,SCH0194,音楽学部 演奏・創作学科,design_art;music
+DEP2290,SCH0194,音楽学部 音楽文化教育学科,history_social;edu_psych;design_art;music
+DEP2291,SCH0194,共同実施制度利用（学部）,history_social
+DEP2292,SCH0194,共同学科等の名称,history_social
+DEP2293,SCH0195,教養学部 アーツ・サイエンス学科,science;history_social
+DEP2294,SCH0195,共同実施制度利用（学部）,history_social
+DEP2295,SCH0195,共同学科等の名称,history_social
+DEP2296,SCH0196,文学部 国語国文学科,history_social
+DEP2297,SCH0196,文学部 フランス語フランス文学科,history_social
+DEP2298,SCH0196,文学部 英語英文学科,history_social;english_global
+DEP2299,SCH0196,人間総合学部 児童文化学科,science;history_social;edu_psych
+DEP2300,SCH0196,人間総合学部 発達心理学科,science;history_social;edu_psych
+DEP2301,SCH0196,人間総合学部 初等教育学科,history_social;edu_psych
+DEP2302,SCH0196,共同実施制度利用（学部）,history_social
+DEP2303,SCH0196,共同学科等の名称,history_social
+DEP2304,SCH0197,経済学部 経済経営学科,business;math_data
+DEP2305,SCH0197,経済学部 経済数理学科,science;business;math_data
+DEP2306,SCH0197,経済学部 現代経済学科,business;math_data
+DEP2307,SCH0197,理工学部 物質生命理工学科,programming;science
+DEP2308,SCH0197,理工学部 情報科学科,programming;science;math_data
+DEP2309,SCH0197,理工学部 システムデザイン学科,programming;science;design_art
+DEP2310,SCH0197,理工学部 理工学科,programming;science
+DEP2311,SCH0197,文学部 英語英米文学科,history_social;english_global
+DEP2312,SCH0197,文学部 日本文学科,history_social
+DEP2313,SCH0197,文学部 国際文化学科,science;history_social;english_global
+DEP2314,SCH0197,文学部 現代社会学科,history_social
+DEP2315,SCH0197,法学部 法律学科,history_social;business
+DEP2316,SCH0197,法学部 政治学科,history_social;business
+DEP2317,SCH0197,経営学部 総合経営学科,business;math_data
+DEP2318,SCH0197,共同実施制度利用（学部）,history_social
+DEP2319,SCH0197,共同学科等の名称,history_social
+DEP2320,SCH0198,文学部 国語教育学科,history_social;edu_psych
+DEP2321,SCH0198,文学部 英語教育学科,history_social;english_global;edu_psych
+DEP2322,SCH0198,農学部 生産農学科,science
+DEP2323,SCH0198,農学部 環境農学科,science
+DEP2324,SCH0198,農学部 先端食農学科,science
+DEP2325,SCH0198,工学部 情報通信工学科,programming;science;math_data
+DEP2326,SCH0198,工学部 ソフトウェアサイエンス学科,programming;science
+DEP2327,SCH0198,工学部 マネジメントサイエンス学科,programming;science;business;math_data
+DEP2328,SCH0198,工学部 エンジニアリングデザイン学科,programming;science;design_art
+DEP2329,SCH0198,工学部 デザインサイエンス学科,programming;science;design_art
+DEP2330,SCH0198,経営学部 国際経営学科,english_global;business;math_data
+DEP2331,SCH0198,教育学部 教育学科,edu_psych;history_social
+DEP2332,SCH0198,教育学部 乳幼児発達学科,edu_psych;history_social
+DEP2333,SCH0198,芸術学部 音楽学科,design_art;music
+DEP2334,SCH0198,芸術学部 アート・デザイン学科,design_art
+DEP2335,SCH0198,芸術学部 演劇・舞踊学科,design_art
+DEP2336,SCH0198,芸術学部 パフォーミング・アーツ学科,design_art
+DEP2337,SCH0198,芸術学部 メディア・デザイン学科,programming;math_data;design_art
+DEP2338,SCH0198,芸術学部 芸術教育学科,edu_psych;history_social;design_art
+DEP2339,SCH0198,リベラルアーツ学部 リベラルアーツ学科,history_social
+DEP2340,SCH0198,観光学部 観光学科,business;math_data
+DEP2341,SCH0198,共同実施制度利用（学部）,history_social
+DEP2342,SCH0198,共同学科等の名称,history_social
+DEP2343,SCH0199,学芸学部 英語英文学科,history_social;english_global
+DEP2344,SCH0199,学芸学部 国際関係学科,english_global
+DEP2345,SCH0199,学芸学部 多文化・国際協力学科,history_social;english_global
+DEP2346,SCH0199,学芸学部 数学科,science
+DEP2347,SCH0199,学芸学部 情報科学科,programming;science;math_data
+DEP2348,SCH0199,総合政策学部 総合政策学科,history_social;business
+DEP2349,SCH0199,共同実施制度利用（学部）,history_social
+DEP2350,SCH0199,共同学科等の名称,history_social
+DEP2351,SCH0200,文学部 日本文化学科,science;history_social
+DEP2352,SCH0200,文学部 史学科,history_social
+DEP2353,SCH0200,文学部 社会学科,history_social
+DEP2354,SCH0200,文学部 心理学科,science;history_social;edu_psych
+DEP2355,SCH0200,外国語学部 外国語学科,history_social;english_global
+DEP2356,SCH0200,外国語学部 国際日本学科,history_social;english_global
+DEP2357,SCH0200,教育学部 教育文化学科,science;history_social;edu_psych
+DEP2358,SCH0200,教育学部 初等教育学科,edu_psych;history_social
+DEP2359,SCH0200,経済学部 経済学科,business;math_data
+DEP2360,SCH0200,経済学部 国際経済学科,english_global;business;math_data
+DEP2361,SCH0200,経済学部 地域経済学科,business;math_data;history_social
+DEP2362,SCH0200,経済学部 経営学科,business;math_data
+DEP2363,SCH0200,経済学部 観光経営学科,business;math_data
+DEP2364,SCH0200,法学部 法律学科,history_social;business
+DEP2365,SCH0200,法学部 政治学科,history_social;business
+DEP2366,SCH0200,医学部 医学科,medical;science
+DEP2367,SCH0200,薬学部 薬学科,medical;science
+DEP2368,SCH0200,理工学部 機械・精密システム工学科,programming;science
+DEP2369,SCH0200,理工学部 航空宇宙工学科,programming;science
+DEP2370,SCH0200,理工学部 情報電子工学科,programming;science;math_data
+DEP2371,SCH0200,理工学部 バイオサイエンス学科,programming;science
+DEP2372,SCH0200,医療技術学部 視能矯正学科,medical;science
+DEP2373,SCH0200,医療技術学部 看護学科,medical;science
+DEP2374,SCH0200,医療技術学部 診療放射線学科,medical;science
+DEP2375,SCH0200,医療技術学部 臨床検査学科,medical;science
+DEP2376,SCH0200,医療技術学部 スポーツ医療学科 健康スポーツコース,medical;science;sports
+DEP2377,SCH0200,医療技術学部 スポーツ医療学科 救急救命士コース,medical;science;sports
+DEP2378,SCH0200,医療技術学部 スポーツ医療学科 トップアスリートコース,medical;science;sports
+DEP2379,SCH0200,医療技術学部 柔道整復学科,medical;science
+DEP2380,SCH0200,福岡医療技術学部 理学療法学科,science;medical;history_social;business
+DEP2381,SCH0200,福岡医療技術学部 作業療法学科,medical;science;history_social;business
+DEP2382,SCH0200,福岡医療技術学部 看護学科,medical;science
+DEP2383,SCH0200,福岡医療技術学部 診療放射線学科,medical;science
+DEP2384,SCH0200,福岡医療技術学部 医療技術学科,medical;science
+DEP2385,SCH0200,共同実施制度利用（学部）,history_social
+DEP2386,SCH0200,共同学科等の名称,history_social
+DEP2387,SCH0201,経済学部 経済学科,business;math_data
+DEP2388,SCH0201,経済学部 国際経済学科,english_global;business;math_data
+DEP2389,SCH0201,経営学部 経営学科,business;math_data
+DEP2390,SCH0201,経営学部 流通マーケティング学科,business;math_data
+DEP2391,SCH0201,コミュニケーション学部 メディア社会学科,history_social;programming;math_data
+DEP2392,SCH0201,現代法学部 現代法学科,history_social;business
+DEP2393,SCH0201,コミュニケーション学部 国際コミュニケーション学科,english_global
+DEP2394,SCH0201,共同実施制度利用（学部）,history_social
+DEP2395,SCH0201,共同学科等の名称,history_social
+DEP2396,SCH0202,体育学部 体育学科,sports
+DEP2397,SCH0202,共同実施制度利用（学部）,history_social
+DEP2398,SCH0202,共同学科等の名称,history_social
+DEP2399,SCH0203,神学部 神学科,history_social
+DEP2400,SCH0203,共同実施制度利用（学部）,history_social
+DEP2401,SCH0203,共同学科等の名称,history_social
+DEP2402,SCH0204,造形学部 デザイン学科,design_art
+DEP2403,SCH0204,造形学部 美術学科,design_art
+DEP2404,SCH0204,共同実施制度利用（学部）,history_social
+DEP2405,SCH0204,共同学科等の名称,history_social
+DEP2406,SCH0205,音楽学部 音楽学科,design_art;music
+DEP2407,SCH0205,共同実施制度利用（学部）,history_social
+DEP2408,SCH0205,共同学科等の名称,history_social
+DEP2409,SCH0206,獣医学部 獣医学科,medical;science
+DEP2410,SCH0206,獣医学部 獣医保健看護学科,medical;science
+DEP2411,SCH0206,応用生命科学部 動物科学科,science
+DEP2412,SCH0206,応用生命科学部 食品科学科,science
+DEP2413,SCH0206,共同実施制度利用（学部）,history_social
+DEP2414,SCH0206,共同学科等の名称,history_social
+DEP2415,SCH0207,文学部 日本文学文化学科,science;history_social
+DEP2416,SCH0207,グローバル学部 グローバルコミュニケーション学科,english_global
+DEP2417,SCH0207,グローバル学部 日本語コミュニケーション学科,history_social;english_global
+DEP2418,SCH0207,グローバル学部 グローバルビジネス学科,english_global;business;math_data
+DEP2419,SCH0207,法学部 法律学科,history_social;business
+DEP2420,SCH0207,法学部 政治学科,history_social;business
+DEP2421,SCH0207,経済学部 経済学科,business;math_data
+DEP2422,SCH0207,経済学部 経営学科,business;math_data
+DEP2423,SCH0207,経営学部 経営学科,business;math_data
+DEP2424,SCH0207,経営学部 会計ガバナンス学科,business;math_data
+DEP2425,SCH0207,アントレプレナーシップ学部 アントレプレナーシップ学科,history_social
+DEP2426,SCH0207,データサイエンス学部 データサイエンス学科,programming;science;math_data
+DEP2427,SCH0207,人間科学部 人間科学科,history_social
+DEP2428,SCH0207,人間科学部 社会福祉学科,history_social;edu_psych
+DEP2429,SCH0207,工学部 環境システム学科,programming;science
+DEP2430,SCH0207,工学部 数理工学科,programming;science;math_data
+DEP2431,SCH0207,工学部 建築デザイン学科,programming;science;design_art
+DEP2432,SCH0207,工学部 サステナビリティ学科,programming;science
+DEP2433,SCH0207,教育学部 教育学科,edu_psych;history_social
+DEP2434,SCH0207,教育学部 幼児教育学科,edu_psych;history_social
+DEP2435,SCH0207,薬学部 薬学科,medical;science
+DEP2436,SCH0207,看護学部 看護学科,medical;science
+DEP2437,SCH0207,ウェルビーイング学部 ウェルビーイング学科,history_social
+DEP2438,SCH0207,共同実施制度利用（学部）,history_social
+DEP2439,SCH0207,共同学科等の名称,history_social
+DEP2440,SCH0208,造形学部 日本画学科,design_art
+DEP2441,SCH0208,造形学部 油絵学科,design_art
+DEP2442,SCH0208,造形学部 彫刻学科,design_art
+DEP2443,SCH0208,造形学部 視覚伝達デザイン学科,design_art
+DEP2444,SCH0208,造形学部 工芸工業デザイン学科,design_art
+DEP2445,SCH0208,造形学部 空間演出デザイン学科,design_art
+DEP2446,SCH0208,造形学部 建築学科,programming;science;design_art
+DEP2447,SCH0208,造形学部 基礎デザイン学科,design_art
+DEP2448,SCH0208,造形学部 映像学科,design_art
+DEP2449,SCH0208,造形学部 芸術文化学科,science;history_social;design_art
+DEP2450,SCH0208,造形学部 デザイン情報学科,programming;science;math_data;design_art
+DEP2451,SCH0208,造形構想学部 クリエイティブイノベーション学科,design_art
+DEP2452,SCH0208,造形構想学部 映像学科,design_art
+DEP2453,SCH0208,共同実施制度利用（学部）,history_social
+DEP2454,SCH0208,共同学科等の名称,history_social
+DEP2455,SCH0209,理工学部 総合理工学科,programming;science
+DEP2456,SCH0209,人文学部 国際コミュニケーション学科,history_social;english_global
+DEP2457,SCH0209,人文学部 人間社会学科,history_social
+DEP2458,SCH0209,人文学部 日本文化学科,science;history_social
+DEP2459,SCH0209,人文学部 福祉実践学科,history_social;edu_psych
+DEP2460,SCH0209,経済学部 経済学科,business;math_data
+DEP2461,SCH0209,情報学部 情報学科,programming;science;math_data
+DEP2462,SCH0209,教育学部 教育学科,edu_psych;history_social
+DEP2463,SCH0209,経営学部 経営学科,business;math_data
+DEP2464,SCH0209,デザイン学部 デザイン学科,design_art
+DEP2465,SCH0209,心理学部 心理学科,science;history_social;edu_psych
+DEP2466,SCH0209,建築学部 建築学科,programming;science
+DEP2467,SCH0209,共同実施制度利用（学部）,history_social
+DEP2468,SCH0209,共同学科等の名称,history_social
+DEP2469,SCH0210,現代人間学部 心理教育学科,history_social;edu_psych
+DEP2470,SCH0210,現代人間学部 現代社会学科,history_social
+DEP2471,SCH0210,現代人間学部 人間科学科,history_social
+DEP2472,SCH0210,表現学部 総合文化学科,science;history_social
+DEP2473,SCH0210,表現学部 芸術学科,design_art
+DEP2474,SCH0210,経済経営学部 経済学科,business;math_data
+DEP2475,SCH0210,経済経営学部 経営学科,business;math_data
+DEP2476,SCH0210,共同実施制度利用（学部）,history_social
+DEP2477,SCH0210,共同学科等の名称,history_social
+DEP2478,SCH0211,医学部 医学科,medical;science
+DEP2479,SCH0211,保健学部 臨床検査技術学科,medical;science
+DEP2480,SCH0211,保健学部 健康福祉学科,medical;science;edu_psych;history_social
+DEP2481,SCH0211,保健学部 健康福祉学科,medical;science;edu_psych;history_social
+DEP2482,SCH0211,保健学部 看護学科,medical;science
+DEP2483,SCH0211,保健学部 臨床工学科,programming;science;medical
+DEP2484,SCH0211,保健学部 救急救命学科,medical;science
+DEP2485,SCH0211,保健学部 理学療法学科,science;medical;history_social;business
+DEP2486,SCH0211,保健学部 作業療法学科,medical;science;history_social;business
+DEP2487,SCH0211,保健学部 診療放射線技術学科,medical;science
+DEP2488,SCH0211,保健学部 臨床心理学科,science;medical;history_social;edu_psych
+DEP2489,SCH0211,保健学部 リハビリテーション学科,medical;science
+DEP2490,SCH0211,総合政策学部 総合政策学科,history_social;business
+DEP2491,SCH0211,総合政策学部 総合政策学科,history_social;business
+DEP2492,SCH0211,総合政策学部 企業経営学科,history_social;business;math_data
+DEP2493,SCH0211,総合政策学部 企業経営学科,history_social;business;math_data
+DEP2494,SCH0211,外国語学部 英語学科,history_social;english_global
+DEP2495,SCH0211,外国語学部 中国語学科,history_social;english_global
+DEP2496,SCH0211,外国語学部 観光交流文化学科,science;history_social;english_global;business;math_data
+DEP2497,SCH0211,共同実施制度利用（学部）,history_social
+DEP2498,SCH0211,共同学科等の名称,history_social
+DEP2499,SCH0212,経済学部 経済学科,business;math_data
+DEP2500,SCH0212,法学部 法律学科,history_social;business
+DEP2501,SCH0212,文学部 人間学科,history_social
+DEP2502,SCH0212,経営学部 経営学科,business;math_data
+DEP2503,SCH0212,教育学部 教育学科,edu_psych;history_social
+DEP2504,SCH0212,教育学部 児童教育学科,edu_psych;history_social
+DEP2505,SCH0212,理工学部 情報システム工学科,programming;science;math_data
+DEP2506,SCH0212,理工学部 共生創造理工学科,programming;science
+DEP2507,SCH0212,看護学部 看護学科,medical;science
+DEP2508,SCH0212,国際教養学部 国際教養学科,history_social;english_global
+DEP2509,SCH0212,共同実施制度利用（学部）,history_social
+DEP2510,SCH0212,共同学科等の名称,history_social
+DEP2511,SCH0213,法学部 法学科,history_social;business
+DEP2512,SCH0213,共同実施制度利用（学部）,history_social
+DEP2513,SCH0213,共同学科等の名称,history_social
+DEP2514,SCH0214,応用生物学部 応用生物学科,science
+DEP2515,SCH0214,コンピュータサイエンス学部 コンピュータサイエンス学科,programming;science;math_data
+DEP2516,SCH0214,メディア学部 メディア学科,programming;math_data
+DEP2517,SCH0214,工学部 機械工学科,programming;science
+DEP2518,SCH0214,工学部 電気電子工学科,programming;science
+DEP2519,SCH0214,工学部 応用化学科,programming;science
+DEP2520,SCH0214,医療保健学部 看護学科,medical;science
+DEP2521,SCH0214,医療保健学部 臨床工学科,programming;science;medical
+DEP2522,SCH0214,医療保健学部 理学療法学科,science;medical;history_social;business
+DEP2523,SCH0214,医療保健学部 作業療法学科,medical;science;history_social;business
+DEP2524,SCH0214,医療保健学部 臨床検査学科,medical;science
+DEP2525,SCH0214,医療保健学部 リハビリテーション学科,medical;science
+DEP2526,SCH0214,デザイン学部 デザイン学科,design_art
+DEP2527,SCH0214,共同実施制度利用（学部）,history_social
+DEP2528,SCH0214,共同学科等の名称,history_social
+DEP2529,SCH0215,看護学部 看護学科,medical;science
+DEP2530,SCH0215,さいたま看護学部 看護学科,medical;science
+DEP2531,SCH0215,共同実施制度利用（学部）,history_social
+DEP2532,SCH0215,共同学科等の名称,history_social
+DEP2533,SCH0216,人文学部 日本語日本文化学科,science;history_social
+DEP2534,SCH0216,人文学部 英語コミュニケーション学科,history_social;english_global
+DEP2535,SCH0216,人間社会学部 国際社会学科,history_social;english_global
+DEP2536,SCH0216,人間社会学部 社会園芸学科,science;history_social
+DEP2537,SCH0216,共同実施制度利用（学部）,history_social
+DEP2538,SCH0216,共同学科等の名称,history_social
+DEP2539,SCH0217,経営情報学部 経営情報学科,programming;science;business;math_data
+DEP2540,SCH0217,経営情報学部 事業構想学科,programming;science;business;math_data
+DEP2541,SCH0217,グローバルスタディーズ学部 グローバルスタディーズ学科,english_global
+DEP2542,SCH0217,共同実施制度利用（学部）,history_social
+DEP2543,SCH0217,共同学科等の名称,history_social
+DEP2544,SCH0218,現代文化学部 こども文化学科,science;history_social;edu_psych
+DEP2545,SCH0218,看護学部 看護学科,medical;science
+DEP2546,SCH0218,共同実施制度利用（学部）,history_social
+DEP2547,SCH0218,共同学科等の名称,history_social
+DEP2548,SCH0219,経営経済学部 経営経済学科,business;math_data
+DEP2549,SCH0219,ビジネス創造学部 ビジネス創造学科,business;math_data
+DEP2550,SCH0219,共同実施制度利用（学部）,history_social
+DEP2551,SCH0219,共同学科等の名称,history_social
+DEP2552,SCH0220,経営学部 経営学科,business;math_data
+DEP2553,SCH0220,経営学部 イベントプロデュース学科,business;math_data
+DEP2554,SCH0220,共同実施制度利用（学部）,history_social
+DEP2555,SCH0220,共同学科等の名称,history_social
+DEP2556,SCH0221,共同実施制度利用（学部）,history_social
+DEP2557,SCH0221,共同学科等の名称,history_social
+DEP2558,SCH0222,デジタルコミュニケーション学部 デジタルコンテンツ学科,history_social
+DEP2559,SCH0222,共同実施制度利用（学部）,history_social
+DEP2560,SCH0222,共同学科等の名称,history_social
+DEP2561,SCH0223,子ども学部 子ども学科,history_social
+DEP2562,SCH0223,子ども学部 発達臨床学科,medical;science;edu_psych;history_social
+DEP2563,SCH0223,子ども学部 家族・地域支援学科,history_social
+DEP2564,SCH0223,子ども学部 子ども心理学科,science;history_social;edu_psych
+DEP2565,SCH0223,子ども学部 教育学科,edu_psych;history_social
+DEP2566,SCH0223,共同実施制度利用（学部）,history_social
+DEP2567,SCH0223,共同学科等の名称,history_social
+DEP2568,SCH0224,医療保健学部 看護学科,medical;science
+DEP2569,SCH0224,医療保健学部 医療栄養学科,medical;science
+DEP2570,SCH0224,医療保健学部 医療情報学科,programming;science;medical;math_data
+DEP2571,SCH0224,千葉看護学部 看護学科,medical;science
+DEP2572,SCH0224,和歌山看護学部 看護学科,medical;science
+DEP2573,SCH0224,東が丘看護学部 看護学科,medical;science
+DEP2574,SCH0224,立川看護学部 看護学科,medical;science
+DEP2575,SCH0224,共同実施制度利用（学部）,history_social
+DEP2576,SCH0224,共同学科等の名称,history_social
+DEP2577,SCH0225,健康栄養学部 管理栄養学科,medical;science
+DEP2578,SCH0225,健康栄養学部 食品学科,medical;science
+DEP2579,SCH0225,共同実施制度利用（学部）,history_social
+DEP2580,SCH0225,共同学科等の名称,history_social
+DEP2581,SCH0226,共同実施制度利用（学部）,history_social
+DEP2582,SCH0226,共同学科等の名称,history_social
+DEP2583,SCH0227,共同実施制度利用（学部）,history_social
+DEP2584,SCH0227,共同学科等の名称,history_social
+DEP2585,SCH0228,共同実施制度利用（学部）,history_social
+DEP2586,SCH0228,共同学科等の名称,history_social
+DEP2587,SCH0229,共同実施制度利用（学部）,history_social
+DEP2588,SCH0229,共同学科等の名称,history_social
+DEP2589,SCH0230,こども心理学部 こども心理学科,science;history_social;edu_psych
+DEP2590,SCH0230,モチベーション行動科学部 モチベーション行動科学科,history_social
+DEP2591,SCH0230,共同実施制度利用（学部）,history_social
+DEP2592,SCH0230,共同学科等の名称,history_social
+DEP2593,SCH0231,共同実施制度利用（学部）,history_social
+DEP2594,SCH0231,共同学科等の名称,history_social
+DEP2595,SCH0232,共同実施制度利用（学部）,history_social
+DEP2596,SCH0232,共同学科等の名称,history_social
+DEP2597,SCH0233,こども教育学部 幼児教育学科,edu_psych;history_social
+DEP2598,SCH0233,共同実施制度利用（学部）,history_social
+DEP2599,SCH0233,共同学科等の名称,history_social
+DEP2600,SCH0234,保健医療学部 鍼灸学科,medical;science
+DEP2601,SCH0234,保健医療学部 柔道整復学科,medical;science
+DEP2602,SCH0234,看護学部 看護学科,medical;science
+DEP2603,SCH0234,共同実施制度利用（学部）,history_social
+DEP2604,SCH0234,共同学科等の名称,history_social
+DEP2605,SCH0235,工学部 工学科,programming;science
+DEP2606,SCH0235,工学部 生命環境化学科,programming;science
+DEP2607,SCH0235,工学部 建築学科,programming;science
+DEP2608,SCH0235,工学部 電子機械学科,programming;science
+DEP2609,SCH0235,芸術学部 写真学科,design_art
+DEP2610,SCH0235,芸術学部 映像学科,design_art
+DEP2611,SCH0235,芸術学部 デザイン学科,design_art
+DEP2612,SCH0235,芸術学部 インタラクティブメディア学科,programming;math_data;design_art
+DEP2613,SCH0235,芸術学部 アニメーション学科,design_art
+DEP2614,SCH0235,芸術学部 マンガ学科,design_art
+DEP2615,SCH0235,芸術学部 ゲーム学科,design_art
+DEP2616,SCH0235,共同実施制度利用（学部）,history_social
+DEP2617,SCH0235,共同学科等の名称,history_social
+DEP2618,SCH0236,情報マネジメント学部 現代マネジメント学科,programming;science;business;math_data
+DEP2619,SCH0236,経営学部 経営学科,business;math_data
+DEP2620,SCH0236,経営学部 マーケティング学科,business;math_data
+DEP2621,SCH0236,共同実施制度利用（学部）,history_social
+DEP2622,SCH0236,共同学科等の名称,history_social
+DEP2623,SCH0237,動物看護学部 動物看護学科,medical;science
+DEP2624,SCH0237,動物看護学部 動物人間関係学科,medical;science;history_social
+DEP2625,SCH0237,共同実施制度利用（学部）,history_social
+DEP2626,SCH0237,共同学科等の名称,history_social
+DEP2627,SCH0238,保健医療学部 リハビリテーション学科,medical;science
+DEP2628,SCH0238,保健医療学部 看護学科,medical;science
+DEP2629,SCH0238,共同実施制度利用（学部）,history_social
+DEP2630,SCH0238,共同学科等の名称,history_social
+DEP2631,SCH0239,共同実施制度利用（学部）,history_social
+DEP2632,SCH0239,共同学科等の名称,history_social
+DEP2633,SCH0240,共同実施制度利用（学部）,history_social
+DEP2634,SCH0240,共同学科等の名称,history_social
+DEP2635,SCH0241,生命環境学部 生命科学科,science
+DEP2636,SCH0241,生命環境学部 自然環境学科,science
+DEP2637,SCH0241,生命環境学部 アニマルサイエンス学科,science
+DEP2638,SCH0241,医療科学部 理学療法学科,science;medical;history_social;business
+DEP2639,SCH0241,医療科学部 作業療法学科,medical;science;history_social;business
+DEP2640,SCH0241,医療科学部 柔道整復学科,medical;science
+DEP2641,SCH0241,医療科学部 東京理学療法学科,science;medical;history_social;business
+DEP2642,SCH0241,医療科学部 東京柔道整復学科,medical;science
+DEP2643,SCH0241,医療科学部 看護学科,medical;science
+DEP2644,SCH0241,医療科学部 医療福祉学科,medical;science;edu_psych;history_social
+DEP2645,SCH0241,教育人間科学部 こども学科,history_social;edu_psych
+DEP2646,SCH0241,教育人間科学部 幼児保育学科,history_social;edu_psych
+DEP2647,SCH0241,教育人間科学部 学校教育学科,history_social;edu_psych
+DEP2648,SCH0241,共同実施制度利用（学部）,history_social
+DEP2649,SCH0241,共同学科等の名称,history_social
+DEP2650,SCH0242,情報デザイン学部 情報デザイン学科,programming;science;math_data;design_art
+DEP2651,SCH0242,共同実施制度利用（学部）,history_social
+DEP2652,SCH0242,共同学科等の名称,history_social
+DEP2653,SCH0243,共同実施制度利用（学部）,history_social
+DEP2654,SCH0243,共同学科等の名称,history_social
+DEP2655,SCH0244,法学部 法律学科,history_social;business
+DEP2656,SCH0244,法学部 自治行政学科,history_social;business
+DEP2657,SCH0244,経済学部 経済学科,business;math_data
+DEP2658,SCH0244,経済学部 現代ビジネス学科,business;math_data
+DEP2659,SCH0244,経営学部 国際経営学科,english_global;business;math_data
+DEP2660,SCH0244,外国語学部 英語英文学科,history_social;english_global
+DEP2661,SCH0244,外国語学部 スペイン語学科,history_social;english_global
+DEP2662,SCH0244,外国語学部 中国語学科,history_social;english_global
+DEP2663,SCH0244,外国語学部 国際文化交流学科,history_social;english_global
+DEP2664,SCH0244,国際日本学部 国際文化交流学科,history_social;english_global
+DEP2665,SCH0244,国際日本学部 日本文化学科,science;history_social;english_global
+DEP2666,SCH0244,国際日本学部 歴史民俗学科,english_global
+DEP2667,SCH0244,人間科学部 人間科学科,history_social
+DEP2668,SCH0244,理学部 数理・物理学科,science;math_data
+DEP2669,SCH0244,理学部 情報科学科,programming;science;math_data
+DEP2670,SCH0244,理学部 化学科,science
+DEP2671,SCH0244,理学部 生物科学科,science
+DEP2672,SCH0244,理学部 理学科,science
+DEP2673,SCH0244,工学部 機械工学科,programming;science
+DEP2674,SCH0244,工学部 電気電子情報工学科,programming;science;math_data
+DEP2675,SCH0244,工学部 物質生命化学科,programming;science
+DEP2676,SCH0244,工学部 情報システム創成学科,programming;science;math_data
+DEP2677,SCH0244,工学部 経営工学科,programming;science;business;math_data
+DEP2678,SCH0244,工学部 建築学科,programming;science
+DEP2679,SCH0244,工学部 応用物理学科,programming;science
+DEP2680,SCH0244,建築学部 建築学科,programming;science
+DEP2681,SCH0244,化学生命学部 応用化学科,programming;science
+DEP2682,SCH0244,化学生命学部 生命機能学科,science
+DEP2683,SCH0244,情報学部 計算機科学科,programming;science;math_data
+DEP2684,SCH0244,情報学部 システム数理学科,programming;science;math_data
+DEP2685,SCH0244,共同実施制度利用（学部）,history_social
+DEP2686,SCH0244,共同学科等の名称,history_social
+DEP2687,SCH0245,国際文化学部 英語文化学科,science;history_social;english_global
+DEP2688,SCH0245,国際文化学部 比較文化学科,science;history_social;english_global
+DEP2689,SCH0245,社会学部 現代社会学科,history_social
+DEP2690,SCH0245,経済学部 経済学科,business;math_data
+DEP2691,SCH0245,経営学部 経営学科,business;math_data
+DEP2692,SCH0245,法学部 法学科,history_social;business
+DEP2693,SCH0245,法学部 地域創生学科,history_social;business
+DEP2694,SCH0245,理工学部 理工学科,programming;science
+DEP2695,SCH0245,建築・環境学部 建築・環境学科,programming;science
+DEP2696,SCH0245,人間共生学部 コミュニケーション学科,history_social
+DEP2697,SCH0245,人間共生学部 共生デザイン学科,history_social;design_art
+DEP2698,SCH0245,栄養学部 管理栄養学科,science
+DEP2699,SCH0245,教育学部 こども発達学科,edu_psych;history_social
+DEP2700,SCH0245,看護学部 看護学科,medical;science
+DEP2701,SCH0245,共同実施制度利用（学部）,history_social
+DEP2702,SCH0245,共同学科等の名称,history_social
+DEP2703,SCH0246,文学部 日本文学科,history_social
+DEP2704,SCH0246,文学部 英語英米文学科,history_social;english_global
+DEP2705,SCH0246,文学部 文化財学科,history_social
+DEP2706,SCH0246,文学部 ドキュメンテーション学科,history_social
+DEP2707,SCH0246,歯学部 歯学科,medical;science
+DEP2708,SCH0246,共同実施制度利用（学部）,history_social
+DEP2709,SCH0246,共同学科等の名称,history_social
+DEP2710,SCH0247,文学部 英語英米文学科,history_social;english_global
+DEP2711,SCH0247,文学部 日本語日本文学科,history_social
+DEP2712,SCH0247,文学部 コミュニケーション学科,history_social
+DEP2713,SCH0247,音楽学部 音楽芸術学科,design_art;music
+DEP2714,SCH0247,音楽学部 演奏学科,design_art;music
+DEP2715,SCH0247,国際交流学部 国際交流学科,english_global
+DEP2716,SCH0247,共同実施制度利用（学部）,history_social
+DEP2717,SCH0247,共同学科等の名称,history_social
+DEP2718,SCH0248,商学部 商学科,business;math_data
+DEP2719,SCH0248,商学部 観光マネジメント学科,business;math_data
+DEP2720,SCH0248,商学部 経営情報学科,programming;science;business;math_data
+DEP2721,SCH0248,共同実施制度利用（学部）,history_social
+DEP2722,SCH0248,共同学科等の名称,history_social
+DEP2723,SCH0249,共同実施制度利用（学部）,history_social
+DEP2724,SCH0249,共同学科等の名称,history_social
+DEP2725,SCH0250,共同実施制度利用（学部）,history_social
+DEP2726,SCH0250,共同学科等の名称,history_social
+DEP2727,SCH0251,薬学部 健康薬学科,medical;science
+DEP2728,SCH0251,薬学部 漢方薬学科,medical;science
+DEP2729,SCH0251,薬学部 臨床薬学科,medical;science
+DEP2730,SCH0251,薬学部 薬科学科,medical;science
+DEP2731,SCH0251,共同実施制度利用（学部）,history_social
+DEP2732,SCH0251,共同学科等の名称,history_social
+DEP2733,SCH0252,獣医学部 獣医学科,medical;science
+DEP2734,SCH0252,獣医学部 動物応用科学科,medical;science
+DEP2735,SCH0252,獣医学部 獣医保健看護学科,medical;science
+DEP2736,SCH0252,生命・環境科学部 臨床検査技術学科,medical;science
+DEP2737,SCH0252,生命・環境科学部 食品生命科学科,science
+DEP2738,SCH0252,生命・環境科学部 環境科学科,science
+DEP2739,SCH0252,共同実施制度利用（学部）,history_social
+DEP2740,SCH0252,共同学科等の名称,history_social
+DEP2741,SCH0253,歯学部 歯学科,medical;science
+DEP2742,SCH0253,共同実施制度利用（学部）,history_social
+DEP2743,SCH0253,共同学科等の名称,history_social
+DEP2744,SCH0254,家政学部 家政保健学科,medical;science
+DEP2745,SCH0254,家政学部 管理栄養学科,science
+DEP2746,SCH0254,児童学部 児童学科,edu_psych;history_social
+DEP2747,SCH0254,児童学部 子ども心理学科,science;history_social;edu_psych
+DEP2748,SCH0254,教育学部 教育学科,edu_psych;history_social
+DEP2749,SCH0254,共同実施制度利用（学部）,history_social
+DEP2750,SCH0254,共同学科等の名称,history_social
+DEP2751,SCH0255,工学部 機械工学科,programming;science
+DEP2752,SCH0255,工学部 総合デザイン学科,programming;science;design_art
+DEP2753,SCH0255,工学部 電気電子工学科,programming;science
+DEP2754,SCH0255,工学部 情報工学科,programming;science;math_data
+DEP2755,SCH0255,工学部 人間環境学科,programming;science;history_social
+DEP2756,SCH0255,工学部 コンピュータ応用学科,programming;science;math_data
+DEP2757,SCH0255,情報学部 情報学科,programming;science;math_data
+DEP2758,SCH0255,共同実施制度利用（学部）,history_social
+DEP2759,SCH0255,共同学科等の名称,history_social
+DEP2760,SCH0256,学芸学部 日本語日本文学科,history_social
+DEP2761,SCH0256,学芸学部 英語文化コミュニケーション学科,history_social;english_global
+DEP2762,SCH0256,学芸学部 子ども教育学科,edu_psych;history_social
+DEP2763,SCH0256,学芸学部 メディア情報学科,programming;science;math_data
+DEP2764,SCH0256,学芸学部 生活デザイン学科,design_art
+DEP2765,SCH0256,人間社会学部 社会マネジメント学科,history_social;business;math_data
+DEP2766,SCH0256,人間社会学部 人間心理学科,science;history_social;edu_psych
+DEP2767,SCH0256,栄養科学部 健康栄養学科,medical;science
+DEP2768,SCH0256,栄養科学部 管理栄養学科,science
+DEP2769,SCH0256,共同実施制度利用（学部）,history_social
+DEP2770,SCH0256,共同学科等の名称,history_social
+DEP2771,SCH0257,音楽学部 音楽学科,design_art;music
+DEP2772,SCH0257,共同実施制度利用（学部）,history_social
+DEP2773,SCH0257,共同学科等の名称,history_social
+DEP2774,SCH0258,医学部 医学科,medical;science
+DEP2775,SCH0258,共同実施制度利用（学部）,history_social
+DEP2776,SCH0258,共同学科等の名称,history_social
+DEP2777,SCH0259,工学部 機械工学科,programming;science
+DEP2778,SCH0259,工学部 電気電子情報工学科,programming;science;math_data
+DEP2779,SCH0259,工学部 応用化学科,programming;science
+DEP2780,SCH0259,工学部 応用化学生物学科,programming;science
+DEP2781,SCH0259,情報学部 情報工学科,programming;science;math_data
+DEP2782,SCH0259,情報学部 情報ネットワーク・コミュニケーション学科,programming;science;math_data
+DEP2783,SCH0259,情報学部 情報メディア学科,programming;science;math_data
+DEP2784,SCH0259,情報学部 情報システム学科,programming;science;math_data
+DEP2785,SCH0259,創造工学部 自動車システム開発工学科,programming;science
+DEP2786,SCH0259,創造工学部 ロボット・メカトロニクス学科,programming;science
+DEP2787,SCH0259,創造工学部 ホームエレクトロニクス開発学科,programming;science
+DEP2788,SCH0259,応用バイオ科学部 応用バイオ科学科,science
+DEP2789,SCH0259,健康医療科学部 看護学科,medical;science
+DEP2790,SCH0259,健康医療科学部 管理栄養学科,medical;science
+DEP2791,SCH0259,健康医療科学部 臨床工学科,programming;science;medical
+DEP2792,SCH0259,共同実施制度利用（学部）,history_social
+DEP2793,SCH0259,共同学科等の名称,history_social
+DEP2794,SCH0260,音楽学部 音楽芸術運営学科,design_art;music
+DEP2795,SCH0260,音楽学部 音楽芸術表現学科,design_art;music
+DEP2796,SCH0260,共同実施制度利用（学部）,history_social
+DEP2797,SCH0260,共同学科等の名称,history_social
+DEP2798,SCH0261,法学部 法律学科,history_social;business
+DEP2799,SCH0261,医用工学部 生命医工学科,programming;science
+DEP2800,SCH0261,医用工学部 臨床工学科,programming;science;medical
+DEP2801,SCH0261,スポーツ健康政策学部 スポーツ教育学科,medical;science;edu_psych;history_social;business;sports
+DEP2802,SCH0261,スポーツ健康政策学部 スポーツテクノロジー学科,medical;science;history_social;business;sports
+DEP2803,SCH0261,スポーツ健康政策学部 スポーツ健康政策学科,medical;science;history_social;business;sports
+DEP2804,SCH0261,スポーツ科学部 スポーツ教育学科,edu_psych;history_social;sports
+DEP2805,SCH0261,スポーツ科学部 スポーツ健康科学科,medical;science;sports
+DEP2806,SCH0261,共同実施制度利用（学部）,history_social
+DEP2807,SCH0261,共同学科等の名称,history_social
+DEP2808,SCH0262,人間科学部 人間科学科,history_social
+DEP2809,SCH0262,人間科学部 保育子ども学科,history_social;edu_psych
+DEP2810,SCH0262,国際社会学部 国際社会学科,history_social;english_global
+DEP2811,SCH0262,国際社会学部 国際コミュニケーション学科,history_social;english_global
+DEP2812,SCH0262,共同実施制度利用（学部）,history_social
+DEP2813,SCH0262,共同学科等の名称,history_social
+DEP2814,SCH0263,経営文化学部 ビジネスマネジメント学科,science;history_social;business;math_data
+DEP2815,SCH0263,経営文化学部 経営法学科,science;history_social;business;math_data
+DEP2816,SCH0263,コミュニケーション文化学部 異文化コミュニケーション学科,science;history_social
+DEP2817,SCH0263,コミュニケーション文化学部 生活心理学科,science;history_social;edu_psych
+DEP2818,SCH0263,コミュニケーション文化学部 日本文化コミュニケーション学科,science;history_social
+DEP2819,SCH0263,コミュニケーション文化学部 子ども学科,science;history_social
+DEP2820,SCH0263,観光メディア文化学部 観光文化学科,science;history_social;business;math_data;programming
+DEP2821,SCH0263,観光メディア文化学部 メディア情報文化学科,programming;science;history_social;business;math_data
+DEP2822,SCH0263,看護学部 看護学科,medical;science
+DEP2823,SCH0263,共同実施制度利用（学部）,history_social
+DEP2824,SCH0263,共同学科等の名称,history_social
+DEP2825,SCH0264,人間福祉学部 社会福祉学科,history_social;edu_psych
+DEP2826,SCH0264,人間福祉学部 心理福祉学科,history_social;edu_psych
+DEP2827,SCH0264,人間福祉学部 共生社会学科,history_social;edu_psych
+DEP2828,SCH0264,子ども未来学部 子ども未来学科,history_social
+DEP2829,SCH0264,人間科学部 心理学科,science;history_social;edu_psych
+DEP2830,SCH0264,共同実施制度利用（学部）,history_social
+DEP2831,SCH0264,共同学科等の名称,history_social
+DEP2832,SCH0265,美術学部 美術・デザイン学科,design_art
+DEP2833,SCH0265,共同実施制度利用（学部）,history_social
+DEP2834,SCH0265,共同学科等の名称,history_social
+DEP2835,SCH0266,映画学部 映画学科,history_social
+DEP2836,SCH0266,共同実施制度利用（学部）,history_social
+DEP2837,SCH0266,共同学科等の名称,history_social
+DEP2838,SCH0267,看護学部 看護学科,medical;science
+DEP2839,SCH0267,こども教育学部 幼児教育学科,edu_psych;history_social
+DEP2840,SCH0267,共同実施制度利用（学部）,history_social
+DEP2841,SCH0267,共同学科等の名称,history_social
+DEP2842,SCH0268,保健医療学部 看護学科,medical;science
+DEP2843,SCH0268,保健医療学部 リハビリテーション学科,medical;science
+DEP2844,SCH0268,薬学部 医療薬学科,medical;science
+DEP2845,SCH0268,共同実施制度利用（学部）,history_social
+DEP2846,SCH0268,共同学科等の名称,history_social
+DEP2847,SCH0269,看護学部 看護学科,medical;science
+DEP2848,SCH0269,共同実施制度利用（学部）,history_social
+DEP2849,SCH0269,共同学科等の名称,history_social
+DEP2850,SCH0270,ビューティ＆ウェルネス学部 ビューティ＆ウェルネス学科,history_social
+DEP2851,SCH0270,共同実施制度利用（学部）,history_social
+DEP2852,SCH0270,共同学科等の名称,history_social
+DEP2853,SCH0271,グローバルビジネス学部 グローバルビジネス学科,english_global;business;math_data
+DEP2854,SCH0271,共同実施制度利用（学部）,history_social
+DEP2855,SCH0271,共同学科等の名称,history_social

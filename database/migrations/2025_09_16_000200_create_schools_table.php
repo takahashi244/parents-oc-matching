@@ -8,7 +8,7 @@ return new class extends Migration {
     Schema::create('schools', function (Blueprint $table) {
       $table->string('school_id', 16)->primary();
       $table->string('school_name');
-      $table->enum('school_type', ['university','vocational']);
+      $table->string('school_type', 32);
       $table->string('prefecture', 32);
     });
   }

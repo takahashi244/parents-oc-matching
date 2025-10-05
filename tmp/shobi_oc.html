@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSPKB4Q');</script>
+<!-- End Google Tag Manager --><link rel="icon" type="image/gif" href="" />
+<link href="/css/module/common.css" rel="stylesheet" type="text/css">
+<link href="/css/module/common_pc.css" rel="stylesheet" type="text/css">
+<link href="/css/module/page.css" rel="stylesheet" type="text/css">
+<link href="/css/module/page_pc.css" rel="stylesheet" type="text/css">
+
+<script src="/js/jquery3.5.1.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSPKB4Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div id="container">
+	<header class="HeaderInner">
+<div class="nav">
+  <div class="logo">
+    <p class="h1"><a href="/"><img src="/img/module/common/logo.svg" alt="尚美学園大学　 SHOBI UNIVERSITY"></a></p>
+  </div>
+		<div class="menu" id="Menu">
+  <div class="activeInner">
+    <div class="selectLang forSp">
+      <script>
+        $(document).ready(function() {
+          $('.selectLang').change(function() {
+            window.location.href = $('option:selected', this).data('url');
+          });
+        });
+      </script>
+      <script>
+        // メニューを開く/閉じる
+        function toggleMenu() {
+          const menu = document.getElementById('menu');
+          const overlay = document.getElementById('overlay');
+          const nav = document.querySelector('.nav'); // nav要素を取得
+
+          // メニューの開閉
+          menu.classList.toggle('open');
+
+          // navの背景色を白にするためにopenクラスを追加
+          nav.classList.toggle('open');
+
+          // オーバーレイの表示
+          overlay.classList.toggle('active');
+        }
+
+        // メニューを閉じる
+        function closeMenu() {
+          const menu = document.getElementById('menu');
+          const overlay = document.getElementById('overlay');
+
+          // メニューを閉じ、オーバーレイを非表示にする
+          menu.classList.remove('open');
+          overlay.classList.remove('active');
+
+          // navの背景色を戻すためにopenクラスを削除
+          const nav = document.querySelector('.nav');
+          nav.classList.remove('open');
+        }
+      </script>
+      <script>
+        // タブを切り替える関数
+        function openTab(evt, tabName) {
+          // すべてのタブコンテンツを非表示に
+          const tabContents = document.querySelectorAll('.tab-content');
+          tabContents.forEach(content => {
+            content.classList.remove('active');
+          });
+
+          // すべてのタブボタンから「active」クラスを削除
+          const tabButtons = document.querySelectorAll('.tab-button');
+          tabButtons.forEach(button => {
+            button.classList.remove('active');
+          });
+
+          // 現在のタブコンテンツを表示
+          const currentTab = document.getElementById(tabName);
+          currentTab.classList.add('active');
+
+          // クリックされたタブボタンに「active」クラスを追加
+          evt.currentTarget.classList.add('active');
+        }
+      </script>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const searchItem = document.querySelector('li.search2');
+          const toggleBtn = searchItem.querySelector('a');
+          const hideBox = searchItem.querySelector('.hide');
+          let isOpen = false;
+
+          // 初期状態は非表示
+          hideBox.style.display = "none";
+
+          // 検索アイコンをクリックで開閉
+          toggleBtn.addEventListener("click", function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            isOpen = !isOpen;
+            hideBox.style.display = isOpen ? "block" : "none";
+            if (isOpen) {
+              const input = hideBox.querySelector('.searchTxt');
+              if (input) input.focus();
+            }
+          });
+
+          // 検索窓内のクリックでは閉じない
+          hideBox.addEventListener("click", function(e) {
+            e.stopPropagation();
+          });
+
+          // 外部クリックで閉じる
+          document.addEventListener("click", function() {
+            if (isOpen) {
+              hideBox.style.display = "none";
+              isOpen = false;
+            }
+          });
+        });
+      </script>
+
+
+
+      <!--<form>
+        <select class="selectLang">
+          <option value="">LANGUAGE</option>
+          <option value="1" data-url="/sc/">中文</option>
+          <option value="2" data-url="/ko/">한국어</option>
+          <option value="3" data-url="/en/">English</option>
+        </select>
+      </form>-->
+    </div>
+    <!--<div class="headerSearch forSp">
+      <div>
+        <form action="/search/result/" class="form_search">
+          <input type="hidden" name="cx" value="018229217370486997213:h073gcnlpp8" />
+          <input type="hidden" name="cof" value="FORID:10" />
+          <input type="hidden" name="ie" value="UTF-8" />
+          <input type="text" name="q" class="searchTxt" placeholder=" サイト内検索" />
+          <input type="submit" name="sa" value="" class="searchBtn" />
+        </form>
+      </div>
+    </div>-->
+    <nav>
+      <ul class="user forPc">
+        <!--stickyHide -->
+        <li><a href="/examinee/&ohdr" class="examinee" target="_blank" rel="noopenner">受験生サイト</a></li>
+        <li><a href="/students/" class="students">在学生の方</a></li>
+        <li><a href="/graduate/" class="graduate">卒業生の方</a></li>
+        <li><a href="/parents/" class="parents">保護者の方</a></li>
+        <li><a href="/company/" class="company">企業・一般の方</a></li>
+      </ul>
+      <ul class="page">
+        <li><a href="/about/">大学案内</a></li>
+        <li><a href="/faculty/"><span>学部・大学院</span></a></li>
+        <li><a href="/life/"><span>学生生活</span></a></li>
+        <li><a href="/certification/"><span>就職・資格</span></a></li>
+        <li><a href="/examinee/admission/&ohdr" target="_blank" rel="noopener"><span class="anotherw">入試案内</span></a></li>
+      </ul>
+      <div class="forSp SpInner">
+        <div class="Splogo">
+          <div class="h1"><img class="spLogo" src="/img/module/common/logo.svg" alt="尚美学園大学　 SHOBI UNIVERSITY"></div>
+        </div>
+        <div class="accordion">
+          <ul>
+            <li>
+              <input type="checkbox" id="label-1">
+              <label class="accordion__summary" for="label-1">大学案内</label>
+              <div class="accordion__detail">
+                <ul class="accordion__text">
+                  <li><a href="/about/">大学案内TOP</a></li>
+                  <li><a href="/about/overview/">大学概要</a></li>
+                  <li><a href="/about/greeting/president">学長メッセージ</a></li>
+                  <li><a href="/about/policy/">教育方針</a></li>
+                  <li><a href="/about/campus/">キャンパス紹介</a></li>
+                  <li><a href="/about/disclosure/">情報公開</a></li>
+                  <li><a href="/about/digitalbook/">学報</a></li>
+                  <li><a href="/about/disclosure/evaluation">大学機関別認証評価</a></li>
+                  <li><a href="/about/internal_quality">内部質保証</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" id="label-2">
+              <label class="accordion__summary" for="label-2">学部・大学院</label>
+              <div class="accordion__detail">
+                <ul class="accordion__text">
+                  <li><a href="/faculty/">学部・大学院TOP</a></li>
+                  <li><a href="/faculty/artinfo/info/">情報表現学科</a></li>
+                  <li class="est"><a href="/faculty/artinfo/artistic">芸術表現学科</a><span>2026年4月開設</span></li>
+                  <li><a href="/faculty/artinfo/music/">音楽表現学科</a><span>（2026年度より学生募集停止）</span></li>
+                  <li><a href="/faculty/artinfo/ouyo/">音楽応用学科</a><span>（2026年度より学生募集停止）</span></li>
+                  <li><a href="/faculty/artinfo/butai/">舞台表現学科</a><span>（2026年度より学生募集停止）</span></li>
+                  <li><a href="/faculty/sougou/sougou/">総合政策学部</a></li>
+                  <li><a href="/faculty/sport/sport/">スポーツマネジメント学部</a></li>
+                  <li><a href="/faculty/gr/gr_info/">大学院・情報表現専攻</a></li>
+                  <li><a href="/faculty/gr/gr_music/">大学院・音楽表現専攻</a></li>
+                  <li><a href="/faculty/gr/gr_seisaku/">大学院・政策行政専攻</a></li>
+                  <li><a href="/faculty/features">教育の特長</a></li>
+                  <li><a href="/faculty/diagram_numbering/">履修系統図科目ナンバリング</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" id="label-3">
+              <label class="accordion__summary" for="label-3">学生生活</label>
+              <div class="accordion__detail">
+                <ul class="accordion__text">
+                  <li><a href="/life/">学生生活TOP</a></li>
+                  <li><a href="/life/support/">学生サポート</a></li>
+                  <li><a href="/life/expenses/">学費・奨学金</a></li>
+                  <li><a href="/life/international/">国際交流</a></li>
+                  <li><a href="/life/circle/">サークル</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" id="label-4">
+              <label class="accordion__summary" for="label-4">就職・資格</label>
+              <div class="accordion__detail">
+                <ul class="accordion__text">
+                  <li><a href="/certification/">就職・資格TOP</a></li>
+                  <li><a href="/certification/career/">キャリア・就職サポート</a></li>
+                  <li><a href="/certification/qualification/">教職課程・学芸員課程</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="/examinee/admission/&amp;ohdr" target="_blank" class="butArrow">入試案内<img src="/img/module/common/icon_anotherw_br.png"></a></li>
+          </ul>
+        </div>
+        <div class="SpInnerFooter">
+          <ul class="userList">
+            <li><a href="/examinee/&ohdr" target="_blank" rel="noopenner">受験生サイト</a></li>
+            <li><a href="/students/">在学生の方</a></li>
+            <li><a href="/graduate/">卒業生の方</a></li>
+            <li><a href="/parents/">保護者の方</a></li>
+            <li><a href="/company/">企業・一般の方</a></li>
+          </ul>
+          <div class="headerSearch forSp">
+            <div>
+              <form action="/search/result/" class="form_search">
+                <input type="hidden" name="cx" value="018229217370486997213:h073gcnlpp8">
+                <input type="hidden" name="cof" value="FORID:10">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="text" name="q" class="searchTxt" placeholder=" サイト内検索">
+                <input type="submit" name="sa" value="" class="searchBtn">
+              </form>
+            </div>
+          </div>
+          <div class="btn"> <a href="/contact/"><span class="contact">お問い合わせ</span></a> </div>
+          <p class="authn"><a href="https://slink.secioss.com/user/?tenant=shobi-u.ac.jp" target="_blank" rel="noopener"><span class="authnicon">総合認証基盤システム（要ログイン）</span></a></p>
+          <ul class="lang">
+            <li><a href="/ko/" target="_blank" rel="noopener">한국어</a></li>
+            <li><a href="/en/" target="_blank" rel="noopener">ENGLISH</a></li>
+          </ul>
+          <div class="spSocial">
+            <p><a href="https://x.com/ShobiUNV_kouhou" rel="noopener" target="_blank" class="iconS"><img src="/img/page/examinee/icon_twitter.png" alt="Xアカウント"></a></p>
+            <p><a href="https://www.instagram.com/shobiuniv_official" target="_blank" class="iconS"><img src="/img/module/common/icon_insta.png" alt="インスタグラム　尚美学園大学公式アカウント" /></a></p>
+            <p><a href="https://www.youtube.com/channel/UC7vkoeTPNAlkStkqNHExF2g" id="mainMovie" class="iconS"><img src="/img/page/examinee/icon_youtube.png" alt="youtube"></a></p>
+          </div>
+        </div>
+      </div>
+      <!-- SpManu-->
+
+    </nav>
+    <!--<div id="overlay" class="overlay" onclick="closeMenu()"></div>-->
+
+    <div class="rightUpper stickyHide">
+      <ul class="subLink">
+        <li class="search2"><a><span>検索</span></a>
+          <div class="hide">
+            <div class="headerSearch">
+              <div>
+                <form action="/search/result/" class="form_search">
+                  <input type="hidden" name="cx" value="018229217370486997213:h073gcnlpp8" />
+                  <input type="hidden" name="cof" value="FORID:10" />
+                  <input type="hidden" name="ie" value="UTF-8" />
+                  <input type="text" name="q" class="searchTxt" placeholder=" サイト内検索" />
+                  <input type="submit" name="sa" value="" class="searchBtn" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="request"><a href="/request/"><span>資料請求</span></a></li>
+        <li class="contact"><a href="/contact/"><span>お問い合わせ</span></a></li>
+        <li class="access"><a href="/access/"><span>アクセス</span></a></li>
+        <li class="lang menuitem"><a href=""><span>LANGUAGE</span></a>
+          <div class="hide">
+            <ul>
+              <li><a href="/ko/" target="_blank" rel="noopener">한국어</a></li>
+              <li><a href="/en/" target="_blank" rel="noopener">English</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div class="forPc">
+        <div class="hmburger" onclick="toggleMenu()">
+          <div id="trigger"><span class="humb"><span class="hmburgerIcon">MENU</span></span></div>
+        </div>
+        <div id="menu" class="forPcMenu">
+
+          <!-- Tab buttons -->
+          <div class="forPcTabs">
+            <!-- Tab buttons -->
+            <div class="tabs">
+              <button class="tab-button active" onclick="openTab(event, 'tab1')">大学案内</button>
+              <button class="tab-button" onclick="openTab(event, 'tab2')">学部・大学院</button>
+              <button class="tab-button" onclick="openTab(event, 'tab3')">学生生活</button>
+              <button class="tab-button" onclick="openTab(event, 'tab4')">就職・資格</button>
+              <button class="tab-button">
+                <a href="/examinee/admission/&ohdr" target="_blank" rel="noopenner" class="anotherw2">入試案内<img src="/img/module/common/icon_anotherw_br.png"></a>
+              </button>
+            </div>
+
+            <!-- Tab content -->
+            <div class="tab-container">
+              <div id="tab1" class="tab-content active">
+                <div class="two-column">
+                  <div class="column">
+                    <div class="forPc"><a href="/about/" class="arrow">大学案内</a></div>
+                  </div>
+                  <div class="column">
+                    <div class="four-column">
+                      <div class="four-column-item">
+                        <ul class="list">
+                          <li><a href="/about/overview/" class="arrow">大学概要</a>
+                            <ul>
+                              <li><a href="/about/overview/built">建学の精神</a></li>
+                              <li><a href="/about/overview/history">沿革</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/about/greeting/president" class="arrow">学長メッセージ</a> </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/about/policy/" class="arrow">教育方針</a>
+                            <ul>
+                              <li><a href="/about/policy/educational/">3つのポリシー</a></li>
+                              <li><a href="/about/policy/assessment">アセスメントポリシー</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <ul class=list>
+                          <li><a href="/about/campus/" class="arrow">キャンパス紹介</a></li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/about/disclosure/" class="arrow">情報公開</a></li>
+                          <li><a href="/about/digitalbook/" class="arrow">学報</a></li>
+                          <li><a href="/about/disclosure/evaluation" class="arrow">大学機関別認証評価</a></li>
+                          <li><a href="/about/internal_quality" class="arrow">内部質保証</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--tab1-->
+              <div id="tab2" class="tab-content">
+                <div class="two-column">
+                  <div class="column"><a href="/faculty/" class="arrow">学部・大学院</a></div>
+                  <div class="column">
+                    <div class="four-column">
+                      <div class="four-column-item">
+                        <ul class="list">
+                          <li><a class="noarrow">芸術情報学部</a>
+                            <ul>
+                              <li><a href="/faculty/artinfo/info/">情報表現学科</a>
+                                <ul>
+                                  <li> <a href="/faculty/artinfo/info/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                              <li class="est"> <a href="/faculty/artinfo/artistic">芸術表現学科</a> <span>2026年4月開設</span>
+                                <!--<ul>
+                                  <li> <a href="/faculty/artinfo/music/teacher">教員一覧</a></li>
+                                </ul>-->
+                              </li>
+                              <li> <a href="/faculty/artinfo/music/">音楽表現学科</a><span>（2026年度より学生募集停止）</span>
+                                <ul>
+                                  <li> <a href="/faculty/artinfo/music/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                              <li> <a href="/faculty/artinfo/ouyo/">音楽応用学科</a><span>（2026年度より学生募集停止）</span>
+                                <ul>
+                                  <li> <a href="/faculty/artinfo/ouyo/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                              <li> <a href="/faculty/artinfo/butai/">舞台表現学科</a><span>（2026年度より学生募集停止）</span>
+                                <ul>
+                                  <li> <a href="/faculty/artinfo/butai/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li> <a class="noarrow">総合政策学部</a>
+                            <ul>
+                              <li><a href="/faculty/sougou/sougou/">総合政策学科</a>
+                                <ul>
+                                  <li><a href="/faculty/sougou/sougou/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <ul class=list>
+                          <li> <a class="noarrow">スポーツマネジメント学部</a>
+                            <ul>
+                              <li><a href="/faculty/sport/sport/">スポーツマネジメント学科</a>
+                                <ul>
+                                  <li><a href="/faculty/sport/sport/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li> <a class="noarrow">大学院・芸術情報研究科</a>
+                            <ul>
+                              <li><a href="/faculty/gr/gr_info/">大学院・情報表現専攻</a>
+                                <ul>
+                                  <li><a href="/faculty/gr/gr_info/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="/faculty/gr/gr_music/">大学院・音楽表現専攻</a>
+                                <ul>
+                                  <li><a href="/faculty/gr/gr_music/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <ul class=list>
+                          <li><a class="noarrow">大学院・総合政策研究科</a>
+                            <ul>
+                              <li><a href="/faculty/gr/gr_seisaku/">大学院・政策行政専攻</a>
+                                <ul>
+                                  <li><a href="/faculty/gr/gr_seisaku/teacher">教員一覧</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/faculty/features" class="arrow">教育の特長</a></li>
+                          <li><a href="/faculty/diagram_numbering/" class="arrow">履修系統図<br>
+                              科目ナンバリング</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--tab2-->
+              <div id="tab3" class="tab-content">
+                <div class="two-column">
+                  <div class="column"><a href="/life/" class="arrow">学生生活</a></div>
+                  <div class="column">
+                    <div class="four-column">
+                      <div class="four-column-item">
+                        <ul class="list">
+                          <li><a href="/life/support/" class="arrow">学生サポート</a>
+                            <ul>
+                              <li><a href="/life/support/star">学生総合アシスト室</a></li>
+                              <li><a href="/life/support/counseling">カウンセリングルーム</a></li>
+                              <li><a href="/life/support/infirmary">保健室</a></li>
+                              <li><a href="/life/support/housing">提携学生会館・提携学生マンション</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/life/expenses/" class="arrow">学費・奨学金</a>
+                            <ul>
+                              <li><a href="/life/expenses/tuition">学費</a></li>
+                              <li><a href="/life/expenses/fellowship">学費サポート</a></li>
+                              <li><a href="/life/expenses/fellowship_foreign">学費サポート(留学生向け)</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/life/international/" class="arrow">国際交流</a>
+                            <ul>
+                              <li><a href="/life/international/icc">国際交流室</a></li>
+                              <li><a href="/life/international/foreign">留学生の方へ</a></li>
+                              <li><a href="/life/international/exchange">海外交流・研修</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/life/circle/" class="arrow">サークル</a>
+                            <ul>
+                              <li><a href="/life/circle/designation">指定サークル</a></li>
+                              <li><a href="/life/circle/certification">認定サークル&amp;同好会</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--tab3-->
+              <div id="tab4" class="tab-content">
+                <div class="two-column">
+                  <div class="column"><a href="/certification/" class="arrow">就職・資格</a></div>
+                  <div class="column">
+                    <div class="four-column">
+                      <div class="four-column-item noborder">
+                        <ul class="list">
+                          <li><a href="/certification/career/" class="arrow">キャリア・就職サポート</a>
+                            <ul>
+                              <li><a href="/certification/career/division">キャリア・就職課</a></li>
+                              <li><a href="/certification/career/program">キャリアサポートプログラム</a></li>
+                              <li><a href="/certification/career/internship">インターンシップ</a></li>
+                              <li><a href="/certification/career/resultlist">主な就職先一覧</a></li>
+                              <li><a href="/certification/career/company">企業の皆さまへ</a></li>
+                              <li><a href="/certification/career/student">学生の皆さんへ</a></li>
+                              <li><a href="/certification/career/guardians">保護者の皆さまへ</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item">
+                        <ul class=list>
+                          <li><a href="/certification/qualification/" class="arrow">教職課程・学芸員課程</a>
+                            <ul>
+                              <li><a href="/certification/qualification/center">教職・資格課程センター</a></li>
+                              <li><a href="/certification/qualification/teacher/">教員免許状の取得</a></li>
+                              <li><a href="/certification/qualification/teacher/requirements">教員免許状取得要件</a></li>
+                              <li><a href="/certification/qualification/teacher/practice">教職課程について</a></li>
+                              <li><a href="/certification/qualification/teacher/teachinginterns">教育実習について</a></li>
+                              <li><a href="/certification/qualification/teacher/caregiver">介護等の体験について</a></li>
+                              <li><a href="/certification/qualification/curator/">学芸員課程</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="four-column-item"> </div>
+                      <div class="four-column-item"> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--tab4-->
+            </div>
+          </div>
+          <div class="footerBox">
+            <div class="left">
+              <ul class="userList">
+                <li><a href="/examinee/&ohdr" target="_blank" rel="noopenner">受験生サイト</a></li>
+                <li><a href="/students/">在学生の方</a></li>
+                <li><a href="/graduate/">卒業生の方</a></li>
+                <li><a href="/parents/">保護者の方</a></li>
+                <li><a href="/company/">企業・一般の方</a></li>
+              </ul>
+            </div>
+            <div class="right">
+              <ul class="subLinkList">
+                <li><a href="/request/" class="request"><span>資料請求</span></a></li>
+                <li><a href="/contact/" class="contact"><span>お問い合わせ</span></a></li>
+                <li><a href="/access/" class="access"><span>アクセス<br>
+                      (バスダイヤ)</span></a></li>
+                <li>
+                  <ul class="lang">
+                    <li><a href="/ko/" target="_blank" rel="noopener">한국어</a></li>
+                    <li><a href="/en/" target="_blank" rel="noopener">ENGLISH</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <p class="authn"><a href="https://slink.secioss.com/user/?tenant=shobi-u.ac.jp" target="_blank" rel="noopener"><span class="authnicon">総合認証基盤システム（要ログイン）</span></a></p>
+              <span class="social">
+                <a href="https://x.com/ShobiUNV_kouhou" target="_blank" rel="noopener"><img src="/img/module/common/icon_twitter.png" alt="尚美学園大学X"></a>
+                <a href="https://www.instagram.com/shobiuniv_official" target="_blank"><img src="/img/module/common/icon_insta.png" alt="インスタグラム　尚美学園大学公式アカウント" /></a>
+                <a href="https://www.youtube.com/channel/UC7vkoeTPNAlkStkqNHExF2g" target="_blank" rel="noopener"><img src="/img/module/common/icon_youtube.png" alt="尚美学園大学YouYube"></a>
+              </span>
+            </div>
+            <div class="footerSearch">
+              <div>
+                <form action="/search/result/" class="form_search">
+                  <input type="hidden" name="cx" value="018229217370486997213:h073gcnlpp8" />
+                  <input type="hidden" name="cof" value="FORID:10" />
+                  <input type="hidden" name="ie" value="UTF-8" />
+                  <input type="text" name="q" class="searchTxt" placeholder=" サイト内検索" />
+                  <input type="submit" name="sa" value="" class="searchBtn" />
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- .footerBox -->
+        </div>
+        <!-- forPcMenu -->
+
+      </div>
+      <!-- .forPc -->
+    </div>
+    <!-- rightUpper -->
+  </div>
+  <!-- .activeInner -->
+
+</div>
+<!-- .menu -->
+
+<div class="forSpContainer">
+  <ul class="forSplinks">
+    <li class="entSp"><a href="/examinee/&ohdr" target="_blank">
+        <p class="blowing">入試情報<span>はこちら</span></p>
+        <img src="/img/module/common/icon_sp_examinee_wt.png" alt=""><br>
+        <span>受験生サイト</span>
+      </a></li>
+    <li><a href="/examinee/opencampus&hdr" target="_blank"><img src="/img/module/common/icon_sp_opencampus_wt.png" alt=""><br>
+        <span>オープン<br>
+          キャンパス</span></a></li>
+    <li>
+      <div class="hmburger" onclick="toggleMenu()">
+        <div id="trigger"><span class="humb"><span class="hmburgerIcon"><span>MENU</span></div>
+      </div>
+    </li>
+    <li><a href="/request/"><img src="/img/module/common/icon_request_wt.png" alt=""><br>
+        <span>資料請求</span></a></li>
+    <li><a href="/access/"><img src="/img/module/common/icon_access_wt.png" alt=""><br>
+        <span>アクセス</span></a></li>
+  </ul>
+</div>
+</div>	</header>
+	<div class="wrapInner page">
+  <div class="h1Area">
+  <span class="imgSp"><img src="/img/page/about/img_h1.jpg" alt=""></span>
+  <div class="h1Back"><p><span>エラー</span></p></div>
+  </div>
+    <div class="wrap safesticky error">
+      <!--p>指定されたファイルが見つかりませんでした。</p-->
+      <p>申し訳ございません。<br>アクセス集中などによる一時的な表示不具合、またはページが存在しない可能性があります。<br>
+        ご不便をおかけし誠に恐縮ですが、しばらく時間をおいて再度アクセスいただくか、トップページより目的のページをお探しください。</p>
+    </div>
+	</div><!--/band-->
+    <footer>
+  <div class="footer">
+    <div class="forPc">
+    <div class="userMenu">
+      <div class="wrap">
+        <div class="flex">
+        <ul>
+          <li><a href="/examinee/&oftr" target="_blank" rel="noopener">受験生の方</a></li>
+          <li><a href="/students/">在学生の方</a></li>
+          <li><a href="/graduate/">卒業生の方</a></li>
+          <li><a href="/parents/">保護者の方</a>
+          <li><a href="/company/">企業・一般の方</a></li>
+        </ul>
+        <ul class="teacher">
+          <li><a href="/teacher/">教職員の方</a></li>
+        </ul>
+          </div>
+      </div>
+    </div>
+    <div class="footerMenu">
+    <div class="wrap">
+      <div class="flex">
+      <div class="footerLinks">
+        <h2><a href="/"><img src="/img/module/common/logo.svg" alt="尚美学園大学　 SHOBI UNIVERSITY"></a></h2>
+		  <p class="address">〒350-1110 埼玉県川越市豊田町1-1-1<br>TEL.049-246-2700（代表）</p>
+
+      </div>
+      <div class="footerLinks">
+        <h3><a href="/about/">大学案内</a></h3>
+        <ul>
+          <li><a href="/about/overview/">大学概要</a></li>
+          <li><a href="/about/policy/">教育方針</a></li>
+          <li><a href="/about/disclosure/">情報公開</a></li>
+          <li><a href="/about/disclosure/evaluation">大学機関別認証評価</a></li>
+        </ul>
+        <h3><a href="/faculty/">学部・大学院</a></h3>
+        <h3><a href="/life/">学生生活</a></h3>
+		 <h3><a href="/certification/">就職・資格</a></h3>
+
+      </div>
+
+      <div class="footerLinks">
+        <ul>
+          <li><a href="/careers">採用情報</a></li>
+          <li><a href="/news/cat-news/press/">プレスリリース</a></li>
+          <li><a href="/site">サイトについて</a></li>
+          <li><a href="/privacy">個人情報保護について</a></li>
+          <li><a href="/sitemap/">サイトマップ</a></li>
+        </ul>
+      </div>
+      <div class="footerLinks">
+        <div><a href="/request/" class="request">資料請求</a></div>
+        <a href="/access/" class="access"><span>交通アクセス</span></a>
+        <a href="/contact/" class="contact"><span>お問い合わせ</span></a>
+        <a href="https://www.shobigakuen.ac.jp/" class="btn" target="_blank" rel="noopener">学校法人尚美学園</a>
+        <a href="https://www.shobi.ac.jp/index.html" class="btn" target="_blank" rel="noopener">尚美ミュージックカレッジ専門学校</a>
+      </div>
+      </div>
+    </div>
+    </div><!-- wrap -->
+    </div>
+
+    <div class="spFooter forSp">
+      <p><span class="social">
+        <a href="https://x.com/ShobiUNV_kouhou" target="_blank" rel="noopener"><img src="/img/module/common/icon_twitter.png" alt="尚美学園大学Xアカウント"></a>
+        <a href="https://www.instagram.com/shobiuniv_official" target="_blank"><img src="/img/module/common/icon_insta.png" alt="インスタグラム　尚美学園大学公式アカウント" /></a>
+        <a href="https://www.youtube.com/channel/UC7vkoeTPNAlkStkqNHExF2g" target="_blank" rel="noopener"><img src="/img/module/common/icon_youtube.png" alt="尚美学園大学YouTube"></a>
+      </span></p>
+      <ul class="footerLinks">
+      <li><a href="/access/">交通アクセス</a></li>
+      <li><a href="/contact/">お問い合わせ</a></li>
+      <li><a href="/sitemap/">サイトマップ</a></li>
+      <li><a href="/about/disclosure/evaluation">大学機関別認証評価</a></li>
+      <li><a href="/careers">採用情報</a></li>
+      <li><a href="/site">サイトについて</a></li>
+      <li><a href="/privacy">個人情報保護について</a></li>
+      </ul>
+      <p class="teacherLink"><a href="/teacher/"><span>教職員の方</span></a></p>
+    </div>
+
+    <small>尚美学園大学 - 芸術・スポーツ・<span class="inlineB">社会科学の私立大学</span> | <span class="inlineB">埼玉県川越市</span><br>COPYRIGHT© SHOBI UNIVERSITY JAPAN ALL RIGHTS RESERVED.</small>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js"></script>
+</footer>
+  <a href="#" id="goTop"><img src="/img/module/common/img_totop.png" alt=""></a>
+</div><!-- /wrap -->
+  <script src="/js/base.js"></script>
+<script type="text/javascript" src="//www16.infoclipper.net/infohp_js/34197ea.js" charset="UTF-8"></script>
+<script type="text/javascript" src="//www16.infoclipper.net/infohp_js/fpAnalysis.js" charset="UTF-8"></script>
+</body>
+</html>

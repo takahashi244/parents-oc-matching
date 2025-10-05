@@ -10,5 +10,4 @@ class Department extends Model
     public $timestamps = false;
 
     protected $fillable = ['dept_id','school_id','dept_name','tags','summary'];
-    protected $casts = ['tags' => 'array'];
 }
