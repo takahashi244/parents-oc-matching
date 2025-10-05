@@ -105,10 +105,11 @@ status: ready_for_submission
 
 # 5. システム構成メモ
 
-- フロント: Laravel Blade + Tailwind CSS、Viteビルド。
-- バックエンド: Laravel 11、MariaDB。
-- データ投入: `php artisan db:seed --class=InitSeeder --force`（シードCSV含む）。
-- ログイン: Laravel Breezeベース。
+- フロント: Laravel Blade + Tailwind CSS + Alpine.js、Viteでビルド。
+- バックエンド: Laravel 12（PHP 8.2）、本番は AWS Lightsail/Bitnami LAMP 上の MariaDB 10.6、ローカル開発は Laravel Sail の MySQL 8.0。
+- ホスティング: AWS Lightsail (Linux + Apache + PHP 8.3)。デプロイは `git pull` → `npm run build` → `php artisan migrate --force` などの手動手順。
+- データ投入: `php artisan db:seed --class=InitSeeder --force`（CSV からサンプルデータを投入）。
+- ログイン/認証: Laravel Breeze（メール+パスワード）。
 
 # 6. データ項目と連携
 
