@@ -71,7 +71,7 @@
           <template x-if="soc">
             <div class="pl-4 border-l-2 border-accent/60 space-y-2">
               <p class="text-xs text-muted">社会の細分</p>
-              @foreach(['地理','歴史','公共'] as $d)
+              @foreach(['地理','歴史','公民'] as $d)
                 <label class="inline-flex items-center gap-2 mr-3 text-sm text-text">
                   <input type="checkbox" name="subjects_detail[]" value="{{ $d }}" class="accent-primary"><span>{{ $d }}</span>
                 </label>

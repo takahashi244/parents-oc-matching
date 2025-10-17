@@ -135,7 +135,7 @@ return [
         '歴史' => [
             ['tag' => 'history_social', 'weight' => 7],
         ],
-        '公共' => [
+        '公民' => [
             ['tag' => 'history_social', 'weight' => 5],
             ['tag' => 'business', 'weight' => 3],
         ],
